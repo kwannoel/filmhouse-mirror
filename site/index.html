@@ -16,17 +16,22 @@
     </header>
 
     <nav class="bar">
-      <div class="days" id="days" role="group" aria-label="Day"></div>
       <div class="tools">
+        <button id="datesToggle" class="toggle" type="button" aria-expanded="false" aria-controls="datesPanel">Any date</button>
         <input id="search" type="search" placeholder="Search" aria-label="Search titles, directors and cast" autocomplete="off">
-        <button id="filtersToggle" type="button" aria-expanded="false" aria-controls="filters">Filters</button>
+        <button id="filtersToggle" class="toggle" type="button" aria-expanded="false" aria-controls="filters">More filters</button>
       </div>
-      <div class="filters" id="filters" hidden>
+
+      <div class="panel dates" id="datesPanel" hidden>
+        <div class="presets" id="presets"></div>
+        <div class="cal-grid" id="calGrid" role="group" aria-label="Dates"></div>
+      </div>
+
+      <div class="panel filters" id="filters" hidden>
         <div class="group"><span class="label">Format</span><div id="tags"></div></div>
         <div class="group"><span class="label">Genre</span><div id="genres"></div></div>
         <div class="group"><span class="label">Rating</span><div id="ratings"></div></div>
         <div class="group"><span class="label">Show</span><div id="options"></div></div>
-        <div class="group"><span class="label">Sort</span><div id="sorts"></div></div>
       </div>
     </nav>
 

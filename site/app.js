@@ -1,20 +1,20 @@
 const $ = (id) => document.getElementById(id);
 const els = {
-  stats: $("stats"), days: $("days"), search: $("search"), filtersToggle: $("filtersToggle"), filters: $("filters"),
-  tags: $("tags"), genres: $("genres"), ratings: $("ratings"), options: $("options"), sorts: $("sorts"),
+  stats: $("stats"), search: $("search"),
+  datesToggle: $("datesToggle"), datesPanel: $("datesPanel"), presets: $("presets"),
+  calGrid: $("calGrid"),
+  filtersToggle: $("filtersToggle"), filters: $("filters"),
+  tags: $("tags"), genres: $("genres"), ratings: $("ratings"), options: $("options"),
   films: $("films"), empty: $("empty"), reset: $("reset"),
 };
 
 const RATING_ORDER = ["G", "PG", "PG13", "NC16", "M18", "R21", "TBA"];
 const TAG_LABELS = { "LastChance": "Last chance", "Live Q&A": "Q&A", "With Intro": "Intro" };
-const SORTS = { next: "Soonest", title: "A–Z" };
-// With "All" days selected, a film shows this many sessions before a "+N" toggle.
-const COLLAPSED_SESSIONS = 2;
 
-const state = { date: "", q: "", genre: "", rating: "", tags: new Set(), hideSoldOut: false, sort: "next" };
-const expanded = new Set();
+const state = { dates: new Set(), q: "", genre: "", rating: "", tags: new Set(), hideSoldOut: false };
 let films = [];
 let scrapedAt = null;
+let available = []; // upcoming dates that have at least one session, sorted
 
 // Showtimes are Singapore local time; compare against "now" in the same zone.
 function singaporeNow() {
@@ -29,6 +29,7 @@ function singaporeNow() {
 
 const asDate = (isoDate) => new Date(`${isoDate}T00:00:00Z`);
 const fmt = (isoDate, options) => asDate(isoDate).toLocaleDateString("en-GB", { timeZone: "UTC", ...options });
+const longDate = (isoDate) => fmt(isoDate, { weekday: "long", day: "numeric", month: "long" });
 
 function addDays(isoDate, n) {
   const d = asDate(isoDate);
@@ -39,7 +40,7 @@ function addDays(isoDate, n) {
 function dayLabel(isoDate, today) {
   if (isoDate === today) return "Today";
   if (isoDate === addDays(today, 1)) return "Tomorrow";
-  return fmt(isoDate, { weekday: "short", day: "numeric" });
+  return fmt(isoDate, { weekday: "short", day: "numeric", month: "short" });
 }
 
 function timeAgo(iso) {
@@ -68,36 +69,34 @@ function el(tag, attrs = {}, ...children) {
 
 function readUrl() {
   const p = new URLSearchParams(location.search);
-  state.date = p.get("date") ?? "";
+  state.dates = new Set((p.get("date") ?? "").split(",").filter(Boolean));
   state.q = p.get("q") ?? "";
   state.genre = p.get("genre") ?? "";
   state.rating = p.get("rating") ?? "";
   state.tags = new Set((p.get("tags") ?? "").split(",").filter(Boolean));
   state.hideSoldOut = p.get("soldout") === "hide";
-  state.sort = p.get("sort") === "title" ? "title" : "next";
 }
 
 function writeUrl() {
   const p = new URLSearchParams();
-  if (state.date) p.set("date", state.date);
+  if (state.dates.size) p.set("date", [...state.dates].sort().join(","));
   if (state.q) p.set("q", state.q);
   if (state.genre) p.set("genre", state.genre);
   if (state.rating) p.set("rating", state.rating);
   if (state.tags.size) p.set("tags", [...state.tags].join(","));
   if (state.hideSoldOut) p.set("soldout", "hide");
-  if (state.sort !== "next") p.set("sort", state.sort);
   const query = p.toString();
   history.replaceState(null, "", query ? `?${query}` : location.pathname);
 }
 
-const activeFilterCount = () =>
+const moreFilterCount = () =>
   (state.genre ? 1 : 0) + (state.rating ? 1 : 0) + state.tags.size + (state.hideSoldOut ? 1 : 0);
 
 // Sessions that pass the session-level filters, with past sessions dropped.
 function visibleShowings(film, now) {
   return film.showings.filter((s) =>
     (s.date > now.date || (s.date === now.date && s.time >= now.time)) &&
-    (!state.date || s.date === state.date) &&
+    (!state.dates.size || state.dates.has(s.date)) &&
     (!state.hideSoldOut || !s.soldOut) &&
     (!state.tags.size || s.tags.some((t) => state.tags.has(t))),
   );
@@ -113,27 +112,55 @@ function matchesFilm(film) {
   return true;
 }
 
-function renderDays(now) {
-  const dates = [...new Set(films.flatMap((f) => f.showings).filter((s) => s.date >= now.date).map((s) => s.date))].sort();
-  if (state.date && !dates.includes(state.date)) state.date = "";
+// Quick picks, each limited to days that actually have sessions.
+function presets(today) {
+  const range = (from, days) => Array.from({ length: days }, (_, i) => addDays(from, i));
+  const dow = asDate(today).getUTCDay(); // 0 = Sunday
+  const weekend = dow === 0 ? [today] : range(addDays(today, (6 - dow) % 7), 2);
+  return [
+    ["Today", [today]],
+    ["Tomorrow", [addDays(today, 1)]],
+    ["This weekend", weekend],
+    ["Next 7 days", range(today, 7)],
+  ].map(([label, days]) => [label, days.filter((d) => available.includes(d))]);
+}
 
-  const day = (value, label, title) => el("button", {
-    type: "button", "aria-pressed": String(state.date === value), title,
-    onclick: () => { state.date = value; update(); },
-  }, label);
+const sameSet = (set, list) => set.size === list.length && list.every((d) => set.has(d));
 
-  els.days.replaceChildren(
-    day("", "All"),
-    ...dates.map((d, i) => {
-      // Name the month where it changes, so "Sun 1" isn't ambiguous.
-      const newMonth = i > 0 && d.slice(0, 7) !== dates[i - 1].slice(0, 7);
-      const label = newMonth ? fmt(d, { weekday: "short", day: "numeric", month: "short" }) : dayLabel(d, now.date);
-      return day(d, label, fmt(d, { weekday: "long", day: "numeric", month: "long" }));
+function renderDates(now) {
+  const n = state.dates.size;
+  els.datesToggle.textContent = n === 0 ? "Any date" : n === 1 ? dayLabel([...state.dates][0], now.date) : `${n} dates`;
+  els.datesToggle.classList.toggle("active", n > 0);
+
+  els.presets.replaceChildren(
+    ...presets(now.date).map(([label, days]) => el("button", {
+      type: "button", "aria-pressed": String(days.length > 0 && sameSet(state.dates, days)),
+      disabled: days.length === 0,
+      onclick: () => { state.dates = new Set(days); update(); },
+    }, label)),
+    n ? el("button", { type: "button", onclick: () => { state.dates.clear(); update(); } }, "Clear") : null,
+  );
+
+  // One continuous Monday-first calendar from this week to the last week with sessions,
+  // so ranges like a weekend never split across pages. Days without sessions can't be picked.
+  const mondayOf = (date) => addDays(date, -((asDate(date).getUTCDay() + 6) % 7));
+  const start = mondayOf(now.date);
+  const end = addDays(mondayOf(available.at(-1) ?? now.date), 6);
+  const days = [];
+  for (let d = start; d <= end; d = addDays(d, 1)) days.push(d);
+  els.calGrid.replaceChildren(
+    ...["M", "T", "W", "T", "F", "S", "S"].map((d) => el("span", { class: "dow", "aria-hidden": "true" }, d)),
+    ...days.map((date, i) => {
+      const open = available.includes(date);
+      // Name the month on the first cell and wherever a new month starts.
+      const month = i === 0 || date.endsWith("-01") ? el("span", { class: "mon", "aria-hidden": "true" }, fmt(date, { month: "short" })) : null;
+      return el("button", {
+        type: "button", class: date === now.date ? "today" : null, disabled: !open,
+        "aria-pressed": String(state.dates.has(date)), "aria-label": longDate(date),
+        onclick: () => { state.dates.has(date) ? state.dates.delete(date) : state.dates.add(date); update(); },
+      }, month, String(Number(date.slice(8))));
     }),
   );
-  // Keep the chosen day visible in the horizontally scrolling row (without scrolling the page).
-  const pressed = els.days.querySelector('[aria-pressed="true"]');
-  els.days.scrollLeft = pressed.offsetLeft - els.days.offsetLeft - (els.days.clientWidth - pressed.offsetWidth) / 2;
 }
 
 function option(label, pressed, onclick) {
@@ -165,36 +192,24 @@ function renderFilters() {
     update();
   }));
 
-  els.sorts.replaceChildren(...Object.entries(SORTS).map(([key, label]) => option(label, state.sort === key, () => {
-    state.sort = key;
-    update();
-  })));
-
-  const n = activeFilterCount();
-  els.filtersToggle.textContent = n ? `Filters (${n})` : "Filters";
+  const n = moreFilterCount();
+  els.filtersToggle.textContent = n ? `More filters (${n})` : "More filters";
+  els.filtersToggle.classList.toggle("active", n > 0);
 }
 
 function renderSession(s, today) {
-  const parts = [
-    state.date ? null : el("span", { class: "day" }, `${dayLabel(s.date, today)} `),
-    el("span", { class: "at" }, s.label),
-    ...s.tags.map((t) => el("span", { class: "tag" }, ` ${TAG_LABELS[t] ?? t}`)),
-  ];
+  const parts = [el("span", { class: "day" }, dayLabel(s.date, today)), el("span", { class: "at" }, s.label)];
   if (s.soldOut || !s.bookUrl) {
-    return el("span", { class: "time sold", title: "Sold out" }, parts);
+    return el("li", {}, el("span", { class: "time sold", title: "Sold out" }, parts));
   }
-  const when = fmt(s.date, { weekday: "long", day: "numeric", month: "long" });
-  return el("a", {
-    class: "time", href: s.bookUrl, target: "_blank", rel: "noopener", title: `Book ${when}, ${s.label} on filmhouse.sg`,
-  }, parts);
+  return el("li", {}, el("a", {
+    class: "time", href: s.bookUrl, target: "_blank", rel: "noopener",
+    title: `Book ${longDate(s.date)}, ${s.label} on filmhouse.sg`,
+  }, parts));
 }
 
 function renderFilm(film, showings, today) {
-  const collapsible = !state.date && showings.length > COLLAPSED_SESSIONS + 1;
-  const open = expanded.has(film.id);
-  const shown = collapsible && !open ? showings.slice(0, COLLAPSED_SESSIONS) : showings;
   const meta = [film.rating, film.runtime?.replace(/\s*mins?$/, " min"), film.genre].filter(Boolean).join(" · ");
-
   return el("li", { class: "film" },
     el("a", { class: "poster", href: film.url, target: "_blank", rel: "noopener", tabindex: "-1", "aria-hidden": "true" },
       el("img", { src: film.poster, alt: "", loading: "lazy", width: "44", height: "66" })),
@@ -202,29 +217,23 @@ function renderFilm(film, showings, today) {
       el("a", { class: "title", href: film.url, target: "_blank", rel: "noopener" }, film.title),
       el("div", { class: "meta" }, meta),
     ),
-    el("div", { class: "times" },
-      shown.map((s) => renderSession(s, today)),
-      collapsible ? el("button", {
-        type: "button", "aria-expanded": String(open),
-        onclick: () => { open ? expanded.delete(film.id) : expanded.add(film.id); update(); },
-      }, open ? "Less" : `+${showings.length - COLLAPSED_SESSIONS}`) : null,
-    ),
+    el("ul", { class: "times" }, showings.map((s) => renderSession(s, today))),
   );
 }
 
 function update() {
-  writeUrl();
   const now = singaporeNow();
-  renderDays(now);
+  available = [...new Set(films.flatMap((f) => f.showings).filter((s) => s.date >= now.date).map((s) => s.date))].sort();
+  for (const d of state.dates) if (!available.includes(d)) state.dates.delete(d);
+  writeUrl();
+  renderDates(now);
   renderFilters();
 
   const rows = films
     .filter(matchesFilm)
     .map((film) => ({ film, showings: visibleShowings(film, now) }))
-    .filter((r) => r.showings.length);
-  rows.sort(state.sort === "title"
-    ? (a, b) => a.film.title.localeCompare(b.film.title)
-    : (a, b) => {
+    .filter((r) => r.showings.length)
+    .sort((a, b) => {
       const ka = a.showings[0].date + a.showings[0].time;
       const kb = b.showings[0].date + b.showings[0].time;
       return ka.localeCompare(kb) || a.film.title.localeCompare(b.film.title);
@@ -242,6 +251,14 @@ function update() {
   );
 }
 
+// Only one panel open at a time.
+function setPanel(open) {
+  for (const [toggle, panel] of [[els.datesToggle, els.datesPanel], [els.filtersToggle, els.filters]]) {
+    panel.hidden = panel !== open;
+    toggle.setAttribute("aria-expanded", String(panel === open));
+  }
+}
+
 async function main() {
   const response = await fetch("films.json", { cache: "no-cache" });
   const snapshot = await response.json();
@@ -252,16 +269,13 @@ async function main() {
 
   readUrl();
   els.search.value = state.q;
-  const setFiltersOpen = (open) => {
-    els.filters.hidden = !open;
-    els.filtersToggle.setAttribute("aria-expanded", String(open));
-  };
-  setFiltersOpen(activeFilterCount() > 0 || state.sort !== "next");
+  setPanel(moreFilterCount() > 0 ? els.filters : null);
 
   els.search.addEventListener("input", () => { state.q = els.search.value.trim(); update(); });
-  els.filtersToggle.addEventListener("click", () => setFiltersOpen(els.filters.hidden));
+  els.datesToggle.addEventListener("click", () => setPanel(els.datesPanel.hidden ? els.datesPanel : null));
+  els.filtersToggle.addEventListener("click", () => setPanel(els.filters.hidden ? els.filters : null));
   els.reset.addEventListener("click", () => {
-    Object.assign(state, { date: "", q: "", genre: "", rating: "", tags: new Set(), hideSoldOut: false });
+    Object.assign(state, { dates: new Set(), q: "", genre: "", rating: "", tags: new Set(), hideSoldOut: false });
     els.search.value = "";
     update();
   });
