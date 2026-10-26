@@ -1,0 +1,63 @@
+# Re-scrapes filmhouse.sg and redeploys the site to GitHub Pages.
+# Free as long as the repo is public and uses the standard ubuntu-latest runner:
+# those minutes don't count against the account's Actions quota.
+name: Refresh and deploy
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run scrape
+
+      # Commit only when films or showtimes change, not on every timestamp bump.
+      # Those commits also count as repo activity, which keeps GitHub from
+      # pausing this schedule after 60 quiet days.
+      - name: Commit snapshot if listings changed
+        run: |
+          if git diff -U0 site/films.json | grep '^[+-] ' | grep -vq '"scrapedAt"'; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add site/films.json
+            git commit -m "Update film listings"
+            git push
+          else
+            echo "No listing changes"
+          fi
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@v5

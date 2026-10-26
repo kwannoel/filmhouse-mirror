@@ -1,0 +1,1409 @@
+{
+  "source": "https://filmhouse.sg/films/",
+  "scrapedAt": "2026-10-26T09:10:03.840Z",
+  "films": [
+    {
+      "id": 195,
+      "slug": "the-violinist",
+      "title": "The Violinist",
+      "url": "https://filmhouse.sg/film/195/the-violinist",
+      "poster": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
+      "year": "2026",
+      "runtime": "114mins",
+      "rating": "PG",
+      "genre": "Animation",
+      "directors": [
+        "Ervin Han",
+        "Raúl García"
+      ],
+      "cast": [
+        "Tan Kheng Hua",
+        "Kazuya Tanabe",
+        "Adrian Pang"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-27",
+          "time": "15:20",
+          "label": "3:20 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1904",
+          "tags": []
+        },
+        {
+          "date": "2026-10-29",
+          "time": "15:30",
+          "label": "3:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1957",
+          "tags": []
+        },
+        {
+          "date": "2026-10-30",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1959",
+          "tags": []
+        },
+        {
+          "date": "2026-11-03",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1965",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "slug": "perfect-days",
+      "title": "Perfect Days",
+      "url": "https://filmhouse.sg/film/182/perfect-days",
+      "poster": "https://cdn.taposapp.com/poster/600x900/Gwv3eYvY2NV-phNkhr2sgd6ag96-61Py5Wrnow16VDA.jpg",
+      "year": "2024",
+      "runtime": "124mins",
+      "rating": "PG",
+      "genre": "Drama",
+      "directors": [
+        "Wim Wenders"
+      ],
+      "cast": [
+        "Koji Yakusho",
+        "Tokio Emoto",
+        "Arisa Nakano"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-27",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1903",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "slug": "fjord",
+      "title": "Fjord",
+      "url": "https://filmhouse.sg/film/220/fjord",
+      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
+      "year": "2026",
+      "runtime": "146mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Cristian Mungiu"
+      ],
+      "cast": [
+        "Sebastian Stan",
+        "Renate Reinsve",
+        "Lisa Carlehed"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-27",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1905",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-10-28",
+          "time": "19:10",
+          "label": "7:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1906",
+          "tags": []
+        },
+        {
+          "date": "2026-10-29",
+          "time": "16:00",
+          "label": "4:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1956",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "time": "16:10",
+          "label": "4:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1958",
+          "tags": []
+        },
+        {
+          "date": "2026-10-31",
+          "time": "14:00",
+          "label": "2:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1960",
+          "tags": []
+        },
+        {
+          "date": "2026-11-03",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1967",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1963",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "slug": "moonlight-10th-anniversary",
+      "title": "Moonlight (10th Anniversary)",
+      "url": "https://filmhouse.sg/film/216/moonlight-10th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/aB-thlmpTSpCEwmtMl8N5uFWVPDvXpIvEJHZsmT3V2k.jpg",
+      "year": null,
+      "runtime": "128mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Barry Jenkins"
+      ],
+      "cast": [
+        "Trevante Rhodes",
+        "André Holland",
+        "Janelle Monáe"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-27",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1865",
+          "tags": []
+        },
+        {
+          "date": "2026-10-31",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1916",
+          "tags": []
+        },
+        {
+          "date": "2026-11-04",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1968",
+          "tags": [
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "slug": "digger",
+      "title": "Digger",
+      "url": "https://filmhouse.sg/film/219/digger",
+      "poster": "https://cdn.taposapp.com/poster/600x900/HckCkvTW-9u6HQdYgxbsN1lj9ED8k_oRwaABTFiPEiI.jpg",
+      "year": "2026",
+      "runtime": "129mins",
+      "rating": "M18",
+      "genre": "Comedy",
+      "directors": [
+        "Alejandro G. Iñárritu"
+      ],
+      "cast": [
+        "Tom Cruise",
+        "Riz Ahmed",
+        "John Goodman"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-28",
+          "time": "16:00",
+          "label": "4:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1907",
+          "tags": [
+            "LastChance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "slug": "tony",
+      "title": "Tony",
+      "url": "https://filmhouse.sg/film/171/tony",
+      "poster": "https://cdn.taposapp.com/poster/600x900/StY1BcqR2q6Gjq_6vBd7Ir-KBK1VEzd0My-zYjVuLZw.jpg",
+      "year": "2026",
+      "runtime": "106mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Matt Johnson"
+      ],
+      "cast": [
+        "Dominic Sessa",
+        "Antonio Banderas",
+        "Emilia Jones"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-28",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1909",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "slug": "mysterious-skin-4k-restoration",
+      "title": "Mysterious Skin (4K Restoration)",
+      "url": "https://filmhouse.sg/film/167/mysterious-skin-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/O4HxYWdZTvK0SdhYQHA0lJA8wPZeOh4GZhCM9O-j19M.jpg",
+      "year": "2004",
+      "runtime": "106mins",
+      "rating": "R21",
+      "genre": "Drama",
+      "directors": [
+        "Gregg Araki"
+      ],
+      "cast": [
+        "Joseph Gordon-Levitt",
+        "Brady Corbet",
+        "Michelle Trachtenberg"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-28",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1908",
+          "tags": [
+            "4K",
+            "LastChance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "slug": "hereditary",
+      "title": "Hereditary",
+      "url": "https://filmhouse.sg/film/213/hereditary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/Jv9JZGGEIant3ebJpAkrLAbA8d4ICIhB5UqWPk9Dhr0.jpg",
+      "year": null,
+      "runtime": "128mins",
+      "rating": "M18",
+      "genre": "Horror",
+      "directors": [
+        "Ari Aster"
+      ],
+      "cast": [
+        "Toni Collette",
+        "Alex Wolff",
+        "Gabriel Byrne"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-28",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1800",
+          "tags": []
+        },
+        {
+          "date": "2026-10-31",
+          "time": "16:00",
+          "label": "4:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1910",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "slug": "love-letter-4k-restoration",
+      "title": "Love Letter (4K Restoration)",
+      "url": "https://filmhouse.sg/film/212/love-letter-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/msjFPL-hD0X10ORGJJfcBfkg73s-5_W-wWQk4kDLB0E.jpg",
+      "year": "1995",
+      "runtime": "117mins",
+      "rating": "PG",
+      "genre": "Romance/Drama",
+      "directors": [
+        "Shunji Iwai"
+      ],
+      "cast": [
+        "Miho Nakayama",
+        "Etsushi Toyokawa",
+        "Miki Sakai"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-28",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1745",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-08",
+          "time": "17:40",
+          "label": "5:40 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1746",
+          "tags": [
+            "4K",
+            "LastChance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "slug": "wildwood",
+      "title": "Wildwood",
+      "url": "https://filmhouse.sg/film/236/wildwood",
+      "poster": "https://cdn.taposapp.com/poster/600x900/f2RERlbD8YWOWDeLbRlltRHC0DtWohaPf0H4lZw8idc.jpg",
+      "year": "2026",
+      "runtime": "130mins",
+      "rating": "PG13",
+      "genre": "Animation",
+      "directors": [
+        "Travis Knight"
+      ],
+      "cast": [
+        "Peyton Elizabeth Lee",
+        "Jacob Tremblay",
+        "Carey Mulligan"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-29",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1913",
+          "tags": []
+        },
+        {
+          "date": "2026-10-31",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1914",
+          "tags": []
+        },
+        {
+          "date": "2026-11-03",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1915",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "slug": "look-back",
+      "title": "Look Back",
+      "url": "https://filmhouse.sg/film/227/look-back",
+      "poster": "https://cdn.taposapp.com/poster/600x900/YejRB0CCIF89tsPfjS4Z3ei643tMVpgm8Bhd-yNspCA.jpg",
+      "year": "2026",
+      "runtime": "100mins",
+      "rating": "PG",
+      "genre": "Drama",
+      "directors": [
+        "Hirokazu Kore-eda"
+      ],
+      "cast": [
+        "Natsuki Deguchi",
+        "Aju Makita",
+        "Fuuri Nanase"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-29",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1921",
+          "tags": []
+        },
+        {
+          "date": "2026-10-30",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1922",
+          "tags": []
+        },
+        {
+          "date": "2026-10-31",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1923",
+          "tags": []
+        },
+        {
+          "date": "2026-11-01",
+          "time": "14:00",
+          "label": "2:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1924",
+          "tags": []
+        },
+        {
+          "date": "2026-11-03",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1925",
+          "tags": []
+        },
+        {
+          "date": "2026-11-04",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1926",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "slug": "the-glory-hoes-present-the-rocky-horror-picture-show",
+      "title": "The Glory Hoes present The Rocky Horror Picture Show",
+      "url": "https://filmhouse.sg/film/208/the-glory-hoes-present-the-rocky-horror-picture-show",
+      "poster": "https://cdn.taposapp.com/poster/600x900/4S7i7E9jiyeUlkfWA-kQAMROAFe-LV_2JvPG0SEerFY.jpg",
+      "year": null,
+      "runtime": "100mins",
+      "rating": "M18",
+      "genre": "Comedy/Horror",
+      "directors": [
+        "Jim Sharman"
+      ],
+      "cast": [
+        "Tim Curry",
+        "Susan Sarandon",
+        "Barry Bostwick"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-30",
+          "time": "19:45",
+          "label": "7:45 pm",
+          "soldOut": true,
+          "bookUrl": null,
+          "tags": []
+        },
+        {
+          "date": "2026-10-30",
+          "time": "20:45",
+          "label": "8:45 pm",
+          "soldOut": true,
+          "bookUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "slug": "al-awda",
+      "title": "Al Awda",
+      "url": "https://filmhouse.sg/film/127/al-awda",
+      "poster": "https://cdn.taposapp.com/poster/600x900/ow3DL97qYIEgX_MtdMbw65RMksVPEtU1Pn8pVSSjDK4.jpg",
+      "year": "2025",
+      "runtime": "70mins",
+      "rating": "R21",
+      "genre": "Documentary",
+      "directors": [
+        "Jason Soo"
+      ],
+      "cast": [],
+      "showings": [
+        {
+          "date": "2026-10-31",
+          "time": "14:30",
+          "label": "2:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1837",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "slug": "fatherland",
+      "title": "Fatherland",
+      "url": "https://filmhouse.sg/film/186/fatherland",
+      "poster": "https://cdn.taposapp.com/poster/600x900/h-lRDTPpUaVbZKXLeJ7a5wfvmIDS4MK3wY4SY2feYaA.jpg",
+      "year": "2026",
+      "runtime": "82mins",
+      "rating": "NC16",
+      "genre": "History",
+      "directors": [
+        "Paweł Pawlikowski"
+      ],
+      "cast": [
+        "Sandra Hüller",
+        "Hanns Zischler",
+        "August Diehl"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-31",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1911",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1912",
+          "tags": [
+            "LastChance",
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "slug": "monster-house",
+      "title": "Monster House",
+      "url": "https://filmhouse.sg/film/215/monster-house",
+      "poster": "https://cdn.taposapp.com/poster/600x900/T8g3eP8jDI5w2bCeZHROI-WRFZFdJhhq32b2VOkeBcw.jpg",
+      "year": null,
+      "runtime": "91mins",
+      "rating": "PG13",
+      "genre": "Comedy/Horror",
+      "directors": [
+        "Gil Kenan"
+      ],
+      "cast": [
+        "Mitchel Musso",
+        "Sam Lerner",
+        "Spencer Locke"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-01",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1801",
+          "tags": [
+            "LastChance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "slug": "what-we-do-in-the-shadows",
+      "title": "What We Do in the Shadows",
+      "url": "https://filmhouse.sg/film/214/what-we-do-in-the-shadows",
+      "poster": "https://cdn.taposapp.com/poster/600x900/9u7qgXTtQSeXu3oeJCqdw6fN8gSelVz7n1JZbP69Hwo.jpg",
+      "year": null,
+      "runtime": "86mins",
+      "rating": "NC16",
+      "genre": "Comedy/Horror",
+      "directors": [
+        "Taika Waititi",
+        "Jemaine Clement"
+      ],
+      "cast": [
+        "Jemaine Clement",
+        "Taika Waititi",
+        "Jonny Brugh"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-01",
+          "time": "14:30",
+          "label": "2:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1802",
+          "tags": []
+        },
+        {
+          "date": "2026-11-10",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1803",
+          "tags": [
+            "LastChance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "slug": "before-sunrise",
+      "title": "Before Sunrise",
+      "url": "https://filmhouse.sg/film/168/before-sunrise",
+      "poster": "https://cdn.taposapp.com/poster/600x900/mt9WDac4uELoCfFzoDdOj39HZRSWWU2H_qS_2VM0oMw.jpg",
+      "year": null,
+      "runtime": "101mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Richard Linklater"
+      ],
+      "cast": [
+        "Ethan Hawke",
+        "Julie Delpy",
+        "Andrea Eckert"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-01",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1961",
+          "tags": [
+            "LastChance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "slug": "ponyo",
+      "title": "Ponyo",
+      "url": "https://filmhouse.sg/film/159/ponyo",
+      "poster": "https://cdn.taposapp.com/poster/600x900/6rjc_NdA2mL4VpaVhjjL5nCnCz4ahJfTm72TSORHOTE.jpg",
+      "year": null,
+      "runtime": "100mins",
+      "rating": "G",
+      "genre": "Animation",
+      "directors": [
+        "Hayao Miyazaki"
+      ],
+      "cast": [
+        "Yuria Kozuki",
+        "Hiroki Doi",
+        "George Tokoro"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-01",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1867",
+          "tags": []
+        },
+        {
+          "date": "2026-11-08",
+          "time": "14:20",
+          "label": "2:20 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1917",
+          "tags": []
+        },
+        {
+          "date": "2026-11-12",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1869",
+          "tags": []
+        },
+        {
+          "date": "2026-11-24",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1920",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "slug": "the-invite",
+      "title": "The Invite",
+      "url": "https://filmhouse.sg/film/144/the-invite",
+      "poster": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
+      "year": "2026",
+      "runtime": "107mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Olivia Wilde"
+      ],
+      "cast": [
+        "Seth Rogen",
+        "Olivia Wilde",
+        "Penélope Cruz",
+        "Edward Norton"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-03",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1964",
+          "tags": []
+        },
+        {
+          "date": "2026-11-04",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1966",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "slug": "kokuho",
+      "title": "Kokuho",
+      "url": "https://filmhouse.sg/film/217/kokuho",
+      "poster": "https://cdn.taposapp.com/poster/600x900/1N7zTZsGmJ2IrqrijtehsvW9hj41-J5mf2tp0g-NTvs.jpg",
+      "year": null,
+      "runtime": "174mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Sang-il Lee"
+      ],
+      "cast": [
+        "Ryo Yoshizawa",
+        "Ryusei Yokohama",
+        "Mitsuki Takahata"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-03",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1962",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "slug": "la-la-land-10th-anniversary",
+      "title": "La La Land (10th Anniversary)",
+      "url": "https://filmhouse.sg/film/85/la-la-land-10th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
+      "year": "2016",
+      "runtime": "129mins",
+      "rating": "PG13",
+      "genre": "Musical",
+      "directors": [
+        "Damien Chazelle"
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Emma Stone",
+        "John Legend"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-04",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1892",
+          "tags": []
+        },
+        {
+          "date": "2026-11-08",
+          "time": "14:00",
+          "label": "2:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1918",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "slug": "stop-making-sense-4k-restoration",
+      "title": "Stop Making Sense (4K Restoration)",
+      "url": "https://filmhouse.sg/film/211/stop-making-sense-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/qfE7CBmwt8jmAC2_sLrJAGhJQGAbK5y8Ec4RnuxgF_s.jpg",
+      "year": "1984",
+      "runtime": "88mins",
+      "rating": "PG",
+      "genre": "Musical",
+      "directors": [
+        "Jonathan Demme"
+      ],
+      "cast": [
+        "David Byrne",
+        "Chris Frantz",
+        "Jerry Harrison"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-04",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1891",
+          "tags": [
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "slug": "crouching-tiger-hidden-dragon-4k-restoration",
+      "title": "Crouching Tiger, Hidden Dragon (4K Restoration)",
+      "url": "https://filmhouse.sg/film/224/crouching-tiger-hidden-dragon-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/2emi_8-mZ809IX_-3o3tFsphrQzcHWQ6x4a-qgA2YHU.jpg",
+      "year": "2000",
+      "runtime": "120mins",
+      "rating": "NC16",
+      "genre": "Action",
+      "directors": [
+        "Ang Lee"
+      ],
+      "cast": [
+        "Chow Yun-Fat",
+        "Michelle Yeoh",
+        "Zhang Ziyi"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-06",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1873",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-14",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1876",
+          "tags": []
+        },
+        {
+          "date": "2026-11-24",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1879",
+          "tags": [
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "slug": "the-blade-4k-restoration",
+      "title": "The Blade (4K Restoration)",
+      "url": "https://filmhouse.sg/film/225/the-blade-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/AV0k-c-0kY9iupY2qP3lt0W19PKnpzscWMHlMC7K2gQ.jpg",
+      "year": "1995",
+      "runtime": "105mins",
+      "rating": "TBA",
+      "genre": "Action",
+      "directors": [
+        "Tsui Hark"
+      ],
+      "cast": [
+        "Vincent Zhao Wenzhuo",
+        "Xiong Xinxin",
+        "Sonny Song"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-07",
+          "time": "17:50",
+          "label": "5:50 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1874",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-17",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1877",
+          "tags": [
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "slug": "a-touch-of-zen-4k-restoration",
+      "title": "A Touch of Zen (4K Restoration)",
+      "url": "https://filmhouse.sg/film/226/a-touch-of-zen-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/OVMSXKQpyChSJ0kp5lmRqyfNmmxDgNkDRGNflO5114g.jpg",
+      "year": "1971",
+      "runtime": "180mins",
+      "rating": "PG13",
+      "genre": "Action",
+      "directors": [
+        "King Hu"
+      ],
+      "cast": [
+        "Hsu Feng",
+        "Shih Chun",
+        "Pai Ying"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-08",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1875",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-21",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1878",
+          "tags": []
+        },
+        {
+          "date": "2026-12-02",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1890",
+          "tags": [
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "slug": "all-we-imagine-as-light",
+      "title": "All We Imagine as Light",
+      "url": "https://filmhouse.sg/film/240/all-we-imagine-as-light",
+      "poster": "https://cdn.taposapp.com/poster/600x900/eOEAg3vMmuC_CWhxo8aaS37zxWDPrnV0BD66-a420Jo.jpg",
+      "year": null,
+      "runtime": "118mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Payal Kapadia"
+      ],
+      "cast": [
+        "Kani Kusruti",
+        "Divya Prabha",
+        "Chhaya Kadam"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-08",
+          "time": "17:10",
+          "label": "5:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1919",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "slug": "this-is-spinal-tap",
+      "title": "This Is Spinal Tap",
+      "url": "https://filmhouse.sg/film/243/this-is-spinal-tap",
+      "poster": "https://cdn.taposapp.com/poster/600x900/T3GZrO7WTko2GE0kRo3OUbwV-_2ZvzHS2xwjGi31Sbg.jpg",
+      "year": "1984",
+      "runtime": "82mins",
+      "rating": "PG13",
+      "genre": "Comedy",
+      "directors": [
+        "Rob Reiner"
+      ],
+      "cast": [
+        "Christopher Guest",
+        "Michael McKean",
+        "Harry Shearer"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-11",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1927",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "slug": "the-house-on-the-moon",
+      "title": "The House on the Moon",
+      "url": "https://filmhouse.sg/film/223/the-house-on-the-moon",
+      "poster": "https://cdn.taposapp.com/poster/600x900/RKoSUfT5BljQXG5Gd8PBUDPqo5RgVU8OfO1oDvd1jHk.jpg",
+      "year": "2026",
+      "runtime": "104mins",
+      "rating": "NC16",
+      "genre": "Action/Adventure",
+      "directors": [
+        "Nelson Yeo"
+      ],
+      "cast": [
+        "Lim Shi-An",
+        "Dominick Rustam-Chartrand",
+        "Akira Huang"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-12",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1880",
+          "tags": [
+            "Live Q&A",
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "slug": "amlie-25th-anniversary",
+      "title": "Amélie (25th Anniversary)",
+      "url": "https://filmhouse.sg/film/232/amlie-25th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/2skZm3Mts3h_uelrna7y5OwWNVidQ2t_-qIQbXlbFPw.jpg",
+      "year": "2001",
+      "runtime": "122mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Jean-Pierre Jeunet"
+      ],
+      "cast": [
+        "Audrey Tautou",
+        "Mathieu Kassovitz",
+        "Rufus"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-13",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1928",
+          "tags": []
+        },
+        {
+          "date": "2026-11-21",
+          "time": "14:00",
+          "label": "2:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1932",
+          "tags": [
+            "Live Q&A"
+          ]
+        },
+        {
+          "date": "2026-11-28",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1934",
+          "tags": []
+        },
+        {
+          "date": "2026-12-06",
+          "time": "14:30",
+          "label": "2:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1936",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "slug": "cartoons-underground-programme-c-playground-for-kids",
+      "title": "Cartoons Underground Programme C - Playground - For Kids",
+      "url": "https://filmhouse.sg/film/229/cartoons-underground-programme-c-playground-for-kids",
+      "poster": "https://cdn.taposapp.com/poster/600x900/VinKw9eBpcBejqI9e1xW2YekviTvgOlPEMRpkJjuGzY.jpg",
+      "year": null,
+      "runtime": "48mins",
+      "rating": "TBA",
+      "genre": "Animation",
+      "directors": [],
+      "cast": [],
+      "showings": [
+        {
+          "date": "2026-11-14",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1886",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "slug": "persepolis",
+      "title": "Persepolis",
+      "url": "https://filmhouse.sg/film/235/persepolis",
+      "poster": "https://cdn.taposapp.com/poster/600x900/GQ0Qh1TxFoWYh_YYGaaLzu1_V7YXiiAhHYOFyigyCRY.jpg",
+      "year": "2007",
+      "runtime": "95mins",
+      "rating": "PG",
+      "genre": "Animation",
+      "directors": [
+        "Vincent Paronnaud",
+        "Marjane Satrapi"
+      ],
+      "cast": [
+        "Chiara Mastroianni",
+        "Danielle Darrieux",
+        "Catherine Deneuve"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-14",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1929",
+          "tags": []
+        },
+        {
+          "date": "2026-11-22",
+          "time": "14:30",
+          "label": "2:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1937",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "slug": "cartoons-underground-programme-a-held-breath",
+      "title": "Cartoons Underground Programme A - Held Breath",
+      "url": "https://filmhouse.sg/film/230/cartoons-underground-programme-a-held-breath",
+      "poster": "https://cdn.taposapp.com/poster/600x900/VinKw9eBpcBejqI9e1xW2YekviTvgOlPEMRpkJjuGzY.jpg",
+      "year": null,
+      "runtime": "75mins",
+      "rating": "TBA",
+      "genre": "Animation",
+      "directors": [],
+      "cast": [],
+      "showings": [
+        {
+          "date": "2026-11-14",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1887",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "slug": "cartoons-underground-programme-b-rip-tides",
+      "title": "Cartoons Underground Programme B - Rip Tides",
+      "url": "https://filmhouse.sg/film/231/cartoons-underground-programme-b-rip-tides",
+      "poster": "https://cdn.taposapp.com/poster/600x900/VinKw9eBpcBejqI9e1xW2YekviTvgOlPEMRpkJjuGzY.jpg",
+      "year": null,
+      "runtime": "170mins",
+      "rating": "TBA",
+      "genre": "Animation",
+      "directors": [],
+      "cast": [],
+      "showings": [
+        {
+          "date": "2026-11-14",
+          "time": "19:00",
+          "label": "7:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1888",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "slug": "delicatessen-4k-restoration",
+      "title": "Delicatessen (4K Restoration)",
+      "url": "https://filmhouse.sg/film/233/delicatessen-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/CHdIoX2KRrsaay8IHukKzzxs5Uvjv4TYu-ZJHSbo-Fs.jpg",
+      "year": "1991",
+      "runtime": "99mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Jean-Pierre Jeunet",
+        "Marc Caro"
+      ],
+      "cast": [
+        "Dominique Pinon",
+        "Marie-Laure Dougnac",
+        "Jean-Claude Dreyfus"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-14",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1930",
+          "tags": []
+        },
+        {
+          "date": "2026-12-01",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1935",
+          "tags": [
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "slug": "the-city-of-lost-children-4k-restoration",
+      "title": "The City of Lost Children (4K Restoration)",
+      "url": "https://filmhouse.sg/film/234/the-city-of-lost-children-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/o2woY1W8do3gEK3z4IqUP-fCLGRpsmDW0GLxHP7RzF8.jpg",
+      "year": "1995",
+      "runtime": "112mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Marc Caro",
+        "Jean-Pierre Jeunet"
+      ],
+      "cast": [
+        "Ron Perlman",
+        "Dominique Pinon",
+        "Judith Vittet"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-15",
+          "time": "14:30",
+          "label": "2:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1931",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-21",
+          "time": "17:40",
+          "label": "5:40 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1933",
+          "tags": [
+            "4K",
+            "With Intro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "slug": "mad-max-fury-road",
+      "title": "Mad Max: Fury Road",
+      "url": "https://filmhouse.sg/film/242/mad-max-fury-road",
+      "poster": "https://cdn.taposapp.com/poster/600x900/Upgyen8eMQDCl3kYn-Gyl8I4AgUesu725GC_CA3mo7c.jpg",
+      "year": null,
+      "runtime": "121mins",
+      "rating": "NC16",
+      "genre": "Action/Adventure",
+      "directors": [
+        "George Miller"
+      ],
+      "cast": [
+        "Tom Hardy",
+        "Charlize Theron",
+        "Nicholas Hoult"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-15",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1954",
+          "tags": []
+        },
+        {
+          "date": "2026-11-26",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1955",
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

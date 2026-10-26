@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Filmhouse Showtimes</title>
+  <meta name="description" content="Browse what's showing at Filmhouse Singapore. Booking happens on filmhouse.sg.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1>Filmhouse showtimes</h1>
+      <p class="sub">
+        An unofficial listing of <a href="https://filmhouse.sg/films/">filmhouse.sg</a>.
+        Booking happens on their site.
+        <span id="updated"></span>
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="filters" aria-label="Filters">
+      <div class="dates" id="dates" role="group" aria-label="Date"></div>
+      <div class="row">
+        <input id="search" type="search" placeholder="Search title, director, cast" aria-label="Search">
+        <select id="genre" aria-label="Genre"><option value="">All genres</option></select>
+        <select id="rating" aria-label="Rating"><option value="">All ratings</option></select>
+        <select id="sort" aria-label="Sort">
+          <option value="next">Next showing</option>
+          <option value="title">Title A–Z</option>
+        </select>
+      </div>
+      <div class="row tags" id="tags" role="group" aria-label="Session type"></div>
+      <label class="toggle"><input id="hideSoldOut" type="checkbox"> Hide sold-out sessions</label>
+    </section>
+
+    <p class="count" id="count" aria-live="polite"></p>
+    <div id="films" class="films"></div>
+    <p class="empty" id="empty" hidden>No films match these filters. <button id="reset" type="button">Clear filters</button></p>
+  </main>
+
+  <footer class="wrap foot">
+    Data from <a href="https://filmhouse.sg/films/">filmhouse.sg</a>, refreshed every 15 minutes. Not affiliated with Filmhouse.
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
