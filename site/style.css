@@ -33,7 +33,7 @@ button:hover:not(:disabled) { color: var(--text); }
   padding: 40px 0 16px;
 }
 h1 { margin: 0; font-size: 18px; font-weight: 500; }
-.stats { margin: 0; color: var(--muted); font-variant-numeric: tabular-nums; }
+.stats { margin: 0 0 4px; font-variant-numeric: tabular-nums; }
 .stats .stale { color: var(--text); }
 
 .bar { position: sticky; top: 0; z-index: 1; background: var(--bg); }
@@ -109,17 +109,17 @@ input[type="search"]:focus { outline: none; }
 
 .film {
   display: grid;
-  grid-template-columns: 44px minmax(0, 1fr) auto;
-  gap: 8px 16px;
-  padding: 14px 0;
+  grid-template-columns: 80px minmax(0, 1fr) auto;
+  gap: 8px 18px;
+  padding: 16px 0;
   border-bottom: 1px solid var(--rule);
 }
 .poster img {
   display: block;
-  width: 44px;
-  height: 66px;
+  width: 80px;
+  height: 120px;
   object-fit: cover;
-  border-radius: 2px;
+  border-radius: 3px;
   background: var(--rule);
 }
 .title { font-size: 15px; font-weight: 500; }
@@ -150,7 +150,8 @@ a.time:hover .at { text-decoration: underline; text-underline-offset: 3px; }
 
 @media (max-width: 560px) {
   .head { padding-top: 28px; }
-  .film { grid-template-columns: 44px minmax(0, 1fr); }
+  .film { grid-template-columns: 72px minmax(0, 1fr); grid-template-rows: auto 1fr; gap: 8px 14px; }
+  .poster img { width: 72px; height: 108px; }
   .poster { grid-row: span 2; }
   .cal-grid { max-width: none; }
 }

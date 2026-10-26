@@ -225,7 +225,7 @@ function renderFilm(film, showings, today) {
   const meta = [film.rating, film.runtime?.replace(/\s*mins?$/, " min"), film.genre].filter(Boolean).join(" · ");
   return el("li", { class: "film" },
     el("a", { class: "poster", href: film.url, target: "_blank", rel: "noopener", tabindex: "-1", "aria-hidden": "true" },
-      el("img", { src: film.poster, alt: "", loading: "lazy", width: "44", height: "66" })),
+      el("img", { src: film.poster, alt: "", loading: "lazy", width: "80", height: "120" })),
     el("div", {},
       el("a", { class: "title", href: film.url, target: "_blank", rel: "noopener" }, film.title),
       el("div", { class: "meta" }, meta),
