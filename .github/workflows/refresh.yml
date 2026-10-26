@@ -5,7 +5,9 @@ name: Refresh and deploy
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # Every 15 minutes, offset from :00/:15/:30/:45 where GitHub's scheduler
+    # is busiest and most likely to delay or drop runs.
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
