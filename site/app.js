@@ -1,16 +1,20 @@
 const $ = (id) => document.getElementById(id);
 const els = {
-  days: $("days"), search: $("search"), filtersToggle: $("filtersToggle"), filters: $("filters"),
+  stats: $("stats"), days: $("days"), search: $("search"), filtersToggle: $("filtersToggle"), filters: $("filters"),
   tags: $("tags"), genres: $("genres"), ratings: $("ratings"), options: $("options"), sorts: $("sorts"),
-  films: $("films"), empty: $("empty"), reset: $("reset"), updated: $("updated"),
-  statFilms: $("statFilms"), statSessions: $("statSessions"), statDays: $("statDays"),
+  films: $("films"), empty: $("empty"), reset: $("reset"),
 };
 
 const RATING_ORDER = ["G", "PG", "PG13", "NC16", "M18", "R21", "TBA"];
 const TAG_LABELS = { "LastChance": "Last chance", "Live Q&A": "Q&A", "With Intro": "Intro" };
 const SORTS = { next: "Soonest", title: "A–Z" };
+// With "All" days selected, a film shows this many sessions before a "+N" toggle.
+const COLLAPSED_SESSIONS = 2;
+
 const state = { date: "", q: "", genre: "", rating: "", tags: new Set(), hideSoldOut: false, sort: "next" };
+const expanded = new Set();
 let films = [];
+let scrapedAt = null;
 
 // Showtimes are Singapore local time; compare against "now" in the same zone.
 function singaporeNow() {
@@ -32,9 +36,9 @@ function addDays(isoDate, n) {
   return d.toISOString().slice(0, 10);
 }
 
-function shortDay(isoDate, today) {
+function dayLabel(isoDate, today) {
   if (isoDate === today) return "Today";
-  if (isoDate === addDays(today, 1)) return "Tmrw";
+  if (isoDate === addDays(today, 1)) return "Tomorrow";
   return fmt(isoDate, { weekday: "short", day: "numeric" });
 }
 
@@ -48,7 +52,7 @@ function timeAgo(iso) {
 }
 
 const genresOf = (film) => (film.genre ? film.genre.split("/").map((g) => g.trim()) : []);
-const plural = (n, word) => `${word}${n === 1 ? "" : "s"}`;
+const count = (n, word) => `${n} ${word}${n === 1 ? "" : "s"}`;
 
 function el(tag, attrs = {}, ...children) {
   const node = document.createElement(tag);
@@ -113,27 +117,27 @@ function renderDays(now) {
   const dates = [...new Set(films.flatMap((f) => f.showings).filter((s) => s.date >= now.date).map((s) => s.date))].sort();
   if (state.date && !dates.includes(state.date)) state.date = "";
 
-  const day = (value, dow, num, label, extraClass) => el("button", {
-    type: "button", class: `day${extraClass ? ` ${extraClass}` : ""}`, "aria-pressed": String(state.date === value),
-    "aria-label": label, title: label, onclick: () => { state.date = value; update(); },
-  }, el("span", { class: "dow" }, dow), el("span", { class: "num" }, num));
+  const day = (value, label, title) => el("button", {
+    type: "button", "aria-pressed": String(state.date === value), title,
+    onclick: () => { state.date = value; update(); },
+  }, label);
 
   els.days.replaceChildren(
-    day("", "All", "–", "All days"),
+    day("", "All"),
     ...dates.map((d, i) => {
-      // Mark where a new month starts instead of repeating the month on every day.
+      // Name the month where it changes, so "Sun 1" isn't ambiguous.
       const newMonth = i > 0 && d.slice(0, 7) !== dates[i - 1].slice(0, 7);
-      const dow = d === now.date ? "Today" : newMonth ? fmt(d, { month: "short" }) : fmt(d, { weekday: "short" });
-      return day(d, dow, String(Number(d.slice(8))), fmt(d, { weekday: "long", day: "numeric", month: "long" }), newMonth && "month");
+      const label = newMonth ? fmt(d, { weekday: "short", day: "numeric", month: "short" }) : dayLabel(d, now.date);
+      return day(d, label, fmt(d, { weekday: "long", day: "numeric", month: "long" }));
     }),
   );
-  // Keep the chosen day visible in the horizontally scrolling strip (without scrolling the page).
+  // Keep the chosen day visible in the horizontally scrolling row (without scrolling the page).
   const pressed = els.days.querySelector('[aria-pressed="true"]');
   els.days.scrollLeft = pressed.offsetLeft - els.days.offsetLeft - (els.days.clientWidth - pressed.offsetWidth) / 2;
 }
 
 function option(label, pressed, onclick) {
-  return el("button", { type: "button", class: "opt", "aria-pressed": String(pressed), onclick }, label);
+  return el("button", { type: "button", "aria-pressed": String(pressed), onclick }, label);
 }
 
 function renderFilters() {
@@ -166,53 +170,46 @@ function renderFilters() {
     update();
   })));
 
-  const count = activeFilterCount();
-  els.filtersToggle.textContent = count ? `Filters · ${count}` : "Filters";
+  const n = activeFilterCount();
+  els.filtersToggle.textContent = n ? `Filters (${n})` : "Filters";
 }
 
 function renderSession(s, today) {
   const parts = [
-    state.date ? null : el("span", { class: "when" }, shortDay(s.date, today)),
-    el("span", { class: "time" }, s.time),
-    ...s.tags.map((t) => el("span", { class: "tag" }, TAG_LABELS[t] ?? t)),
+    state.date ? null : el("span", { class: "day" }, `${dayLabel(s.date, today)} `),
+    el("span", { class: "at" }, s.label),
+    ...s.tags.map((t) => el("span", { class: "tag" }, ` ${TAG_LABELS[t] ?? t}`)),
   ];
   if (s.soldOut || !s.bookUrl) {
-    return el("li", {}, el("span", { class: "session sold", title: "Sold out" }, parts, el("span", { class: "tag" }, "Sold out")));
+    return el("span", { class: "time sold", title: "Sold out" }, parts);
   }
   const when = fmt(s.date, { weekday: "long", day: "numeric", month: "long" });
-  return el("li", {}, el("a", {
-    class: "session", href: s.bookUrl, target: "_blank", rel: "noopener", title: `Book ${when}, ${s.label} on filmhouse.sg`,
-  }, parts));
+  return el("a", {
+    class: "time", href: s.bookUrl, target: "_blank", rel: "noopener", title: `Book ${when}, ${s.label} on filmhouse.sg`,
+  }, parts);
 }
 
 function renderFilm(film, showings, today) {
-  const meta = [
-    film.runtime?.replace(/\s*mins?$/, " min"),
-    film.rating,
-    film.genre,
-    film.year,
-    film.directors.length ? `Dir. ${film.directors.join(", ")}` : null,
-  ].filter(Boolean);
+  const collapsible = !state.date && showings.length > COLLAPSED_SESSIONS + 1;
+  const open = expanded.has(film.id);
+  const shown = collapsible && !open ? showings.slice(0, COLLAPSED_SESSIONS) : showings;
+  const meta = [film.rating, film.runtime?.replace(/\s*mins?$/, " min"), film.genre].filter(Boolean).join(" · ");
+
   return el("li", { class: "film" },
     el("a", { class: "poster", href: film.url, target: "_blank", rel: "noopener", tabindex: "-1", "aria-hidden": "true" },
-      el("img", { src: film.poster, alt: "", loading: "lazy", width: "64", height: "96" })),
+      el("img", { src: film.poster, alt: "", loading: "lazy", width: "44", height: "66" })),
     el("div", {},
-      el("h2", {}, el("a", { href: film.url, target: "_blank", rel: "noopener" }, film.title)),
-      el("p", { class: "meta" }, meta.map((m) => el("span", {}, m))),
-      el("ul", { class: "sessions" }, showings.map((s) => renderSession(s, today))),
+      el("a", { class: "title", href: film.url, target: "_blank", rel: "noopener" }, film.title),
+      el("div", { class: "meta" }, meta),
+    ),
+    el("div", { class: "times" },
+      shown.map((s) => renderSession(s, today)),
+      collapsible ? el("button", {
+        type: "button", "aria-expanded": String(open),
+        onclick: () => { open ? expanded.delete(film.id) : expanded.add(film.id); update(); },
+      }, open ? "Less" : `+${showings.length - COLLAPSED_SESSIONS}`) : null,
     ),
   );
-}
-
-function renderStats(rows) {
-  const sessions = rows.reduce((n, r) => n + r.showings.length, 0);
-  const days = new Set(rows.flatMap((r) => r.showings.map((s) => s.date))).size;
-  els.statFilms.textContent = rows.length;
-  els.statSessions.textContent = sessions;
-  els.statDays.textContent = days;
-  els.statFilms.previousElementSibling.textContent = plural(rows.length, "film");
-  els.statSessions.previousElementSibling.textContent = plural(sessions, "session");
-  els.statDays.previousElementSibling.textContent = plural(days, "day");
 }
 
 function update() {
@@ -235,20 +232,23 @@ function update() {
 
   els.films.replaceChildren(...rows.map((r) => renderFilm(r.film, r.showings, now.date)));
   els.empty.hidden = rows.length > 0;
-  renderStats(rows);
+
+  const sessions = rows.reduce((n, r) => n + r.showings.length, 0);
+  // The refresh runs every 15 minutes; flag it if GitHub has stopped running it.
+  const stale = Date.now() - new Date(scrapedAt) > 6 * 3600_000;
+  els.stats.replaceChildren(
+    `${count(rows.length, "film")} · ${count(sessions, "session")} · `,
+    el("span", { class: stale ? "stale" : null, title: new Date(scrapedAt).toLocaleString("en-SG") }, `updated ${timeAgo(scrapedAt)}`),
+  );
 }
 
 async function main() {
   const response = await fetch("films.json", { cache: "no-cache" });
   const snapshot = await response.json();
+  scrapedAt = snapshot.scrapedAt;
   films = snapshot.films.map((f) => ({
     ...f, showings: [...f.showings].sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time)),
   }));
-
-  els.updated.textContent = `Updated ${timeAgo(snapshot.scrapedAt)}`;
-  els.updated.title = new Date(snapshot.scrapedAt).toLocaleString("en-SG");
-  // The refresh runs every 15 minutes; flag it if GitHub has stopped running it.
-  if (Date.now() - new Date(snapshot.scrapedAt) > 6 * 3600_000) els.updated.classList.add("stale");
 
   readUrl();
   els.search.value = state.q;
@@ -272,5 +272,5 @@ async function main() {
 main().catch((error) => {
   console.error(error);
   els.empty.hidden = false;
-  els.empty.textContent = "Couldn't load the programme. Try again shortly, or browse filmhouse.sg directly.";
+  els.empty.textContent = "Couldn't load the listings. Try again shortly, or browse filmhouse.sg directly.";
 });

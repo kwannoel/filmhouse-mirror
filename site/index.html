@@ -3,37 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Filmhouse Programme</title>
-  <meta name="description" content="What's showing at Filmhouse Singapore, by day. Booking happens on filmhouse.sg.">
-  <meta name="theme-color" content="#0d0c0b">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+  <title>Filmhouse</title>
+  <meta name="description" content="What's showing at Filmhouse Singapore. Booking happens on filmhouse.sg.">
+  <meta name="theme-color" content="#0f0f0f">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="masthead wrap">
-    <div class="title">
-      <h1>Filmhouse <em>programme</em></h1>
-      <p class="kicker">
-        <span>Unofficial</span>
-        <span id="updated"></span>
-        <a href="https://filmhouse.sg/films/" target="_blank" rel="noopener">Book on filmhouse.sg ↗</a>
-      </p>
-    </div>
-    <dl class="stats" aria-live="polite">
-      <div><dt>films</dt><dd id="statFilms">–</dd></div>
-      <div><dt>sessions</dt><dd id="statSessions">–</dd></div>
-      <div><dt>days</dt><dd id="statDays">–</dd></div>
-    </dl>
-  </header>
+  <div class="wrap">
+    <header class="head">
+      <h1><a href="https://filmhouse.sg/films/" target="_blank" rel="noopener">Filmhouse</a></h1>
+      <p class="stats" id="stats" aria-live="polite"></p>
+    </header>
 
-  <nav class="bar">
-    <div class="wrap">
+    <nav class="bar">
       <div class="days" id="days" role="group" aria-label="Day"></div>
       <div class="tools">
-        <input id="search" type="search" placeholder="Search title, director, cast" aria-label="Search" autocomplete="off">
-        <button id="filtersToggle" class="link" type="button" aria-expanded="false" aria-controls="filters">Filters</button>
+        <input id="search" type="search" placeholder="Search" aria-label="Search titles, directors and cast" autocomplete="off">
+        <button id="filtersToggle" type="button" aria-expanded="false" aria-controls="filters">Filters</button>
       </div>
       <div class="filters" id="filters" hidden>
         <div class="group"><span class="label">Format</span><div id="tags"></div></div>
@@ -42,17 +28,17 @@
         <div class="group"><span class="label">Show</span><div id="options"></div></div>
         <div class="group"><span class="label">Sort</span><div id="sorts"></div></div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <main class="wrap">
-    <ol class="films" id="films"></ol>
-    <p class="empty" id="empty" hidden>Nothing matches. <button id="reset" class="link" type="button">Clear all</button></p>
-  </main>
+    <main>
+      <ul class="films" id="films"></ul>
+      <p class="empty" id="empty" hidden>Nothing matches. <button id="reset" type="button">Clear filters</button></p>
+    </main>
 
-  <footer class="wrap foot">
-    Listings from filmhouse.sg, refreshed every 15 minutes. Not affiliated with Filmhouse.
-  </footer>
+    <footer class="foot">
+      Unofficial. Listings from <a href="https://filmhouse.sg/films/" target="_blank" rel="noopener">filmhouse.sg</a>, refreshed every 15 minutes. Booking happens there.
+    </footer>
+  </div>
 
   <script src="app.js" type="module"></script>
 </body>

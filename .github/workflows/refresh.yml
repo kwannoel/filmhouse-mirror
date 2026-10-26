@@ -53,6 +53,11 @@ jobs:
             echo "No listing changes"
           fi
 
+      # Pages caches files for 10 minutes; versioned URLs stop a new index.html
+      # from running against a cached old app.js or style.css after a deploy.
+      - name: Version asset URLs
+        run: sed -i "s/\(style\.css\|app\.js\)\"/\1?v=${GITHUB_SHA::7}\"/g" site/index.html
+
       - uses: actions/configure-pages@v6
 
       - uses: actions/upload-pages-artifact@v5
