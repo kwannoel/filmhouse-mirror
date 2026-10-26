@@ -52,6 +52,18 @@ function timeAgo(iso) {
   return `${Math.round(hours / 24)} days ago`;
 }
 
+const CALENDAR_ICON = '<svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="2" y="3" width="12" height="11" rx="1.5"/><path d="M2 6.5h12M5.5 1.5v3M10.5 1.5v3"/></svg>';
+const CHEVRON_ICON = '<svg viewBox="0 0 16 16" width="10" height="10" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6l4 4 4-4"/></svg>';
+
+// Icons are fixed markup defined above, never data.
+function icon(svg) {
+  const span = document.createElement("span");
+  span.className = "icon";
+  span.setAttribute("aria-hidden", "true");
+  span.innerHTML = svg;
+  return span;
+}
+
 const genresOf = (film) => (film.genre ? film.genre.split("/").map((g) => g.trim()) : []);
 const count = (n, word) => `${n} ${word}${n === 1 ? "" : "s"}`;
 
@@ -129,7 +141,8 @@ const sameSet = (set, list) => set.size === list.length && list.every((d) => set
 
 function renderDates(now) {
   const n = state.dates.size;
-  els.datesToggle.textContent = n === 0 ? "Any date" : n === 1 ? dayLabel([...state.dates][0], now.date) : `${n} dates`;
+  const picked = n === 0 ? null : n === 1 ? dayLabel([...state.dates][0], now.date) : `${n} days`;
+  els.datesToggle.replaceChildren(...[icon(CALENDAR_ICON), "Date", picked && el("span", { class: "val" }, picked), icon(CHEVRON_ICON)].filter(Boolean));
   els.datesToggle.classList.toggle("active", n > 0);
 
   els.presets.replaceChildren(
@@ -193,7 +206,7 @@ function renderFilters() {
   }));
 
   const n = moreFilterCount();
-  els.filtersToggle.textContent = n ? `More filters (${n})` : "More filters";
+  els.filtersToggle.replaceChildren(...["More filters", n && el("span", { class: "val" }, String(n)), icon(CHEVRON_ICON)].filter(Boolean));
   els.filtersToggle.classList.toggle("active", n > 0);
 }
 
@@ -269,11 +282,16 @@ async function main() {
 
   readUrl();
   els.search.value = state.q;
-  setPanel(moreFilterCount() > 0 ? els.filters : null);
+  setPanel(null);
 
   els.search.addEventListener("input", () => { state.q = els.search.value.trim(); update(); });
   els.datesToggle.addEventListener("click", () => setPanel(els.datesPanel.hidden ? els.datesPanel : null));
   els.filtersToggle.addEventListener("click", () => setPanel(els.filters.hidden ? els.filters : null));
+  // Panels only stay open while in use: a click elsewhere or Escape closes them.
+  // composedPath() is captured at dispatch, so it still holds the bar after a click re-renders the panel.
+  const bar = document.querySelector(".bar");
+  document.addEventListener("click", (e) => { if (!e.composedPath().includes(bar)) setPanel(null); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") setPanel(null); });
   els.reset.addEventListener("click", () => {
     Object.assign(state, { dates: new Set(), q: "", genre: "", rating: "", tags: new Set(), hideSoldOut: false });
     els.search.value = "";

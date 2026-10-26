@@ -17,9 +17,11 @@
 
     <nav class="bar">
       <div class="tools">
-        <button id="datesToggle" class="toggle" type="button" aria-expanded="false" aria-controls="datesPanel">Any date</button>
         <input id="search" type="search" placeholder="Search" aria-label="Search titles, directors and cast" autocomplete="off">
-        <button id="filtersToggle" class="toggle" type="button" aria-expanded="false" aria-controls="filters">More filters</button>
+        <div class="controls">
+          <button id="datesToggle" class="toggle" type="button" aria-expanded="false" aria-controls="datesPanel">Date</button>
+          <button id="filtersToggle" class="toggle" type="button" aria-expanded="false" aria-controls="filters">More filters</button>
+        </div>
       </div>
 
       <div class="panel dates" id="datesPanel" hidden>
