@@ -1,6 +1,6 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-10-26T09:10:03.840Z",
+  "scrapedAt": "2026-10-26T17:01:59.646Z",
   "films": [
     {
       "id": 195,
@@ -1154,8 +1154,8 @@
           "date": "2026-11-21",
           "time": "14:00",
           "label": "2:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1932",
+          "soldOut": true,
+          "bookUrl": null,
           "tags": [
             "Live Q&A"
           ]
