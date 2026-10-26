@@ -1,11 +1,14 @@
 const $ = (id) => document.getElementById(id);
 const els = {
-  dates: $("dates"), search: $("search"), genre: $("genre"), rating: $("rating"), sort: $("sort"),
-  tags: $("tags"), hideSoldOut: $("hideSoldOut"), films: $("films"), count: $("count"),
-  empty: $("empty"), reset: $("reset"), updated: $("updated"),
+  days: $("days"), search: $("search"), filtersToggle: $("filtersToggle"), filters: $("filters"),
+  tags: $("tags"), genres: $("genres"), ratings: $("ratings"), options: $("options"), sorts: $("sorts"),
+  films: $("films"), empty: $("empty"), reset: $("reset"), updated: $("updated"),
+  statFilms: $("statFilms"), statSessions: $("statSessions"), statDays: $("statDays"),
 };
 
 const RATING_ORDER = ["G", "PG", "PG13", "NC16", "M18", "R21", "TBA"];
+const TAG_LABELS = { "LastChance": "Last chance", "Live Q&A": "Q&A", "With Intro": "Intro" };
+const SORTS = { next: "Soonest", title: "A–Z" };
 const state = { date: "", q: "", genre: "", rating: "", tags: new Set(), hideSoldOut: false, sort: "next" };
 let films = [];
 
@@ -20,18 +23,19 @@ function singaporeNow() {
   return { date: `${parts.year}-${parts.month}-${parts.day}`, time: `${parts.hour}:${parts.minute}` };
 }
 
+const asDate = (isoDate) => new Date(`${isoDate}T00:00:00Z`);
+const fmt = (isoDate, options) => asDate(isoDate).toLocaleDateString("en-GB", { timeZone: "UTC", ...options });
+
 function addDays(isoDate, n) {
-  const d = new Date(`${isoDate}T00:00:00Z`);
+  const d = asDate(isoDate);
   d.setUTCDate(d.getUTCDate() + n);
   return d.toISOString().slice(0, 10);
 }
 
-function dateLabel(isoDate, today) {
+function shortDay(isoDate, today) {
   if (isoDate === today) return "Today";
-  if (isoDate === addDays(today, 1)) return "Tomorrow";
-  return new Date(`${isoDate}T00:00:00Z`).toLocaleDateString("en-SG", {
-    weekday: "short", day: "numeric", month: "short", timeZone: "UTC",
-  });
+  if (isoDate === addDays(today, 1)) return "Tmrw";
+  return fmt(isoDate, { weekday: "short", day: "numeric" });
 }
 
 function timeAgo(iso) {
@@ -44,6 +48,7 @@ function timeAgo(iso) {
 }
 
 const genresOf = (film) => (film.genre ? film.genre.split("/").map((g) => g.trim()) : []);
+const plural = (n, word) => `${word}${n === 1 ? "" : "s"}`;
 
 function el(tag, attrs = {}, ...children) {
   const node = document.createElement(tag);
@@ -81,7 +86,10 @@ function writeUrl() {
   history.replaceState(null, "", query ? `?${query}` : location.pathname);
 }
 
-// Showings that pass the session-level filters, with past sessions dropped.
+const activeFilterCount = () =>
+  (state.genre ? 1 : 0) + (state.rating ? 1 : 0) + state.tags.size + (state.hideSoldOut ? 1 : 0);
+
+// Sessions that pass the session-level filters, with past sessions dropped.
 function visibleShowings(film, now) {
   return film.showings.filter((s) =>
     (s.date > now.date || (s.date === now.date && s.time >= now.time)) &&
@@ -101,60 +109,117 @@ function matchesFilm(film) {
   return true;
 }
 
-function renderFilters(now) {
+function renderDays(now) {
   const dates = [...new Set(films.flatMap((f) => f.showings).filter((s) => s.date >= now.date).map((s) => s.date))].sort();
   if (state.date && !dates.includes(state.date)) state.date = "";
 
-  const chip = (value, label) => el("button", {
-    type: "button", class: "chip", "aria-pressed": String(state.date === value),
-    onclick: () => { state.date = value; update(); },
-  }, label);
-  els.dates.replaceChildren(chip("", "All dates"), ...dates.map((d) => chip(d, dateLabel(d, now.date))));
-  // Keep the chosen date visible in the horizontally scrolling row (without scrolling the page).
-  const pressed = els.dates.querySelector('[aria-pressed="true"]');
-  els.dates.scrollLeft = pressed.offsetLeft - els.dates.offsetLeft - (els.dates.clientWidth - pressed.offsetWidth) / 2;
+  const day = (value, dow, num, label, extraClass) => el("button", {
+    type: "button", class: `day${extraClass ? ` ${extraClass}` : ""}`, "aria-pressed": String(state.date === value),
+    "aria-label": label, title: label, onclick: () => { state.date = value; update(); },
+  }, el("span", { class: "dow" }, dow), el("span", { class: "num" }, num));
 
-  const allTags = [...new Set(films.flatMap((f) => f.showings.flatMap((s) => s.tags)))].sort();
-  els.tags.replaceChildren(...allTags.map((tag) => el("button", {
-    type: "button", class: "chip small", "aria-pressed": String(state.tags.has(tag)),
-    onclick: () => { state.tags.has(tag) ? state.tags.delete(tag) : state.tags.add(tag); update(); },
-  }, tag)));
+  els.days.replaceChildren(
+    day("", "All", "–", "All days"),
+    ...dates.map((d, i) => {
+      // Mark where a new month starts instead of repeating the month on every day.
+      const newMonth = i > 0 && d.slice(0, 7) !== dates[i - 1].slice(0, 7);
+      const dow = d === now.date ? "Today" : newMonth ? fmt(d, { month: "short" }) : fmt(d, { weekday: "short" });
+      return day(d, dow, String(Number(d.slice(8))), fmt(d, { weekday: "long", day: "numeric", month: "long" }), newMonth && "month");
+    }),
+  );
+  // Keep the chosen day visible in the horizontally scrolling strip (without scrolling the page).
+  const pressed = els.days.querySelector('[aria-pressed="true"]');
+  els.days.scrollLeft = pressed.offsetLeft - els.days.offsetLeft - (els.days.clientWidth - pressed.offsetWidth) / 2;
 }
 
-function renderShowtime(s) {
-  const tags = s.tags.length ? el("span", { class: "tags" }, s.tags.join(" · ")) : null;
+function option(label, pressed, onclick) {
+  return el("button", { type: "button", class: "opt", "aria-pressed": String(pressed), onclick }, label);
+}
+
+function renderFilters() {
+  const allTags = [...new Set(films.flatMap((f) => f.showings.flatMap((s) => s.tags)))].sort();
+  els.tags.replaceChildren(...allTags.map((t) => option(TAG_LABELS[t] ?? t, state.tags.has(t), () => {
+    state.tags.has(t) ? state.tags.delete(t) : state.tags.add(t);
+    update();
+  })));
+
+  const genres = [...new Set(films.flatMap(genresOf))].sort();
+  els.genres.replaceChildren(...genres.map((g) => option(g, state.genre === g, () => {
+    state.genre = state.genre === g ? "" : g;
+    update();
+  })));
+
+  const ratings = [...new Set(films.map((f) => f.rating).filter(Boolean))]
+    .sort((a, b) => RATING_ORDER.indexOf(a) - RATING_ORDER.indexOf(b));
+  els.ratings.replaceChildren(...ratings.map((r) => option(r, state.rating === r, () => {
+    state.rating = state.rating === r ? "" : r;
+    update();
+  })));
+
+  els.options.replaceChildren(option("Hide sold out", state.hideSoldOut, () => {
+    state.hideSoldOut = !state.hideSoldOut;
+    update();
+  }));
+
+  els.sorts.replaceChildren(...Object.entries(SORTS).map(([key, label]) => option(label, state.sort === key, () => {
+    state.sort = key;
+    update();
+  })));
+
+  const count = activeFilterCount();
+  els.filtersToggle.textContent = count ? `Filters · ${count}` : "Filters";
+}
+
+function renderSession(s, today) {
+  const parts = [
+    state.date ? null : el("span", { class: "when" }, shortDay(s.date, today)),
+    el("span", { class: "time" }, s.time),
+    ...s.tags.map((t) => el("span", { class: "tag" }, TAG_LABELS[t] ?? t)),
+  ];
   if (s.soldOut || !s.bookUrl) {
-    return el("span", { class: "time sold", title: "Sold out" }, el("span", {}, s.label), el("span", { class: "tags" }, "Sold out"));
+    return el("li", {}, el("span", { class: "session sold", title: "Sold out" }, parts, el("span", { class: "tag" }, "Sold out")));
   }
-  return el("a", {
-    class: "time", href: s.bookUrl, target: "_blank", rel: "noopener",
-    title: `Book ${s.label} on filmhouse.sg`,
-  }, el("span", {}, s.label), tags);
+  const when = fmt(s.date, { weekday: "long", day: "numeric", month: "long" });
+  return el("li", {}, el("a", {
+    class: "session", href: s.bookUrl, target: "_blank", rel: "noopener", title: `Book ${when}, ${s.label} on filmhouse.sg`,
+  }, parts));
 }
 
 function renderFilm(film, showings, today) {
-  const byDate = new Map();
-  for (const s of showings) byDate.set(s.date, [...(byDate.get(s.date) ?? []), s]);
-  const meta = [film.year, film.runtime?.replace(/mins?$/, " min"), film.rating, film.genre].filter(Boolean);
-  return el("article", { class: "film" },
+  const meta = [
+    film.runtime?.replace(/\s*mins?$/, " min"),
+    film.rating,
+    film.genre,
+    film.year,
+    film.directors.length ? `Dir. ${film.directors.join(", ")}` : null,
+  ].filter(Boolean);
+  return el("li", { class: "film" },
     el("a", { class: "poster", href: film.url, target: "_blank", rel: "noopener", tabindex: "-1", "aria-hidden": "true" },
-      el("img", { src: film.poster, alt: "", loading: "lazy", width: "150", height: "225" })),
-    el("div", { class: "body" },
+      el("img", { src: film.poster, alt: "", loading: "lazy", width: "64", height: "96" })),
+    el("div", {},
       el("h2", {}, el("a", { href: film.url, target: "_blank", rel: "noopener" }, film.title)),
-      el("p", { class: "meta" }, meta.join(" · ")),
-      film.directors.length ? el("p", { class: "people" }, `Directed by ${film.directors.join(", ")}`) : null,
-      el("div", { class: "showings" }, [...byDate].map(([date, list]) =>
-        el("div", { class: "day" },
-          state.date ? null : el("span", { class: "day-label" }, dateLabel(date, today)),
-          el("div", { class: "times" }, list.map(renderShowtime))))),
+      el("p", { class: "meta" }, meta.map((m) => el("span", {}, m))),
+      el("ul", { class: "sessions" }, showings.map((s) => renderSession(s, today))),
     ),
   );
+}
+
+function renderStats(rows) {
+  const sessions = rows.reduce((n, r) => n + r.showings.length, 0);
+  const days = new Set(rows.flatMap((r) => r.showings.map((s) => s.date))).size;
+  els.statFilms.textContent = rows.length;
+  els.statSessions.textContent = sessions;
+  els.statDays.textContent = days;
+  els.statFilms.previousElementSibling.textContent = plural(rows.length, "film");
+  els.statSessions.previousElementSibling.textContent = plural(sessions, "session");
+  els.statDays.previousElementSibling.textContent = plural(days, "day");
 }
 
 function update() {
   writeUrl();
   const now = singaporeNow();
-  renderFilters(now);
+  renderDays(now);
+  renderFilters();
 
   const rows = films
     .filter(matchesFilm)
@@ -169,17 +234,8 @@ function update() {
     });
 
   els.films.replaceChildren(...rows.map((r) => renderFilm(r.film, r.showings, now.date)));
-  const sessions = rows.reduce((n, r) => n + r.showings.length, 0);
-  els.count.textContent = rows.length ? `${rows.length} film${rows.length === 1 ? "" : "s"}, ${sessions} session${sessions === 1 ? "" : "s"}` : "";
   els.empty.hidden = rows.length > 0;
-}
-
-function syncInputs() {
-  els.search.value = state.q;
-  els.genre.value = state.genre;
-  els.rating.value = state.rating;
-  els.sort.value = state.sort;
-  els.hideSoldOut.checked = state.hideSoldOut;
+  renderStats(rows);
 }
 
 async function main() {
@@ -189,28 +245,24 @@ async function main() {
     ...f, showings: [...f.showings].sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time)),
   }));
 
-  els.updated.textContent = `Updated ${timeAgo(snapshot.scrapedAt)}.`;
+  els.updated.textContent = `Updated ${timeAgo(snapshot.scrapedAt)}`;
   els.updated.title = new Date(snapshot.scrapedAt).toLocaleString("en-SG");
   // The refresh runs every 15 minutes; flag it if GitHub has stopped running it.
   if (Date.now() - new Date(snapshot.scrapedAt) > 6 * 3600_000) els.updated.classList.add("stale");
 
-  const genres = [...new Set(films.flatMap(genresOf))].sort();
-  els.genre.append(...genres.map((g) => el("option", { value: g }, g)));
-  const ratings = [...new Set(films.map((f) => f.rating).filter(Boolean))]
-    .sort((a, b) => RATING_ORDER.indexOf(a) - RATING_ORDER.indexOf(b));
-  els.rating.append(...ratings.map((r) => el("option", { value: r }, r)));
-
   readUrl();
-  syncInputs();
+  els.search.value = state.q;
+  const setFiltersOpen = (open) => {
+    els.filters.hidden = !open;
+    els.filtersToggle.setAttribute("aria-expanded", String(open));
+  };
+  setFiltersOpen(activeFilterCount() > 0 || state.sort !== "next");
 
   els.search.addEventListener("input", () => { state.q = els.search.value.trim(); update(); });
-  els.genre.addEventListener("change", () => { state.genre = els.genre.value; update(); });
-  els.rating.addEventListener("change", () => { state.rating = els.rating.value; update(); });
-  els.sort.addEventListener("change", () => { state.sort = els.sort.value; update(); });
-  els.hideSoldOut.addEventListener("change", () => { state.hideSoldOut = els.hideSoldOut.checked; update(); });
+  els.filtersToggle.addEventListener("click", () => setFiltersOpen(els.filters.hidden));
   els.reset.addEventListener("click", () => {
     Object.assign(state, { date: "", q: "", genre: "", rating: "", tags: new Set(), hideSoldOut: false });
-    syncInputs();
+    els.search.value = "";
     update();
   });
 
@@ -219,5 +271,6 @@ async function main() {
 
 main().catch((error) => {
   console.error(error);
-  els.count.textContent = "Couldn't load the film list. Try again shortly, or browse filmhouse.sg directly.";
+  els.empty.hidden = false;
+  els.empty.textContent = "Couldn't load the programme. Try again shortly, or browse filmhouse.sg directly.";
 });
