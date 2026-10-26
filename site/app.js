@@ -151,7 +151,8 @@ function renderDates(now) {
       disabled: days.length === 0,
       onclick: () => { state.dates = new Set(days); update(); },
     }, label)),
-    n ? el("button", { type: "button", onclick: () => { state.dates.clear(); update(); } }, "Clear") : null,
+    // Always shown; with nothing picked it simply does nothing.
+    el("button", { type: "button", onclick: () => { if (state.dates.size) { state.dates.clear(); update(); } } }, "Clear"),
   );
 
   // One continuous Monday-first calendar from this week to the last week with sessions,
