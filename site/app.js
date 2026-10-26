@@ -146,11 +146,14 @@ function renderDates(now) {
   els.datesToggle.classList.toggle("active", n > 0);
 
   els.presets.replaceChildren(
-    ...presets(now.date).map(([label, days]) => el("button", {
-      type: "button", "aria-pressed": String(days.length > 0 && sameSet(state.dates, days)),
-      disabled: days.length === 0,
-      onclick: () => { state.dates = new Set(days); update(); },
-    }, label)),
+    ...presets(now.date).map(([label, days]) => {
+      const pressed = days.length > 0 && sameSet(state.dates, days);
+      // Clicking the active quick pick again clears it.
+      return el("button", {
+        type: "button", "aria-pressed": String(pressed), disabled: days.length === 0,
+        onclick: () => { state.dates = pressed ? new Set() : new Set(days); update(); },
+      }, label);
+    }),
     // Always shown; with nothing picked it simply does nothing.
     el("button", { type: "button", onclick: () => { if (state.dates.size) { state.dates.clear(); update(); } } }, "Clear"),
   );
