@@ -1,173 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-10-26T17:01:59.646Z",
+  "scrapedAt": "2026-10-27T11:05:53.957Z",
   "films": [
-    {
-      "id": 195,
-      "slug": "the-violinist",
-      "title": "The Violinist",
-      "url": "https://filmhouse.sg/film/195/the-violinist",
-      "poster": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
-      "year": "2026",
-      "runtime": "114mins",
-      "rating": "PG",
-      "genre": "Animation",
-      "directors": [
-        "Ervin Han",
-        "Raúl García"
-      ],
-      "cast": [
-        "Tan Kheng Hua",
-        "Kazuya Tanabe",
-        "Adrian Pang"
-      ],
-      "showings": [
-        {
-          "date": "2026-10-27",
-          "time": "15:20",
-          "label": "3:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1904",
-          "tags": []
-        },
-        {
-          "date": "2026-10-29",
-          "time": "15:30",
-          "label": "3:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1957",
-          "tags": []
-        },
-        {
-          "date": "2026-10-30",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1959",
-          "tags": []
-        },
-        {
-          "date": "2026-11-03",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1965",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 182,
-      "slug": "perfect-days",
-      "title": "Perfect Days",
-      "url": "https://filmhouse.sg/film/182/perfect-days",
-      "poster": "https://cdn.taposapp.com/poster/600x900/Gwv3eYvY2NV-phNkhr2sgd6ag96-61Py5Wrnow16VDA.jpg",
-      "year": "2024",
-      "runtime": "124mins",
-      "rating": "PG",
-      "genre": "Drama",
-      "directors": [
-        "Wim Wenders"
-      ],
-      "cast": [
-        "Koji Yakusho",
-        "Tokio Emoto",
-        "Arisa Nakano"
-      ],
-      "showings": [
-        {
-          "date": "2026-10-27",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1903",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 220,
-      "slug": "fjord",
-      "title": "Fjord",
-      "url": "https://filmhouse.sg/film/220/fjord",
-      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
-      "year": "2026",
-      "runtime": "146mins",
-      "rating": "NC16",
-      "genre": "Drama",
-      "directors": [
-        "Cristian Mungiu"
-      ],
-      "cast": [
-        "Sebastian Stan",
-        "Renate Reinsve",
-        "Lisa Carlehed"
-      ],
-      "showings": [
-        {
-          "date": "2026-10-27",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1905",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-10-28",
-          "time": "19:10",
-          "label": "7:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1906",
-          "tags": []
-        },
-        {
-          "date": "2026-10-29",
-          "time": "16:00",
-          "label": "4:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1956",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-10-30",
-          "time": "16:10",
-          "label": "4:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1958",
-          "tags": []
-        },
-        {
-          "date": "2026-10-31",
-          "time": "14:00",
-          "label": "2:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1960",
-          "tags": []
-        },
-        {
-          "date": "2026-11-03",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1967",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-04",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1963",
-          "tags": []
-        }
-      ]
-    },
     {
       "id": 216,
       "slug": "moonlight-10th-anniversary",
@@ -308,6 +142,79 @@
       ]
     },
     {
+      "id": 220,
+      "slug": "fjord",
+      "title": "Fjord",
+      "url": "https://filmhouse.sg/film/220/fjord",
+      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
+      "year": "2026",
+      "runtime": "146mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Cristian Mungiu"
+      ],
+      "cast": [
+        "Sebastian Stan",
+        "Renate Reinsve",
+        "Lisa Carlehed"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-28",
+          "time": "19:10",
+          "label": "7:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1906",
+          "tags": []
+        },
+        {
+          "date": "2026-10-29",
+          "time": "16:00",
+          "label": "4:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1956",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "time": "16:10",
+          "label": "4:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1958",
+          "tags": []
+        },
+        {
+          "date": "2026-10-31",
+          "time": "14:00",
+          "label": "2:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1960",
+          "tags": []
+        },
+        {
+          "date": "2026-11-03",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1967",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1963",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 213,
       "slug": "hereditary",
       "title": "Hereditary",
@@ -383,6 +290,52 @@
             "4K",
             "LastChance"
           ]
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "slug": "the-violinist",
+      "title": "The Violinist",
+      "url": "https://filmhouse.sg/film/195/the-violinist",
+      "poster": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
+      "year": "2026",
+      "runtime": "114mins",
+      "rating": "PG",
+      "genre": "Animation",
+      "directors": [
+        "Ervin Han",
+        "Raúl García"
+      ],
+      "cast": [
+        "Tan Kheng Hua",
+        "Kazuya Tanabe",
+        "Adrian Pang"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-29",
+          "time": "15:30",
+          "label": "3:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1957",
+          "tags": []
+        },
+        {
+          "date": "2026-10-30",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1959",
+          "tags": []
+        },
+        {
+          "date": "2026-11-03",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1965",
+          "tags": []
         }
       ]
     },
