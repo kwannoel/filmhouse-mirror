@@ -1,54 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-10-27T11:05:53.957Z",
+  "scrapedAt": "2026-10-27T16:35:05.739Z",
   "films": [
-    {
-      "id": 216,
-      "slug": "moonlight-10th-anniversary",
-      "title": "Moonlight (10th Anniversary)",
-      "url": "https://filmhouse.sg/film/216/moonlight-10th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/aB-thlmpTSpCEwmtMl8N5uFWVPDvXpIvEJHZsmT3V2k.jpg",
-      "year": null,
-      "runtime": "128mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Barry Jenkins"
-      ],
-      "cast": [
-        "Trevante Rhodes",
-        "André Holland",
-        "Janelle Monáe"
-      ],
-      "showings": [
-        {
-          "date": "2026-10-27",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1865",
-          "tags": []
-        },
-        {
-          "date": "2026-10-31",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1916",
-          "tags": []
-        },
-        {
-          "date": "2026-11-04",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1968",
-          "tags": [
-            "4K"
-          ]
-        }
-      ]
-    },
     {
       "id": 219,
       "slug": "digger",
@@ -417,7 +370,9 @@
           "label": "5:00 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1922",
-          "tags": []
+          "tags": [
+            "4K"
+          ]
         },
         {
           "date": "2026-10-31",
@@ -433,7 +388,9 @@
           "label": "2:00 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1924",
-          "tags": []
+          "tags": [
+            "4K"
+          ]
         },
         {
           "date": "2026-11-03",
@@ -441,7 +398,9 @@
           "label": "8:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1925",
-          "tags": []
+          "tags": [
+            "4K"
+          ]
         },
         {
           "date": "2026-11-04",
@@ -552,6 +511,45 @@
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1912",
           "tags": [
             "LastChance",
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "slug": "moonlight-10th-anniversary",
+      "title": "Moonlight (10th Anniversary)",
+      "url": "https://filmhouse.sg/film/216/moonlight-10th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/aB-thlmpTSpCEwmtMl8N5uFWVPDvXpIvEJHZsmT3V2k.jpg",
+      "year": null,
+      "runtime": "128mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Barry Jenkins"
+      ],
+      "cast": [
+        "Trevante Rhodes",
+        "André Holland",
+        "Janelle Monáe"
+      ],
+      "showings": [
+        {
+          "date": "2026-10-31",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1916",
+          "tags": []
+        },
+        {
+          "date": "2026-11-04",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1968",
+          "tags": [
             "4K"
           ]
         }
@@ -708,7 +706,9 @@
           "label": "7:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1920",
-          "tags": []
+          "tags": [
+            "LastChance"
+          ]
         }
       ]
     },
@@ -1127,7 +1127,9 @@
           "label": "2:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1936",
-          "tags": []
+          "tags": [
+            "LastChance"
+          ]
         }
       ]
     },
@@ -1188,7 +1190,9 @@
           "label": "2:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1937",
-          "tags": []
+          "tags": [
+            "LastChance"
+          ]
         }
       ]
     },
@@ -1273,7 +1277,63 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1935",
           "tags": [
+            "LastChance",
             "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "slug": "castle-in-the-sky",
+      "title": "Castle in the Sky",
+      "url": "https://filmhouse.sg/film/228/castle-in-the-sky",
+      "poster": "https://cdn.taposapp.com/poster/600x900/zhcngF9u-X411PRzwOFMODdnLdQsbstd8v777Sr2agE.jpg",
+      "year": "1986",
+      "runtime": "125mins",
+      "rating": "G",
+      "genre": "Animation",
+      "directors": [
+        "Hayao Miyazaki"
+      ],
+      "cast": [
+        "Keiko Yokozawa",
+        "Mayumi Tanaka",
+        "Minori Terada"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-15",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1870",
+          "tags": []
+        },
+        {
+          "date": "2026-11-19",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1871",
+          "tags": []
+        },
+        {
+          "date": "2026-11-28",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1872",
+          "tags": []
+        },
+        {
+          "date": "2026-12-03",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1971",
+          "tags": [
+            "LastChance"
           ]
         }
       ]
@@ -1316,7 +1376,8 @@
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1933",
           "tags": [
             "4K",
-            "With Intro"
+            "With Intro",
+            "LastChance"
           ]
         }
       ]
