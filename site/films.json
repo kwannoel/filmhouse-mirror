@@ -1,6 +1,6 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-10-27T16:35:05.739Z",
+  "scrapedAt": "2026-10-28T06:14:20.423Z",
   "films": [
     {
       "id": 219,
@@ -190,8 +190,8 @@
           "date": "2026-10-28",
           "time": "19:30",
           "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1800",
+          "soldOut": true,
+          "bookUrl": null,
           "tags": []
         },
         {
