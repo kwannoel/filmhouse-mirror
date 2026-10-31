@@ -1,165 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-10-30T13:42:11.270Z",
+  "scrapedAt": "2026-10-31T08:33:24.053Z",
   "films": [
-    {
-      "id": 227,
-      "slug": "look-back",
-      "title": "Look Back",
-      "url": "https://filmhouse.sg/film/227/look-back",
-      "poster": "https://cdn.taposapp.com/poster/600x900/YejRB0CCIF89tsPfjS4Z3ei643tMVpgm8Bhd-yNspCA.jpg",
-      "year": "2026",
-      "runtime": "100mins",
-      "rating": "PG",
-      "genre": "Drama",
-      "directors": [
-        "Hirokazu Kore-eda"
-      ],
-      "cast": [
-        "Natsuki Deguchi",
-        "Aju Makita",
-        "Fuuri Nanase"
-      ],
-      "showings": [
-        {
-          "date": "2026-10-31",
-          "time": "13:30",
-          "label": "1:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1923",
-          "tags": []
-        },
-        {
-          "date": "2026-11-01",
-          "time": "14:00",
-          "label": "2:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1924",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-03",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1925",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-04",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1926",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 220,
-      "slug": "fjord",
-      "title": "Fjord",
-      "url": "https://filmhouse.sg/film/220/fjord",
-      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
-      "year": "2026",
-      "runtime": "146mins",
-      "rating": "NC16",
-      "genre": "Drama",
-      "directors": [
-        "Cristian Mungiu"
-      ],
-      "cast": [
-        "Sebastian Stan",
-        "Renate Reinsve",
-        "Lisa Carlehed"
-      ],
-      "showings": [
-        {
-          "date": "2026-10-31",
-          "time": "14:00",
-          "label": "2:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1960",
-          "tags": []
-        },
-        {
-          "date": "2026-11-03",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1967",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-04",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1963",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 127,
-      "slug": "al-awda",
-      "title": "Al Awda",
-      "url": "https://filmhouse.sg/film/127/al-awda",
-      "poster": "https://cdn.taposapp.com/poster/600x900/ow3DL97qYIEgX_MtdMbw65RMksVPEtU1Pn8pVSSjDK4.jpg",
-      "year": "2025",
-      "runtime": "70mins",
-      "rating": "R21",
-      "genre": "Documentary",
-      "directors": [
-        "Jason Soo"
-      ],
-      "cast": [],
-      "showings": [
-        {
-          "date": "2026-10-31",
-          "time": "14:30",
-          "label": "2:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1837",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 213,
-      "slug": "hereditary",
-      "title": "Hereditary",
-      "url": "https://filmhouse.sg/film/213/hereditary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/Jv9JZGGEIant3ebJpAkrLAbA8d4ICIhB5UqWPk9Dhr0.jpg",
-      "year": null,
-      "runtime": "128mins",
-      "rating": "M18",
-      "genre": "Horror",
-      "directors": [
-        "Ari Aster"
-      ],
-      "cast": [
-        "Toni Collette",
-        "Alex Wolff",
-        "Gabriel Byrne"
-      ],
-      "showings": [
-        {
-          "date": "2026-10-31",
-          "time": "16:00",
-          "label": "4:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1910",
-          "tags": []
-        }
-      ]
-    },
     {
       "id": 186,
       "slug": "fatherland",
@@ -238,6 +80,14 @@
           "tags": [
             "4K"
           ]
+        },
+        {
+          "date": "2026-11-11",
+          "time": "19:20",
+          "label": "7:20 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2007",
+          "tags": []
         }
       ]
     },
@@ -275,6 +125,44 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1915",
           "tags": []
+        },
+        {
+          "date": "2026-11-06",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1998",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1999",
+          "tags": []
+        },
+        {
+          "date": "2026-11-10",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2000",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2001",
+          "tags": [
+            "4K"
+          ]
         }
       ]
     },
@@ -306,6 +194,97 @@
           "tags": [
             "LastChance"
           ]
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "slug": "look-back",
+      "title": "Look Back",
+      "url": "https://filmhouse.sg/film/227/look-back",
+      "poster": "https://cdn.taposapp.com/poster/600x900/YejRB0CCIF89tsPfjS4Z3ei643tMVpgm8Bhd-yNspCA.jpg",
+      "year": "2026",
+      "runtime": "100mins",
+      "rating": "PG",
+      "genre": "Drama",
+      "directors": [
+        "Hirokazu Kore-eda"
+      ],
+      "cast": [
+        "Natsuki Deguchi",
+        "Aju Makita",
+        "Fuuri Nanase"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-01",
+          "time": "14:00",
+          "label": "2:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1924",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1925",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1926",
+          "tags": []
+        },
+        {
+          "date": "2026-11-06",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1994",
+          "tags": []
+        },
+        {
+          "date": "2026-11-07",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1995",
+          "tags": []
+        },
+        {
+          "date": "2026-11-08",
+          "time": "16:50",
+          "label": "4:50 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1996",
+          "tags": []
+        },
+        {
+          "date": "2026-11-10",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1997",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2006",
+          "tags": []
         }
       ]
     },
@@ -382,10 +361,10 @@
     },
     {
       "id": 159,
-      "slug": "ponyo",
-      "title": "Ponyo",
-      "url": "https://filmhouse.sg/film/159/ponyo",
-      "poster": "https://cdn.taposapp.com/poster/600x900/6rjc_NdA2mL4VpaVhjjL5nCnCz4ahJfTm72TSORHOTE.jpg",
+      "slug": "ponyo-on-the-cliff-by-the-sea",
+      "title": "Ponyo on the Cliff by the Sea",
+      "url": "https://filmhouse.sg/film/159/ponyo-on-the-cliff-by-the-sea",
+      "poster": "https://cdn.taposapp.com/poster/600x900/5fHfNuL9D1rR-3GBEjUaRdF5M_b5UMUNnYd7iTHeoQA.jpg",
       "year": null,
       "runtime": "100mins",
       "rating": "G",
@@ -462,6 +441,101 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1965",
           "tags": []
+        },
+        {
+          "date": "2026-11-06",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2002",
+          "tags": []
+        },
+        {
+          "date": "2026-11-10",
+          "time": "15:30",
+          "label": "3:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2003",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "slug": "fjord",
+      "title": "Fjord",
+      "url": "https://filmhouse.sg/film/220/fjord",
+      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
+      "year": "2026",
+      "runtime": "146mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Cristian Mungiu"
+      ],
+      "cast": [
+        "Sebastian Stan",
+        "Renate Reinsve",
+        "Lisa Carlehed"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-03",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1967",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1963",
+          "tags": []
+        },
+        {
+          "date": "2026-11-06",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1989",
+          "tags": []
+        },
+        {
+          "date": "2026-11-07",
+          "time": "13:10",
+          "label": "1:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1990",
+          "tags": []
+        },
+        {
+          "date": "2026-11-08",
+          "time": "20:10",
+          "label": "8:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1991",
+          "tags": []
+        },
+        {
+          "date": "2026-11-10",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1992",
+          "tags": []
+        },
+        {
+          "date": "2026-11-11",
+          "time": "19:00",
+          "label": "7:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1993",
+          "tags": []
         }
       ]
     },
@@ -528,6 +602,14 @@
           "label": "7:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1962",
+          "tags": []
+        },
+        {
+          "date": "2026-11-08",
+          "time": "19:40",
+          "label": "7:40 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2005",
           "tags": []
         }
       ]
@@ -597,6 +679,14 @@
           "tags": [
             "4K"
           ]
+        },
+        {
+          "date": "2026-11-18",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1884",
+          "tags": []
         }
       ]
     },
@@ -738,6 +828,35 @@
       ]
     },
     {
+      "id": 213,
+      "slug": "hereditary",
+      "title": "Hereditary",
+      "url": "https://filmhouse.sg/film/213/hereditary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/Jv9JZGGEIant3ebJpAkrLAbA8d4ICIhB5UqWPk9Dhr0.jpg",
+      "year": null,
+      "runtime": "128mins",
+      "rating": "M18",
+      "genre": "Horror",
+      "directors": [
+        "Ari Aster"
+      ],
+      "cast": [
+        "Toni Collette",
+        "Alex Wolff",
+        "Gabriel Byrne"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-07",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2004",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 226,
       "slug": "a-touch-of-zen-4k-restoration",
       "title": "A Touch of Zen (4K Restoration)",
@@ -812,6 +931,14 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1919",
           "tags": []
+        },
+        {
+          "date": "2026-11-17",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2009",
+          "tags": []
         }
       ]
     },
@@ -844,6 +971,35 @@
             "4K",
             "LastChance"
           ]
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "slug": "perfect-days",
+      "title": "Perfect Days",
+      "url": "https://filmhouse.sg/film/182/perfect-days",
+      "poster": "https://cdn.taposapp.com/poster/600x900/Gwv3eYvY2NV-phNkhr2sgd6ag96-61Py5Wrnow16VDA.jpg",
+      "year": "2024",
+      "runtime": "124mins",
+      "rating": "PG",
+      "genre": "Drama",
+      "directors": [
+        "Wim Wenders"
+      ],
+      "cast": [
+        "Koji Yakusho",
+        "Tokio Emoto",
+        "Arisa Nakano"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-11",
+          "time": "16:10",
+          "label": "4:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2008",
+          "tags": []
         }
       ]
     },
@@ -1120,7 +1276,7 @@
       "slug": "castle-in-the-sky",
       "title": "Castle in the Sky",
       "url": "https://filmhouse.sg/film/228/castle-in-the-sky",
-      "poster": "https://cdn.taposapp.com/poster/600x900/zhcngF9u-X411PRzwOFMODdnLdQsbstd8v777Sr2agE.jpg",
+      "poster": "https://cdn.taposapp.com/poster/600x900/QZRBZX2l8qnA8VT9hED0TVcjdhRZSUtw7PfFsamiy7w.jpg",
       "year": "1986",
       "runtime": "125mins",
       "rating": "G",
