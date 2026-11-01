@@ -1,93 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-01T07:28:48.247Z",
+  "scrapedAt": "2026-11-01T14:29:34.625Z",
   "films": [
-    {
-      "id": 168,
-      "slug": "before-sunrise",
-      "title": "Before Sunrise",
-      "url": "https://filmhouse.sg/film/168/before-sunrise",
-      "poster": "https://cdn.taposapp.com/poster/600x900/mt9WDac4uELoCfFzoDdOj39HZRSWWU2H_qS_2VM0oMw.jpg",
-      "year": null,
-      "runtime": "101mins",
-      "rating": "NC16",
-      "genre": "Drama",
-      "directors": [
-        "Richard Linklater"
-      ],
-      "cast": [
-        "Ethan Hawke",
-        "Julie Delpy",
-        "Andrea Eckert"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-01",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1961",
-          "tags": [
-            "LastChance"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 159,
-      "slug": "ponyo-on-the-cliff-by-the-sea",
-      "title": "Ponyo on the Cliff by the Sea",
-      "url": "https://filmhouse.sg/film/159/ponyo-on-the-cliff-by-the-sea",
-      "poster": "https://cdn.taposapp.com/poster/600x900/5fHfNuL9D1rR-3GBEjUaRdF5M_b5UMUNnYd7iTHeoQA.jpg",
-      "year": null,
-      "runtime": "100mins",
-      "rating": "G",
-      "genre": "Animation",
-      "directors": [
-        "Hayao Miyazaki"
-      ],
-      "cast": [
-        "Yuria Kozuki",
-        "Hiroki Doi",
-        "George Tokoro"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-01",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1867",
-          "tags": []
-        },
-        {
-          "date": "2026-11-08",
-          "time": "14:20",
-          "label": "2:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1917",
-          "tags": []
-        },
-        {
-          "date": "2026-11-12",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1869",
-          "tags": []
-        },
-        {
-          "date": "2026-11-24",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1920",
-          "tags": [
-            "LastChance"
-          ]
-        }
-      ]
-    },
     {
       "id": 195,
       "slug": "the-violinist",
@@ -794,6 +708,53 @@
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1890",
           "tags": [
             "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "slug": "ponyo-on-the-cliff-by-the-sea",
+      "title": "Ponyo on the Cliff by the Sea",
+      "url": "https://filmhouse.sg/film/159/ponyo-on-the-cliff-by-the-sea",
+      "poster": "https://cdn.taposapp.com/poster/600x900/5fHfNuL9D1rR-3GBEjUaRdF5M_b5UMUNnYd7iTHeoQA.jpg",
+      "year": null,
+      "runtime": "100mins",
+      "rating": "G",
+      "genre": "Animation",
+      "directors": [
+        "Hayao Miyazaki"
+      ],
+      "cast": [
+        "Yuria Kozuki",
+        "Hiroki Doi",
+        "George Tokoro"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-08",
+          "time": "14:20",
+          "label": "2:20 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1917",
+          "tags": []
+        },
+        {
+          "date": "2026-11-12",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1869",
+          "tags": []
+        },
+        {
+          "date": "2026-11-24",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1920",
+          "tags": [
+            "LastChance"
           ]
         }
       ]
