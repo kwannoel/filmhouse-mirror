@@ -1,169 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-10-31T14:43:00.290Z",
+  "scrapedAt": "2026-11-01T07:28:48.247Z",
   "films": [
-    {
-      "id": 215,
-      "slug": "monster-house",
-      "title": "Monster House",
-      "url": "https://filmhouse.sg/film/215/monster-house",
-      "poster": "https://cdn.taposapp.com/poster/600x900/T8g3eP8jDI5w2bCeZHROI-WRFZFdJhhq32b2VOkeBcw.jpg",
-      "year": null,
-      "runtime": "91mins",
-      "rating": "PG13",
-      "genre": "Comedy/Horror",
-      "directors": [
-        "Gil Kenan"
-      ],
-      "cast": [
-        "Mitchel Musso",
-        "Sam Lerner",
-        "Spencer Locke"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-01",
-          "time": "13:30",
-          "label": "1:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1801",
-          "tags": [
-            "LastChance"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 227,
-      "slug": "look-back",
-      "title": "Look Back",
-      "url": "https://filmhouse.sg/film/227/look-back",
-      "poster": "https://cdn.taposapp.com/poster/600x900/YejRB0CCIF89tsPfjS4Z3ei643tMVpgm8Bhd-yNspCA.jpg",
-      "year": "2026",
-      "runtime": "100mins",
-      "rating": "PG",
-      "genre": "Drama",
-      "directors": [
-        "Hirokazu Kore-eda"
-      ],
-      "cast": [
-        "Natsuki Deguchi",
-        "Aju Makita",
-        "Fuuri Nanase"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-01",
-          "time": "14:00",
-          "label": "2:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1924",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-03",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1925",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-04",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1926",
-          "tags": []
-        },
-        {
-          "date": "2026-11-06",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1994",
-          "tags": []
-        },
-        {
-          "date": "2026-11-07",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1995",
-          "tags": []
-        },
-        {
-          "date": "2026-11-08",
-          "time": "16:50",
-          "label": "4:50 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1996",
-          "tags": []
-        },
-        {
-          "date": "2026-11-10",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1997",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-11",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2006",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 214,
-      "slug": "what-we-do-in-the-shadows",
-      "title": "What We Do in the Shadows",
-      "url": "https://filmhouse.sg/film/214/what-we-do-in-the-shadows",
-      "poster": "https://cdn.taposapp.com/poster/600x900/9u7qgXTtQSeXu3oeJCqdw6fN8gSelVz7n1JZbP69Hwo.jpg",
-      "year": null,
-      "runtime": "86mins",
-      "rating": "NC16",
-      "genre": "Comedy/Horror",
-      "directors": [
-        "Taika Waititi",
-        "Jemaine Clement"
-      ],
-      "cast": [
-        "Jemaine Clement",
-        "Taika Waititi",
-        "Jonny Brugh"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-01",
-          "time": "14:30",
-          "label": "2:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1802",
-          "tags": []
-        },
-        {
-          "date": "2026-11-10",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1803",
-          "tags": [
-            "LastChance"
-          ]
-        }
-      ]
-    },
     {
       "id": 168,
       "slug": "before-sunrise",
@@ -514,6 +352,87 @@
           "tags": [
             "4K"
           ]
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "slug": "look-back",
+      "title": "Look Back",
+      "url": "https://filmhouse.sg/film/227/look-back",
+      "poster": "https://cdn.taposapp.com/poster/600x900/YejRB0CCIF89tsPfjS4Z3ei643tMVpgm8Bhd-yNspCA.jpg",
+      "year": "2026",
+      "runtime": "100mins",
+      "rating": "PG",
+      "genre": "Drama",
+      "directors": [
+        "Hirokazu Kore-eda"
+      ],
+      "cast": [
+        "Natsuki Deguchi",
+        "Aju Makita",
+        "Fuuri Nanase"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-03",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1925",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1926",
+          "tags": []
+        },
+        {
+          "date": "2026-11-06",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1994",
+          "tags": []
+        },
+        {
+          "date": "2026-11-07",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1995",
+          "tags": []
+        },
+        {
+          "date": "2026-11-08",
+          "time": "16:50",
+          "label": "4:50 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1996",
+          "tags": []
+        },
+        {
+          "date": "2026-11-10",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1997",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2006",
+          "tags": []
         }
       ]
     },
@@ -943,6 +862,38 @@
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1746",
           "tags": [
             "4K",
+            "LastChance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "slug": "what-we-do-in-the-shadows",
+      "title": "What We Do in the Shadows",
+      "url": "https://filmhouse.sg/film/214/what-we-do-in-the-shadows",
+      "poster": "https://cdn.taposapp.com/poster/600x900/9u7qgXTtQSeXu3oeJCqdw6fN8gSelVz7n1JZbP69Hwo.jpg",
+      "year": null,
+      "runtime": "86mins",
+      "rating": "NC16",
+      "genre": "Comedy/Horror",
+      "directors": [
+        "Taika Waititi",
+        "Jemaine Clement"
+      ],
+      "cast": [
+        "Jemaine Clement",
+        "Taika Waititi",
+        "Jonny Brugh"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-10",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1803",
+          "tags": [
             "LastChance"
           ]
         }
