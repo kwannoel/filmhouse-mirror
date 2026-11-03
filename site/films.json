@@ -1,108 +1,34 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-03T09:59:40.395Z",
+  "scrapedAt": "2026-11-03T17:45:23.590Z",
   "films": [
     {
-      "id": 217,
-      "slug": "kokuho",
-      "title": "Kokuho",
-      "url": "https://filmhouse.sg/film/217/kokuho",
-      "poster": "https://cdn.taposapp.com/poster/600x900/1N7zTZsGmJ2IrqrijtehsvW9hj41-J5mf2tp0g-NTvs.jpg",
-      "year": null,
-      "runtime": "174mins",
+      "id": 144,
+      "slug": "the-invite",
+      "title": "The Invite",
+      "url": "https://filmhouse.sg/film/144/the-invite",
+      "poster": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
+      "year": "2026",
+      "runtime": "107mins",
       "rating": "M18",
       "genre": "Drama",
       "directors": [
-        "Sang-il Lee"
+        "Olivia Wilde"
       ],
       "cast": [
-        "Ryo Yoshizawa",
-        "Ryusei Yokohama",
-        "Mitsuki Takahata"
+        "Seth Rogen",
+        "Olivia Wilde",
+        "Penélope Cruz",
+        "Edward Norton"
       ],
       "showings": [
         {
-          "date": "2026-11-03",
-          "time": "19:30",
-          "label": "7:30 pm",
+          "date": "2026-11-04",
+          "time": "16:30",
+          "label": "4:30 pm",
           "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1962",
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1966",
           "tags": []
-        },
-        {
-          "date": "2026-11-08",
-          "time": "19:40",
-          "label": "7:40 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2005",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 236,
-      "slug": "wildwood",
-      "title": "Wildwood",
-      "url": "https://filmhouse.sg/film/236/wildwood",
-      "poster": "https://cdn.taposapp.com/poster/600x900/f2RERlbD8YWOWDeLbRlltRHC0DtWohaPf0H4lZw8idc.jpg",
-      "year": "2026",
-      "runtime": "130mins",
-      "rating": "PG13",
-      "genre": "Animation",
-      "directors": [
-        "Travis Knight"
-      ],
-      "cast": [
-        "Peyton Elizabeth Lee",
-        "Jacob Tremblay",
-        "Carey Mulligan"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-03",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1915",
-          "tags": []
-        },
-        {
-          "date": "2026-11-06",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1998",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-07",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1999",
-          "tags": []
-        },
-        {
-          "date": "2026-11-10",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2000",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-11",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2001",
-          "tags": [
-            "4K"
-          ]
         }
       ]
     },
@@ -125,16 +51,6 @@
         "Fuuri Nanase"
       ],
       "showings": [
-        {
-          "date": "2026-11-03",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1925",
-          "tags": [
-            "4K"
-          ]
-        },
         {
           "date": "2026-11-04",
           "time": "17:00",
@@ -183,36 +99,6 @@
           "label": "4:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2006",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 144,
-      "slug": "the-invite",
-      "title": "The Invite",
-      "url": "https://filmhouse.sg/film/144/the-invite",
-      "poster": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
-      "year": "2026",
-      "runtime": "107mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Olivia Wilde"
-      ],
-      "cast": [
-        "Seth Rogen",
-        "Olivia Wilde",
-        "Penélope Cruz",
-        "Edward Norton"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-04",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1966",
           "tags": []
         }
       ]
@@ -436,6 +322,65 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2003",
           "tags": []
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "slug": "wildwood",
+      "title": "Wildwood",
+      "url": "https://filmhouse.sg/film/236/wildwood",
+      "poster": "https://cdn.taposapp.com/poster/600x900/f2RERlbD8YWOWDeLbRlltRHC0DtWohaPf0H4lZw8idc.jpg",
+      "year": "2026",
+      "runtime": "130mins",
+      "rating": "PG13",
+      "genre": "Animation",
+      "directors": [
+        "Travis Knight"
+      ],
+      "cast": [
+        "Peyton Elizabeth Lee",
+        "Jacob Tremblay",
+        "Carey Mulligan"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-06",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1998",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1999",
+          "tags": []
+        },
+        {
+          "date": "2026-11-10",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2000",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2001",
+          "tags": [
+            "4K"
+          ]
         }
       ]
     },
@@ -799,6 +744,35 @@
             "4K",
             "LastChance"
           ]
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "slug": "kokuho",
+      "title": "Kokuho",
+      "url": "https://filmhouse.sg/film/217/kokuho",
+      "poster": "https://cdn.taposapp.com/poster/600x900/1N7zTZsGmJ2IrqrijtehsvW9hj41-J5mf2tp0g-NTvs.jpg",
+      "year": null,
+      "runtime": "174mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Sang-il Lee"
+      ],
+      "cast": [
+        "Ryo Yoshizawa",
+        "Ryusei Yokohama",
+        "Mitsuki Takahata"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-08",
+          "time": "19:40",
+          "label": "7:40 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2005",
+          "tags": []
         }
       ]
     },
