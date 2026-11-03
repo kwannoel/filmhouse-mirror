@@ -1,170 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-01T14:29:34.625Z",
+  "scrapedAt": "2026-11-03T09:59:40.395Z",
   "films": [
-    {
-      "id": 195,
-      "slug": "the-violinist",
-      "title": "The Violinist",
-      "url": "https://filmhouse.sg/film/195/the-violinist",
-      "poster": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
-      "year": "2026",
-      "runtime": "114mins",
-      "rating": "PG",
-      "genre": "Animation",
-      "directors": [
-        "Ervin Han",
-        "Raúl García"
-      ],
-      "cast": [
-        "Tan Kheng Hua",
-        "Kazuya Tanabe",
-        "Adrian Pang"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-03",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1965",
-          "tags": []
-        },
-        {
-          "date": "2026-11-06",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2002",
-          "tags": []
-        },
-        {
-          "date": "2026-11-10",
-          "time": "15:30",
-          "label": "3:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2003",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 220,
-      "slug": "fjord",
-      "title": "Fjord",
-      "url": "https://filmhouse.sg/film/220/fjord",
-      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
-      "year": "2026",
-      "runtime": "146mins",
-      "rating": "NC16",
-      "genre": "Drama",
-      "directors": [
-        "Cristian Mungiu"
-      ],
-      "cast": [
-        "Sebastian Stan",
-        "Renate Reinsve",
-        "Lisa Carlehed"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-03",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1967",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-04",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1963",
-          "tags": []
-        },
-        {
-          "date": "2026-11-06",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1989",
-          "tags": []
-        },
-        {
-          "date": "2026-11-07",
-          "time": "13:10",
-          "label": "1:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1990",
-          "tags": []
-        },
-        {
-          "date": "2026-11-08",
-          "time": "20:10",
-          "label": "8:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1991",
-          "tags": []
-        },
-        {
-          "date": "2026-11-10",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1992",
-          "tags": []
-        },
-        {
-          "date": "2026-11-11",
-          "time": "19:00",
-          "label": "7:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1993",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 144,
-      "slug": "the-invite",
-      "title": "The Invite",
-      "url": "https://filmhouse.sg/film/144/the-invite",
-      "poster": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
-      "year": "2026",
-      "runtime": "107mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Olivia Wilde"
-      ],
-      "cast": [
-        "Seth Rogen",
-        "Olivia Wilde",
-        "Penélope Cruz",
-        "Edward Norton"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-03",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1964",
-          "tags": []
-        },
-        {
-          "date": "2026-11-04",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1966",
-          "tags": []
-        }
-      ]
-    },
     {
       "id": 217,
       "slug": "kokuho",
@@ -351,6 +188,36 @@
       ]
     },
     {
+      "id": 144,
+      "slug": "the-invite",
+      "title": "The Invite",
+      "url": "https://filmhouse.sg/film/144/the-invite",
+      "poster": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
+      "year": "2026",
+      "runtime": "107mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Olivia Wilde"
+      ],
+      "cast": [
+        "Seth Rogen",
+        "Olivia Wilde",
+        "Penélope Cruz",
+        "Edward Norton"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-04",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1966",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 216,
       "slug": "moonlight-10th-anniversary",
       "title": "Moonlight (10th Anniversary)",
@@ -427,6 +294,75 @@
       ]
     },
     {
+      "id": 220,
+      "slug": "fjord",
+      "title": "Fjord",
+      "url": "https://filmhouse.sg/film/220/fjord",
+      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
+      "year": "2026",
+      "runtime": "146mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Cristian Mungiu"
+      ],
+      "cast": [
+        "Sebastian Stan",
+        "Renate Reinsve",
+        "Lisa Carlehed"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-04",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1963",
+          "tags": []
+        },
+        {
+          "date": "2026-11-06",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1989",
+          "tags": []
+        },
+        {
+          "date": "2026-11-07",
+          "time": "13:10",
+          "label": "1:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1990",
+          "tags": []
+        },
+        {
+          "date": "2026-11-08",
+          "time": "20:10",
+          "label": "8:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1991",
+          "tags": []
+        },
+        {
+          "date": "2026-11-10",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1992",
+          "tags": []
+        },
+        {
+          "date": "2026-11-11",
+          "time": "19:00",
+          "label": "7:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1993",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 211,
       "slug": "stop-making-sense-4k-restoration",
       "title": "Stop Making Sense (4K Restoration)",
@@ -461,6 +397,44 @@
           "label": "8:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1884",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "slug": "the-violinist",
+      "title": "The Violinist",
+      "url": "https://filmhouse.sg/film/195/the-violinist",
+      "poster": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
+      "year": "2026",
+      "runtime": "114mins",
+      "rating": "PG",
+      "genre": "Animation",
+      "directors": [
+        "Ervin Han",
+        "Raúl García"
+      ],
+      "cast": [
+        "Tan Kheng Hua",
+        "Kazuya Tanabe",
+        "Adrian Pang"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-06",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2002",
+          "tags": []
+        },
+        {
+          "date": "2026-11-10",
+          "time": "15:30",
+          "label": "3:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2003",
           "tags": []
         }
       ]
