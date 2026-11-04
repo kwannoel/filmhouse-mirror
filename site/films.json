@@ -1,37 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-03T17:45:23.590Z",
+  "scrapedAt": "2026-11-04T17:57:20.661Z",
   "films": [
-    {
-      "id": 144,
-      "slug": "the-invite",
-      "title": "The Invite",
-      "url": "https://filmhouse.sg/film/144/the-invite",
-      "poster": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
-      "year": "2026",
-      "runtime": "107mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Olivia Wilde"
-      ],
-      "cast": [
-        "Seth Rogen",
-        "Olivia Wilde",
-        "Penélope Cruz",
-        "Edward Norton"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-04",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1966",
-          "tags": []
-        }
-      ]
-    },
     {
       "id": 227,
       "slug": "look-back",
@@ -51,14 +21,6 @@
         "Fuuri Nanase"
       ],
       "showings": [
-        {
-          "date": "2026-11-04",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1926",
-          "tags": []
-        },
         {
           "date": "2026-11-06",
           "time": "16:30",
@@ -99,190 +61,6 @@
           "label": "4:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2006",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 216,
-      "slug": "moonlight-10th-anniversary",
-      "title": "Moonlight (10th Anniversary)",
-      "url": "https://filmhouse.sg/film/216/moonlight-10th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/aB-thlmpTSpCEwmtMl8N5uFWVPDvXpIvEJHZsmT3V2k.jpg",
-      "year": null,
-      "runtime": "128mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Barry Jenkins"
-      ],
-      "cast": [
-        "Trevante Rhodes",
-        "André Holland",
-        "Janelle Monáe"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-04",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1968",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-11",
-          "time": "19:20",
-          "label": "7:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2007",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 85,
-      "slug": "la-la-land-10th-anniversary",
-      "title": "La La Land (10th Anniversary)",
-      "url": "https://filmhouse.sg/film/85/la-la-land-10th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
-      "year": "2016",
-      "runtime": "129mins",
-      "rating": "PG13",
-      "genre": "Musical",
-      "directors": [
-        "Damien Chazelle"
-      ],
-      "cast": [
-        "Ryan Gosling",
-        "Emma Stone",
-        "John Legend"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-04",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1892",
-          "tags": []
-        },
-        {
-          "date": "2026-11-08",
-          "time": "14:00",
-          "label": "2:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1918",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 220,
-      "slug": "fjord",
-      "title": "Fjord",
-      "url": "https://filmhouse.sg/film/220/fjord",
-      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
-      "year": "2026",
-      "runtime": "146mins",
-      "rating": "NC16",
-      "genre": "Drama",
-      "directors": [
-        "Cristian Mungiu"
-      ],
-      "cast": [
-        "Sebastian Stan",
-        "Renate Reinsve",
-        "Lisa Carlehed"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-04",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1963",
-          "tags": []
-        },
-        {
-          "date": "2026-11-06",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1989",
-          "tags": []
-        },
-        {
-          "date": "2026-11-07",
-          "time": "13:10",
-          "label": "1:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1990",
-          "tags": []
-        },
-        {
-          "date": "2026-11-08",
-          "time": "20:10",
-          "label": "8:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1991",
-          "tags": []
-        },
-        {
-          "date": "2026-11-10",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1992",
-          "tags": []
-        },
-        {
-          "date": "2026-11-11",
-          "time": "19:00",
-          "label": "7:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1993",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 211,
-      "slug": "stop-making-sense-4k-restoration",
-      "title": "Stop Making Sense (4K Restoration)",
-      "url": "https://filmhouse.sg/film/211/stop-making-sense-4k-restoration",
-      "poster": "https://cdn.taposapp.com/poster/600x900/qfE7CBmwt8jmAC2_sLrJAGhJQGAbK5y8Ec4RnuxgF_s.jpg",
-      "year": "1984",
-      "runtime": "88mins",
-      "rating": "PG",
-      "genre": "Musical",
-      "directors": [
-        "Jonathan Demme"
-      ],
-      "cast": [
-        "David Byrne",
-        "Chris Frantz",
-        "Jerry Harrison"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-04",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1891",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-18",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1884",
           "tags": []
         }
       ]
@@ -381,6 +159,67 @@
           "tags": [
             "4K"
           ]
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "slug": "fjord",
+      "title": "Fjord",
+      "url": "https://filmhouse.sg/film/220/fjord",
+      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
+      "year": "2026",
+      "runtime": "146mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Cristian Mungiu"
+      ],
+      "cast": [
+        "Sebastian Stan",
+        "Renate Reinsve",
+        "Lisa Carlehed"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-06",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1989",
+          "tags": []
+        },
+        {
+          "date": "2026-11-07",
+          "time": "13:10",
+          "label": "1:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1990",
+          "tags": []
+        },
+        {
+          "date": "2026-11-08",
+          "time": "20:10",
+          "label": "8:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1991",
+          "tags": []
+        },
+        {
+          "date": "2026-11-10",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1992",
+          "tags": []
+        },
+        {
+          "date": "2026-11-11",
+          "time": "19:00",
+          "label": "7:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1993",
+          "tags": []
         }
       ]
     },
@@ -632,6 +471,35 @@
       ]
     },
     {
+      "id": 85,
+      "slug": "la-la-land-10th-anniversary",
+      "title": "La La Land (10th Anniversary)",
+      "url": "https://filmhouse.sg/film/85/la-la-land-10th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
+      "year": "2016",
+      "runtime": "129mins",
+      "rating": "PG13",
+      "genre": "Musical",
+      "directors": [
+        "Damien Chazelle"
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Emma Stone",
+        "John Legend"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-08",
+          "time": "14:00",
+          "label": "2:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1918",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 159,
       "slug": "ponyo-on-the-cliff-by-the-sea",
       "title": "Ponyo on the Cliff by the Sea",
@@ -738,8 +606,8 @@
           "date": "2026-11-08",
           "time": "17:40",
           "label": "5:40 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1746",
+          "soldOut": true,
+          "bookUrl": null,
           "tags": [
             "4K",
             "LastChance"
@@ -833,6 +701,35 @@
           "label": "4:10 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2008",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "slug": "moonlight-10th-anniversary",
+      "title": "Moonlight (10th Anniversary)",
+      "url": "https://filmhouse.sg/film/216/moonlight-10th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/aB-thlmpTSpCEwmtMl8N5uFWVPDvXpIvEJHZsmT3V2k.jpg",
+      "year": null,
+      "runtime": "128mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Barry Jenkins"
+      ],
+      "cast": [
+        "Trevante Rhodes",
+        "André Holland",
+        "Janelle Monáe"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-11",
+          "time": "19:20",
+          "label": "7:20 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2007",
           "tags": []
         }
       ]
@@ -1237,6 +1134,35 @@
           "label": "8:00 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1955",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "slug": "stop-making-sense-4k-restoration",
+      "title": "Stop Making Sense (4K Restoration)",
+      "url": "https://filmhouse.sg/film/211/stop-making-sense-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/qfE7CBmwt8jmAC2_sLrJAGhJQGAbK5y8Ec4RnuxgF_s.jpg",
+      "year": "1984",
+      "runtime": "88mins",
+      "rating": "PG",
+      "genre": "Musical",
+      "directors": [
+        "Jonathan Demme"
+      ],
+      "cast": [
+        "David Byrne",
+        "Chris Frantz",
+        "Jerry Harrison"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-18",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1884",
           "tags": []
         }
       ]
