@@ -1,302 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-07T06:32:12.894Z",
+  "scrapedAt": "2026-11-07T13:30:16.662Z",
   "films": [
-    {
-      "id": 227,
-      "slug": "look-back",
-      "title": "Look Back",
-      "url": "https://filmhouse.sg/film/227/look-back",
-      "poster": "https://cdn.taposapp.com/poster/600x900/YejRB0CCIF89tsPfjS4Z3ei643tMVpgm8Bhd-yNspCA.jpg",
-      "year": "2026",
-      "runtime": "100mins",
-      "rating": "PG",
-      "genre": "Drama",
-      "directors": [
-        "Hirokazu Kore-eda"
-      ],
-      "cast": [
-        "Natsuki Deguchi",
-        "Aju Makita",
-        "Fuuri Nanase"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-07",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1995",
-          "tags": []
-        },
-        {
-          "date": "2026-11-08",
-          "time": "16:50",
-          "label": "4:50 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1996",
-          "tags": []
-        },
-        {
-          "date": "2026-11-10",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1997",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-11",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2006",
-          "tags": []
-        },
-        {
-          "date": "2026-11-12",
-          "time": "16:50",
-          "label": "4:50 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2020",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-13",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2021",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-15",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2016",
-          "tags": []
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2025",
-          "tags": []
-        },
-        {
-          "date": "2026-11-18",
-          "time": "16:10",
-          "label": "4:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2024",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 236,
-      "slug": "wildwood",
-      "title": "Wildwood",
-      "url": "https://filmhouse.sg/film/236/wildwood",
-      "poster": "https://cdn.taposapp.com/poster/600x900/f2RERlbD8YWOWDeLbRlltRHC0DtWohaPf0H4lZw8idc.jpg",
-      "year": "2026",
-      "runtime": "130mins",
-      "rating": "PG13",
-      "genre": "Animation",
-      "directors": [
-        "Travis Knight"
-      ],
-      "cast": [
-        "Peyton Elizabeth Lee",
-        "Jacob Tremblay",
-        "Carey Mulligan"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-07",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1999",
-          "tags": []
-        },
-        {
-          "date": "2026-11-10",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2000",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-11",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2001",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-12",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2013",
-          "tags": []
-        },
-        {
-          "date": "2026-11-14",
-          "time": "16:00",
-          "label": "4:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2014",
-          "tags": []
-        },
-        {
-          "date": "2026-11-15",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2015",
-          "tags": []
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2026",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-18",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2029",
-          "tags": [
-            "4K"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 225,
-      "slug": "the-blade-4k-restoration",
-      "title": "The Blade (4K Restoration)",
-      "url": "https://filmhouse.sg/film/225/the-blade-4k-restoration",
-      "poster": "https://cdn.taposapp.com/poster/600x900/AV0k-c-0kY9iupY2qP3lt0W19PKnpzscWMHlMC7K2gQ.jpg",
-      "year": "1995",
-      "runtime": "105mins",
-      "rating": "NC16",
-      "genre": "Action",
-      "directors": [
-        "Tsui Hark"
-      ],
-      "cast": [
-        "Vincent Zhao Wenzhuo",
-        "Xiong Xinxin",
-        "Sonny Song"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-07",
-          "time": "17:50",
-          "label": "5:50 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1874",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-17",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1877",
-          "tags": [
-            "LastChance",
-            "4K"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 213,
-      "slug": "hereditary",
-      "title": "Hereditary",
-      "url": "https://filmhouse.sg/film/213/hereditary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/Jv9JZGGEIant3ebJpAkrLAbA8d4ICIhB5UqWPk9Dhr0.jpg",
-      "year": null,
-      "runtime": "128mins",
-      "rating": "M18",
-      "genre": "Horror",
-      "directors": [
-        "Ari Aster"
-      ],
-      "cast": [
-        "Toni Collette",
-        "Alex Wolff",
-        "Gabriel Byrne"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-07",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2004",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 186,
-      "slug": "fatherland",
-      "title": "Fatherland",
-      "url": "https://filmhouse.sg/film/186/fatherland",
-      "poster": "https://cdn.taposapp.com/poster/600x900/h-lRDTPpUaVbZKXLeJ7a5wfvmIDS4MK3wY4SY2feYaA.jpg",
-      "year": "2026",
-      "runtime": "82mins",
-      "rating": "NC16",
-      "genre": "History",
-      "directors": [
-        "Paweł Pawlikowski"
-      ],
-      "cast": [
-        "Sandra Hüller",
-        "Hanns Zischler",
-        "August Diehl"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-07",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1912",
-          "tags": [
-            "LastChance",
-            "4K"
-          ]
-        }
-      ]
-    },
     {
       "id": 226,
       "slug": "a-touch-of-zen-4k-restoration",
@@ -435,6 +140,97 @@
           "tags": [
             "LastChance"
           ]
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "slug": "look-back",
+      "title": "Look Back",
+      "url": "https://filmhouse.sg/film/227/look-back",
+      "poster": "https://cdn.taposapp.com/poster/600x900/YejRB0CCIF89tsPfjS4Z3ei643tMVpgm8Bhd-yNspCA.jpg",
+      "year": "2026",
+      "runtime": "100mins",
+      "rating": "PG",
+      "genre": "Drama",
+      "directors": [
+        "Hirokazu Kore-eda"
+      ],
+      "cast": [
+        "Natsuki Deguchi",
+        "Aju Makita",
+        "Fuuri Nanase"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-08",
+          "time": "16:50",
+          "label": "4:50 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1996",
+          "tags": []
+        },
+        {
+          "date": "2026-11-10",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1997",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2006",
+          "tags": []
+        },
+        {
+          "date": "2026-11-12",
+          "time": "16:50",
+          "label": "4:50 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2020",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2021",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-15",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2016",
+          "tags": []
+        },
+        {
+          "date": "2026-11-17",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2025",
+          "tags": []
+        },
+        {
+          "date": "2026-11-18",
+          "time": "16:10",
+          "label": "4:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2024",
+          "tags": []
         }
       ]
     },
@@ -703,6 +499,91 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2003",
           "tags": []
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "slug": "wildwood",
+      "title": "Wildwood",
+      "url": "https://filmhouse.sg/film/236/wildwood",
+      "poster": "https://cdn.taposapp.com/poster/600x900/f2RERlbD8YWOWDeLbRlltRHC0DtWohaPf0H4lZw8idc.jpg",
+      "year": "2026",
+      "runtime": "130mins",
+      "rating": "PG13",
+      "genre": "Animation",
+      "directors": [
+        "Travis Knight"
+      ],
+      "cast": [
+        "Peyton Elizabeth Lee",
+        "Jacob Tremblay",
+        "Carey Mulligan"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-10",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2000",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2001",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2013",
+          "tags": []
+        },
+        {
+          "date": "2026-11-14",
+          "time": "16:00",
+          "label": "4:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2014",
+          "tags": []
+        },
+        {
+          "date": "2026-11-15",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2015",
+          "tags": []
+        },
+        {
+          "date": "2026-11-17",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2026",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2029",
+          "tags": [
+            "4K"
+          ]
         }
       ]
     },
@@ -1284,6 +1165,38 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1955",
           "tags": []
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "slug": "the-blade-4k-restoration",
+      "title": "The Blade (4K Restoration)",
+      "url": "https://filmhouse.sg/film/225/the-blade-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/AV0k-c-0kY9iupY2qP3lt0W19PKnpzscWMHlMC7K2gQ.jpg",
+      "year": "1995",
+      "runtime": "105mins",
+      "rating": "NC16",
+      "genre": "Action",
+      "directors": [
+        "Tsui Hark"
+      ],
+      "cast": [
+        "Vincent Zhao Wenzhuo",
+        "Xiong Xinxin",
+        "Sonny Song"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-17",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1877",
+          "tags": [
+            "LastChance",
+            "4K"
+          ]
         }
       ]
     },
