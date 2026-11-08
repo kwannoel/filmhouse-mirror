@@ -1,208 +1,33 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-08T07:34:21.994Z",
+  "scrapedAt": "2026-11-08T14:30:57.673Z",
   "films": [
     {
-      "id": 227,
-      "slug": "look-back",
-      "title": "Look Back",
-      "url": "https://filmhouse.sg/film/227/look-back",
-      "poster": "https://cdn.taposapp.com/poster/600x900/YejRB0CCIF89tsPfjS4Z3ei643tMVpgm8Bhd-yNspCA.jpg",
+      "id": 195,
+      "slug": "the-violinist",
+      "title": "The Violinist",
+      "url": "https://filmhouse.sg/film/195/the-violinist",
+      "poster": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
       "year": "2026",
-      "runtime": "100mins",
+      "runtime": "114mins",
       "rating": "PG",
-      "genre": "Drama",
+      "genre": "Animation",
       "directors": [
-        "Hirokazu Kore-eda"
+        "Ervin Han",
+        "Raúl García"
       ],
       "cast": [
-        "Natsuki Deguchi",
-        "Aju Makita",
-        "Fuuri Nanase"
+        "Tan Kheng Hua",
+        "Kazuya Tanabe",
+        "Adrian Pang"
       ],
       "showings": [
-        {
-          "date": "2026-11-08",
-          "time": "16:50",
-          "label": "4:50 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1996",
-          "tags": []
-        },
         {
           "date": "2026-11-10",
-          "time": "20:30",
-          "label": "8:30 pm",
+          "time": "15:30",
+          "label": "3:30 pm",
           "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1997",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-11",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2006",
-          "tags": []
-        },
-        {
-          "date": "2026-11-12",
-          "time": "16:50",
-          "label": "4:50 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2020",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-13",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2021",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-15",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2016",
-          "tags": []
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2025",
-          "tags": []
-        },
-        {
-          "date": "2026-11-18",
-          "time": "16:10",
-          "label": "4:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2024",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 240,
-      "slug": "all-we-imagine-as-light",
-      "title": "All We Imagine as Light",
-      "url": "https://filmhouse.sg/film/240/all-we-imagine-as-light",
-      "poster": "https://cdn.taposapp.com/poster/600x900/eOEAg3vMmuC_CWhxo8aaS37zxWDPrnV0BD66-a420Jo.jpg",
-      "year": null,
-      "runtime": "118mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Payal Kapadia"
-      ],
-      "cast": [
-        "Kani Kusruti",
-        "Divya Prabha",
-        "Chhaya Kadam"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-08",
-          "time": "17:10",
-          "label": "5:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1919",
-          "tags": []
-        },
-        {
-          "date": "2026-11-17",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2009",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 212,
-      "slug": "love-letter-4k-restoration",
-      "title": "Love Letter (4K Restoration)",
-      "url": "https://filmhouse.sg/film/212/love-letter-4k-restoration",
-      "poster": "https://cdn.taposapp.com/poster/600x900/msjFPL-hD0X10ORGJJfcBfkg73s-5_W-wWQk4kDLB0E.jpg",
-      "year": "1995",
-      "runtime": "117mins",
-      "rating": "PG",
-      "genre": "Romance/Drama",
-      "directors": [
-        "Shunji Iwai"
-      ],
-      "cast": [
-        "Miho Nakayama",
-        "Etsushi Toyokawa",
-        "Miki Sakai"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-08",
-          "time": "17:40",
-          "label": "5:40 pm",
-          "soldOut": true,
-          "bookUrl": null,
-          "tags": [
-            "4K",
-            "LastChance"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 217,
-      "slug": "kokuho",
-      "title": "Kokuho",
-      "url": "https://filmhouse.sg/film/217/kokuho",
-      "poster": "https://cdn.taposapp.com/poster/600x900/1N7zTZsGmJ2IrqrijtehsvW9hj41-J5mf2tp0g-NTvs.jpg",
-      "year": null,
-      "runtime": "174mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Sang-il Lee"
-      ],
-      "cast": [
-        "Ryo Yoshizawa",
-        "Ryusei Yokohama",
-        "Mitsuki Takahata"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-08",
-          "time": "19:40",
-          "label": "7:40 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2005",
-          "tags": []
-        },
-        {
-          "date": "2026-11-14",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2023",
-          "tags": []
-        },
-        {
-          "date": "2026-11-18",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2028",
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2003",
           "tags": []
         }
       ]
@@ -226,14 +51,6 @@
         "Lisa Carlehed"
       ],
       "showings": [
-        {
-          "date": "2026-11-08",
-          "time": "20:10",
-          "label": "8:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1991",
-          "tags": []
-        },
         {
           "date": "2026-11-10",
           "time": "16:30",
@@ -272,91 +89,6 @@
           "label": "4:20 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2027",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 245,
-      "slug": "godzilla-minus-zero",
-      "title": "Godzilla Minus Zero",
-      "url": "https://filmhouse.sg/film/245/godzilla-minus-zero",
-      "poster": "https://cdn.taposapp.com/poster/600x900/B7xnZ9htHLED27u2ENzaMs6s0mzOqgF0K4XdgNh6l8I.jpg",
-      "year": "2026",
-      "runtime": "135mins",
-      "rating": "PG13",
-      "genre": "Action",
-      "directors": [
-        "Takashi Yamazaki"
-      ],
-      "cast": [
-        "Ryunosuke Kamiki",
-        "Minami Hamabe",
-        "Yuki Yamada"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-08",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1974",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-12",
-          "time": "17:20",
-          "label": "5:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2010",
-          "tags": []
-        },
-        {
-          "date": "2026-11-13",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2011",
-          "tags": []
-        },
-        {
-          "date": "2026-11-15",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2012",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 195,
-      "slug": "the-violinist",
-      "title": "The Violinist",
-      "url": "https://filmhouse.sg/film/195/the-violinist",
-      "poster": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
-      "year": "2026",
-      "runtime": "114mins",
-      "rating": "PG",
-      "genre": "Animation",
-      "directors": [
-        "Ervin Han",
-        "Raúl García"
-      ],
-      "cast": [
-        "Tan Kheng Hua",
-        "Kazuya Tanabe",
-        "Adrian Pang"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-10",
-          "time": "15:30",
-          "label": "3:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2003",
           "tags": []
         }
       ]
@@ -479,6 +211,89 @@
       ]
     },
     {
+      "id": 227,
+      "slug": "look-back",
+      "title": "Look Back",
+      "url": "https://filmhouse.sg/film/227/look-back",
+      "poster": "https://cdn.taposapp.com/poster/600x900/YejRB0CCIF89tsPfjS4Z3ei643tMVpgm8Bhd-yNspCA.jpg",
+      "year": "2026",
+      "runtime": "100mins",
+      "rating": "PG",
+      "genre": "Drama",
+      "directors": [
+        "Hirokazu Kore-eda"
+      ],
+      "cast": [
+        "Natsuki Deguchi",
+        "Aju Makita",
+        "Fuuri Nanase"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-10",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1997",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2006",
+          "tags": []
+        },
+        {
+          "date": "2026-11-12",
+          "time": "16:50",
+          "label": "4:50 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2020",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2021",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-15",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2016",
+          "tags": []
+        },
+        {
+          "date": "2026-11-17",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2025",
+          "tags": []
+        },
+        {
+          "date": "2026-11-18",
+          "time": "16:10",
+          "label": "4:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2024",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 182,
       "slug": "perfect-days",
       "title": "Perfect Days",
@@ -574,6 +389,51 @@
           "tags": [
             "LastChance"
           ]
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "slug": "godzilla-minus-zero",
+      "title": "Godzilla Minus Zero",
+      "url": "https://filmhouse.sg/film/245/godzilla-minus-zero",
+      "poster": "https://cdn.taposapp.com/poster/600x900/B7xnZ9htHLED27u2ENzaMs6s0mzOqgF0K4XdgNh6l8I.jpg",
+      "year": "2026",
+      "runtime": "135mins",
+      "rating": "PG13",
+      "genre": "Action",
+      "directors": [
+        "Takashi Yamazaki"
+      ],
+      "cast": [
+        "Ryunosuke Kamiki",
+        "Minami Hamabe",
+        "Yuki Yamada"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-12",
+          "time": "17:20",
+          "label": "5:20 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2010",
+          "tags": []
+        },
+        {
+          "date": "2026-11-13",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2011",
+          "tags": []
+        },
+        {
+          "date": "2026-11-15",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2012",
+          "tags": []
         }
       ]
     },
@@ -927,6 +787,43 @@
       ]
     },
     {
+      "id": 217,
+      "slug": "kokuho",
+      "title": "Kokuho",
+      "url": "https://filmhouse.sg/film/217/kokuho",
+      "poster": "https://cdn.taposapp.com/poster/600x900/1N7zTZsGmJ2IrqrijtehsvW9hj41-J5mf2tp0g-NTvs.jpg",
+      "year": null,
+      "runtime": "174mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Sang-il Lee"
+      ],
+      "cast": [
+        "Ryo Yoshizawa",
+        "Ryusei Yokohama",
+        "Mitsuki Takahata"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-14",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2023",
+          "tags": []
+        },
+        {
+          "date": "2026-11-18",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2028",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 233,
       "slug": "delicatessen-4k-restoration",
       "title": "Delicatessen (4K Restoration)",
@@ -1099,6 +996,35 @@
           "label": "8:00 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1955",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "slug": "all-we-imagine-as-light",
+      "title": "All We Imagine as Light",
+      "url": "https://filmhouse.sg/film/240/all-we-imagine-as-light",
+      "poster": "https://cdn.taposapp.com/poster/600x900/eOEAg3vMmuC_CWhxo8aaS37zxWDPrnV0BD66-a420Jo.jpg",
+      "year": null,
+      "runtime": "118mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Payal Kapadia"
+      ],
+      "cast": [
+        "Kani Kusruti",
+        "Divya Prabha",
+        "Chhaya Kadam"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-17",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2009",
           "tags": []
         }
       ]
