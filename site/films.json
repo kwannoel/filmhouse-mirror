@@ -1,148 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-07T13:30:16.662Z",
+  "scrapedAt": "2026-11-08T07:34:21.994Z",
   "films": [
-    {
-      "id": 226,
-      "slug": "a-touch-of-zen-4k-restoration",
-      "title": "A Touch of Zen (4K Restoration)",
-      "url": "https://filmhouse.sg/film/226/a-touch-of-zen-4k-restoration",
-      "poster": "https://cdn.taposapp.com/poster/600x900/OVMSXKQpyChSJ0kp5lmRqyfNmmxDgNkDRGNflO5114g.jpg",
-      "year": "1971",
-      "runtime": "180mins",
-      "rating": "PG13",
-      "genre": "Action",
-      "directors": [
-        "King Hu"
-      ],
-      "cast": [
-        "Hsu Feng",
-        "Shih Chun",
-        "Pai Ying"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-08",
-          "time": "13:30",
-          "label": "1:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1875",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-21",
-          "time": "13:30",
-          "label": "1:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1878",
-          "tags": []
-        },
-        {
-          "date": "2026-12-02",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1890",
-          "tags": [
-            "4K"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 85,
-      "slug": "la-la-land-10th-anniversary",
-      "title": "La La Land (10th Anniversary)",
-      "url": "https://filmhouse.sg/film/85/la-la-land-10th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
-      "year": "2016",
-      "runtime": "129mins",
-      "rating": "PG13",
-      "genre": "Musical",
-      "directors": [
-        "Damien Chazelle"
-      ],
-      "cast": [
-        "Ryan Gosling",
-        "Emma Stone",
-        "John Legend"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-08",
-          "time": "14:00",
-          "label": "2:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1918",
-          "tags": []
-        },
-        {
-          "date": "2026-11-13",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1881",
-          "tags": []
-        },
-        {
-          "date": "2026-11-15",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2018",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 159,
-      "slug": "ponyo-on-the-cliff-by-the-sea",
-      "title": "Ponyo on the Cliff by the Sea",
-      "url": "https://filmhouse.sg/film/159/ponyo-on-the-cliff-by-the-sea",
-      "poster": "https://cdn.taposapp.com/poster/600x900/5fHfNuL9D1rR-3GBEjUaRdF5M_b5UMUNnYd7iTHeoQA.jpg",
-      "year": null,
-      "runtime": "100mins",
-      "rating": "G",
-      "genre": "Animation",
-      "directors": [
-        "Hayao Miyazaki"
-      ],
-      "cast": [
-        "Yuria Kozuki",
-        "Hiroki Doi",
-        "George Tokoro"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-08",
-          "time": "14:20",
-          "label": "2:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1917",
-          "tags": []
-        },
-        {
-          "date": "2026-11-12",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1869",
-          "tags": []
-        },
-        {
-          "date": "2026-11-24",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1920",
-          "tags": [
-            "LastChance"
-          ]
-        }
-      ]
-    },
     {
       "id": 227,
       "slug": "look-back",
@@ -787,6 +646,45 @@
       ]
     },
     {
+      "id": 159,
+      "slug": "ponyo-on-the-cliff-by-the-sea",
+      "title": "Ponyo on the Cliff by the Sea",
+      "url": "https://filmhouse.sg/film/159/ponyo-on-the-cliff-by-the-sea",
+      "poster": "https://cdn.taposapp.com/poster/600x900/5fHfNuL9D1rR-3GBEjUaRdF5M_b5UMUNnYd7iTHeoQA.jpg",
+      "year": null,
+      "runtime": "100mins",
+      "rating": "G",
+      "genre": "Animation",
+      "directors": [
+        "Hayao Miyazaki"
+      ],
+      "cast": [
+        "Yuria Kozuki",
+        "Hiroki Doi",
+        "George Tokoro"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-12",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1869",
+          "tags": []
+        },
+        {
+          "date": "2026-11-24",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1920",
+          "tags": [
+            "LastChance"
+          ]
+        }
+      ]
+    },
+    {
       "id": 232,
       "slug": "amlie-25th-anniversary",
       "title": "Amélie (25th Anniversary)",
@@ -840,6 +738,43 @@
           "tags": [
             "LastChance"
           ]
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "slug": "la-la-land-10th-anniversary",
+      "title": "La La Land (10th Anniversary)",
+      "url": "https://filmhouse.sg/film/85/la-la-land-10th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
+      "year": "2016",
+      "runtime": "129mins",
+      "rating": "PG13",
+      "genre": "Musical",
+      "directors": [
+        "Damien Chazelle"
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Emma Stone",
+        "John Legend"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-13",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1881",
+          "tags": []
+        },
+        {
+          "date": "2026-11-15",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2018",
+          "tags": []
         }
       ]
     },
@@ -1226,6 +1161,45 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1884",
           "tags": []
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "slug": "a-touch-of-zen-4k-restoration",
+      "title": "A Touch of Zen (4K Restoration)",
+      "url": "https://filmhouse.sg/film/226/a-touch-of-zen-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/OVMSXKQpyChSJ0kp5lmRqyfNmmxDgNkDRGNflO5114g.jpg",
+      "year": "1971",
+      "runtime": "180mins",
+      "rating": "PG13",
+      "genre": "Action",
+      "directors": [
+        "King Hu"
+      ],
+      "cast": [
+        "Hsu Feng",
+        "Shih Chun",
+        "Pai Ying"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-21",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1878",
+          "tags": []
+        },
+        {
+          "date": "2026-12-02",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1890",
+          "tags": [
+            "4K"
+          ]
         }
       ]
     },
