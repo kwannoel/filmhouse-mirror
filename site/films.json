@@ -1,6 +1,6 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-08T14:30:57.673Z",
+  "scrapedAt": "2026-11-09T20:39:51.299Z",
   "films": [
     {
       "id": 195,
@@ -510,7 +510,7 @@
       "slug": "ponyo-on-the-cliff-by-the-sea",
       "title": "Ponyo on the Cliff by the Sea",
       "url": "https://filmhouse.sg/film/159/ponyo-on-the-cliff-by-the-sea",
-      "poster": "https://cdn.taposapp.com/poster/600x900/5fHfNuL9D1rR-3GBEjUaRdF5M_b5UMUNnYd7iTHeoQA.jpg",
+      "poster": "https://cdn.taposapp.com/poster/600x900/l1kHbQsZ6qzoEHgk00xdGHRwJNf6U1RT97enW1a-uOw.jpg",
       "year": null,
       "runtime": "100mins",
       "rating": "G",
