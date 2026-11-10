@@ -1,36 +1,33 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-10T11:00:53.636Z",
+  "scrapedAt": "2026-11-10T18:38:06.388Z",
   "films": [
     {
-      "id": 214,
-      "slug": "what-we-do-in-the-shadows",
-      "title": "What We Do in the Shadows",
-      "url": "https://filmhouse.sg/film/214/what-we-do-in-the-shadows",
-      "poster": "https://cdn.taposapp.com/poster/600x900/9u7qgXTtQSeXu3oeJCqdw6fN8gSelVz7n1JZbP69Hwo.jpg",
-      "year": null,
-      "runtime": "86mins",
-      "rating": "NC16",
-      "genre": "Comedy/Horror",
+      "id": 182,
+      "slug": "perfect-days",
+      "title": "Perfect Days",
+      "url": "https://filmhouse.sg/film/182/perfect-days",
+      "poster": "https://cdn.taposapp.com/poster/600x900/Gwv3eYvY2NV-phNkhr2sgd6ag96-61Py5Wrnow16VDA.jpg",
+      "year": "2024",
+      "runtime": "124mins",
+      "rating": "PG",
+      "genre": "Drama",
       "directors": [
-        "Taika Waititi",
-        "Jemaine Clement"
+        "Wim Wenders"
       ],
       "cast": [
-        "Jemaine Clement",
-        "Taika Waititi",
-        "Jonny Brugh"
+        "Koji Yakusho",
+        "Tokio Emoto",
+        "Arisa Nakano"
       ],
       "showings": [
         {
-          "date": "2026-11-10",
-          "time": "20:00",
-          "label": "8:00 pm",
+          "date": "2026-11-11",
+          "time": "16:10",
+          "label": "4:10 pm",
           "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1803",
-          "tags": [
-            "LastChance"
-          ]
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2008",
+          "tags": []
         }
       ]
     },
@@ -53,16 +50,6 @@
         "Fuuri Nanase"
       ],
       "showings": [
-        {
-          "date": "2026-11-10",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1997",
-          "tags": [
-            "4K"
-          ]
-        },
         {
           "date": "2026-11-11",
           "time": "16:30",
@@ -113,35 +100,6 @@
           "label": "4:10 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2024",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 182,
-      "slug": "perfect-days",
-      "title": "Perfect Days",
-      "url": "https://filmhouse.sg/film/182/perfect-days",
-      "poster": "https://cdn.taposapp.com/poster/600x900/Gwv3eYvY2NV-phNkhr2sgd6ag96-61Py5Wrnow16VDA.jpg",
-      "year": "2024",
-      "runtime": "124mins",
-      "rating": "PG",
-      "genre": "Drama",
-      "directors": [
-        "Wim Wenders"
-      ],
-      "cast": [
-        "Koji Yakusho",
-        "Tokio Emoto",
-        "Arisa Nakano"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-11",
-          "time": "16:10",
-          "label": "4:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2008",
           "tags": []
         }
       ]
