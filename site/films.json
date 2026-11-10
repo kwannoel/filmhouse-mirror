@@ -1,183 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-09T20:39:51.299Z",
+  "scrapedAt": "2026-11-10T11:00:53.636Z",
   "films": [
-    {
-      "id": 195,
-      "slug": "the-violinist",
-      "title": "The Violinist",
-      "url": "https://filmhouse.sg/film/195/the-violinist",
-      "poster": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
-      "year": "2026",
-      "runtime": "114mins",
-      "rating": "PG",
-      "genre": "Animation",
-      "directors": [
-        "Ervin Han",
-        "Raúl García"
-      ],
-      "cast": [
-        "Tan Kheng Hua",
-        "Kazuya Tanabe",
-        "Adrian Pang"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-10",
-          "time": "15:30",
-          "label": "3:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2003",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 220,
-      "slug": "fjord",
-      "title": "Fjord",
-      "url": "https://filmhouse.sg/film/220/fjord",
-      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
-      "year": "2026",
-      "runtime": "146mins",
-      "rating": "NC16",
-      "genre": "Drama",
-      "directors": [
-        "Cristian Mungiu"
-      ],
-      "cast": [
-        "Sebastian Stan",
-        "Renate Reinsve",
-        "Lisa Carlehed"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-10",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1992",
-          "tags": []
-        },
-        {
-          "date": "2026-11-11",
-          "time": "19:00",
-          "label": "7:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1993",
-          "tags": []
-        },
-        {
-          "date": "2026-11-12",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2019",
-          "tags": []
-        },
-        {
-          "date": "2026-11-15",
-          "time": "13:50",
-          "label": "1:50 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2017",
-          "tags": []
-        },
-        {
-          "date": "2026-11-17",
-          "time": "16:20",
-          "label": "4:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2027",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 236,
-      "slug": "wildwood",
-      "title": "Wildwood",
-      "url": "https://filmhouse.sg/film/236/wildwood",
-      "poster": "https://cdn.taposapp.com/poster/600x900/f2RERlbD8YWOWDeLbRlltRHC0DtWohaPf0H4lZw8idc.jpg",
-      "year": "2026",
-      "runtime": "130mins",
-      "rating": "PG13",
-      "genre": "Animation",
-      "directors": [
-        "Travis Knight"
-      ],
-      "cast": [
-        "Peyton Elizabeth Lee",
-        "Jacob Tremblay",
-        "Carey Mulligan"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-10",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2000",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-11",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2001",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-12",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2013",
-          "tags": []
-        },
-        {
-          "date": "2026-11-14",
-          "time": "16:00",
-          "label": "4:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2014",
-          "tags": []
-        },
-        {
-          "date": "2026-11-15",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2015",
-          "tags": []
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2026",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-18",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2029",
-          "tags": [
-            "4K"
-          ]
-        }
-      ]
-    },
     {
       "id": 214,
       "slug": "what-we-do-in-the-shadows",
@@ -323,6 +147,134 @@
       ]
     },
     {
+      "id": 236,
+      "slug": "wildwood",
+      "title": "Wildwood",
+      "url": "https://filmhouse.sg/film/236/wildwood",
+      "poster": "https://cdn.taposapp.com/poster/600x900/f2RERlbD8YWOWDeLbRlltRHC0DtWohaPf0H4lZw8idc.jpg",
+      "year": "2026",
+      "runtime": "130mins",
+      "rating": "PG13",
+      "genre": "Animation",
+      "directors": [
+        "Travis Knight"
+      ],
+      "cast": [
+        "Peyton Elizabeth Lee",
+        "Jacob Tremblay",
+        "Carey Mulligan"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-11",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2001",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2013",
+          "tags": []
+        },
+        {
+          "date": "2026-11-14",
+          "time": "16:00",
+          "label": "4:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2014",
+          "tags": []
+        },
+        {
+          "date": "2026-11-15",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2015",
+          "tags": []
+        },
+        {
+          "date": "2026-11-17",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2026",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2029",
+          "tags": [
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "slug": "fjord",
+      "title": "Fjord",
+      "url": "https://filmhouse.sg/film/220/fjord",
+      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
+      "year": "2026",
+      "runtime": "146mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Cristian Mungiu"
+      ],
+      "cast": [
+        "Sebastian Stan",
+        "Renate Reinsve",
+        "Lisa Carlehed"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-11",
+          "time": "19:00",
+          "label": "7:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1993",
+          "tags": []
+        },
+        {
+          "date": "2026-11-12",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2019",
+          "tags": []
+        },
+        {
+          "date": "2026-11-15",
+          "time": "13:50",
+          "label": "1:50 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2017",
+          "tags": []
+        },
+        {
+          "date": "2026-11-17",
+          "time": "16:20",
+          "label": "4:20 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2027",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 216,
       "slug": "moonlight-10th-anniversary",
       "title": "Moonlight (10th Anniversary)",
@@ -387,7 +339,8 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1927",
           "tags": [
-            "LastChance"
+            "LastChance",
+            "4K"
           ]
         }
       ]
@@ -687,7 +640,9 @@
           "label": "1:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1929",
-          "tags": []
+          "tags": [
+            "4K"
+          ]
         },
         {
           "date": "2026-11-22",
@@ -696,7 +651,8 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1937",
           "tags": [
-            "LastChance"
+            "LastChance",
+            "4K"
           ]
         }
       ]
