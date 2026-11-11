@@ -1,78 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-11T11:13:15.714Z",
+  "scrapedAt": "2026-11-11T18:45:37.279Z",
   "films": [
-    {
-      "id": 216,
-      "slug": "moonlight-10th-anniversary",
-      "title": "Moonlight (10th Anniversary)",
-      "url": "https://filmhouse.sg/film/216/moonlight-10th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/aB-thlmpTSpCEwmtMl8N5uFWVPDvXpIvEJHZsmT3V2k.jpg",
-      "year": null,
-      "runtime": "128mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Barry Jenkins"
-      ],
-      "cast": [
-        "Trevante Rhodes",
-        "André Holland",
-        "Janelle Monáe"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-11",
-          "time": "19:20",
-          "label": "7:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2007",
-          "tags": []
-        },
-        {
-          "date": "2026-11-17",
-          "time": "19:40",
-          "label": "7:40 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1885",
-          "tags": [
-            "LastChance"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 243,
-      "slug": "this-is-spinal-tap",
-      "title": "This Is Spinal Tap",
-      "url": "https://filmhouse.sg/film/243/this-is-spinal-tap",
-      "poster": "https://cdn.taposapp.com/poster/600x900/T3GZrO7WTko2GE0kRo3OUbwV-_2ZvzHS2xwjGi31Sbg.jpg",
-      "year": "1984",
-      "runtime": "82mins",
-      "rating": "PG13",
-      "genre": "Comedy",
-      "directors": [
-        "Rob Reiner"
-      ],
-      "cast": [
-        "Christopher Guest",
-        "Michael McKean",
-        "Harry Shearer"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-11",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1927",
-          "tags": [
-            "LastChance",
-            "4K"
-          ]
-        }
-      ]
-    },
     {
       "id": 220,
       "slug": "fjord",
@@ -856,6 +785,37 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1955",
           "tags": []
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "slug": "moonlight-10th-anniversary",
+      "title": "Moonlight (10th Anniversary)",
+      "url": "https://filmhouse.sg/film/216/moonlight-10th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/aB-thlmpTSpCEwmtMl8N5uFWVPDvXpIvEJHZsmT3V2k.jpg",
+      "year": null,
+      "runtime": "128mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Barry Jenkins"
+      ],
+      "cast": [
+        "Trevante Rhodes",
+        "André Holland",
+        "Janelle Monáe"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-17",
+          "time": "19:40",
+          "label": "7:40 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1885",
+          "tags": [
+            "LastChance"
+          ]
         }
       ]
     },
