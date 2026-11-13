@@ -1,119 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-12T16:54:19.681Z",
+  "scrapedAt": "2026-11-13T10:50:54.408Z",
   "films": [
-    {
-      "id": 223,
-      "slug": "the-house-on-the-moon",
-      "title": "The House on the Moon",
-      "url": "https://filmhouse.sg/film/223/the-house-on-the-moon",
-      "poster": "https://cdn.taposapp.com/poster/600x900/RKoSUfT5BljQXG5Gd8PBUDPqo5RgVU8OfO1oDvd1jHk.jpg",
-      "year": "2026",
-      "runtime": "104mins",
-      "rating": "NC16",
-      "genre": "Action/Adventure",
-      "directors": [
-        "Nelson Yeo"
-      ],
-      "cast": [
-        "Lim Shi-An",
-        "Dominick Rustam-Chartrand",
-        "Akira Huang"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-13",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2022",
-          "tags": []
-        },
-        {
-          "date": "2026-11-14",
-          "time": "14:00",
-          "label": "2:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1882",
-          "tags": []
-        },
-        {
-          "date": "2026-11-15",
-          "time": "20:20",
-          "label": "8:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1883",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-18",
-          "time": "20:10",
-          "label": "8:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2030",
-          "tags": [
-            "4K"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 227,
-      "slug": "look-back",
-      "title": "Look Back",
-      "url": "https://filmhouse.sg/film/227/look-back",
-      "poster": "https://cdn.taposapp.com/poster/600x900/YejRB0CCIF89tsPfjS4Z3ei643tMVpgm8Bhd-yNspCA.jpg",
-      "year": "2026",
-      "runtime": "100mins",
-      "rating": "PG",
-      "genre": "Drama",
-      "directors": [
-        "Hirokazu Kore-eda"
-      ],
-      "cast": [
-        "Natsuki Deguchi",
-        "Aju Makita",
-        "Fuuri Nanase"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-13",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2021",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-15",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2016",
-          "tags": []
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2025",
-          "tags": []
-        },
-        {
-          "date": "2026-11-18",
-          "time": "16:10",
-          "label": "4:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2024",
-          "tags": []
-        }
-      ]
-    },
     {
       "id": 245,
       "slug": "godzilla-minus-zero",
@@ -184,9 +72,7 @@
           "label": "2:00 pm",
           "soldOut": true,
           "bookUrl": null,
-          "tags": [
-            "Live Q&A"
-          ]
+          "tags": []
         },
         {
           "date": "2026-11-28",
@@ -306,6 +192,55 @@
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1937",
           "tags": [
             "LastChance",
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "slug": "the-house-on-the-moon",
+      "title": "The House on the Moon",
+      "url": "https://filmhouse.sg/film/223/the-house-on-the-moon",
+      "poster": "https://cdn.taposapp.com/poster/600x900/RKoSUfT5BljQXG5Gd8PBUDPqo5RgVU8OfO1oDvd1jHk.jpg",
+      "year": "2026",
+      "runtime": "104mins",
+      "rating": "NC16",
+      "genre": "Action/Adventure",
+      "directors": [
+        "Nelson Yeo"
+      ],
+      "cast": [
+        "Lim Shi-An",
+        "Dominick Rustam-Chartrand",
+        "Akira Huang"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-14",
+          "time": "14:00",
+          "label": "2:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1882",
+          "tags": []
+        },
+        {
+          "date": "2026-11-15",
+          "time": "20:20",
+          "label": "8:20 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1883",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "time": "20:10",
+          "label": "8:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2030",
+          "tags": [
             "4K"
           ]
         }
@@ -661,9 +596,53 @@
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1933",
           "tags": [
             "4K",
-            "With Intro",
             "LastChance"
           ]
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "slug": "look-back",
+      "title": "Look Back",
+      "url": "https://filmhouse.sg/film/227/look-back",
+      "poster": "https://cdn.taposapp.com/poster/600x900/YejRB0CCIF89tsPfjS4Z3ei643tMVpgm8Bhd-yNspCA.jpg",
+      "year": "2026",
+      "runtime": "100mins",
+      "rating": "PG",
+      "genre": "Drama",
+      "directors": [
+        "Hirokazu Kore-eda"
+      ],
+      "cast": [
+        "Natsuki Deguchi",
+        "Aju Makita",
+        "Fuuri Nanase"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-15",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2016",
+          "tags": []
+        },
+        {
+          "date": "2026-11-17",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2025",
+          "tags": []
+        },
+        {
+          "date": "2026-11-18",
+          "time": "16:10",
+          "label": "4:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2024",
+          "tags": []
         }
       ]
     },
@@ -977,8 +956,8 @@
           "date": "2026-11-22",
           "time": "17:15",
           "label": "5:15 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1975",
+          "soldOut": true,
+          "bookUrl": null,
           "tags": [
             "4K"
           ]
@@ -1151,6 +1130,67 @@
           "label": "1:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1988",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "slug": "paprika",
+      "title": "Paprika",
+      "url": "https://filmhouse.sg/film/254/paprika",
+      "poster": "https://cdn.taposapp.com/poster/600x900/kQmsEYLLgcJMbDif2Mv5EuGIRoqLOfa4oqJxnud3_ms.jpg",
+      "year": null,
+      "runtime": "90mins",
+      "rating": "NC16",
+      "genre": "Animation",
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "cast": [
+        "Megumi Hayashibara",
+        "Tohru Emori",
+        "Katsunosuke Hori"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-05",
+          "time": "14:00",
+          "label": "2:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2038",
+          "tags": []
+        },
+        {
+          "date": "2026-12-06",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2039",
+          "tags": []
+        },
+        {
+          "date": "2026-12-10",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2040",
+          "tags": []
+        },
+        {
+          "date": "2026-12-12",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2041",
+          "tags": []
+        },
+        {
+          "date": "2026-12-16",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2042",
           "tags": []
         }
       ]
