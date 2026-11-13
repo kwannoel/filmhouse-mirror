@@ -1,136 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-13T10:50:54.408Z",
+  "scrapedAt": "2026-11-13T18:16:04.131Z",
   "films": [
-    {
-      "id": 245,
-      "slug": "godzilla-minus-zero",
-      "title": "Godzilla Minus Zero",
-      "url": "https://filmhouse.sg/film/245/godzilla-minus-zero",
-      "poster": "https://cdn.taposapp.com/poster/600x900/B7xnZ9htHLED27u2ENzaMs6s0mzOqgF0K4XdgNh6l8I.jpg",
-      "year": "2026",
-      "runtime": "135mins",
-      "rating": "PG13",
-      "genre": "Action",
-      "directors": [
-        "Takashi Yamazaki"
-      ],
-      "cast": [
-        "Ryunosuke Kamiki",
-        "Minami Hamabe",
-        "Yuki Yamada"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-13",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2011",
-          "tags": []
-        },
-        {
-          "date": "2026-11-15",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2012",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 232,
-      "slug": "amlie-25th-anniversary",
-      "title": "Amélie (25th Anniversary)",
-      "url": "https://filmhouse.sg/film/232/amlie-25th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/2skZm3Mts3h_uelrna7y5OwWNVidQ2t_-qIQbXlbFPw.jpg",
-      "year": "2001",
-      "runtime": "122mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Jean-Pierre Jeunet"
-      ],
-      "cast": [
-        "Audrey Tautou",
-        "Mathieu Kassovitz",
-        "Rufus"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-13",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1928",
-          "tags": []
-        },
-        {
-          "date": "2026-11-21",
-          "time": "14:00",
-          "label": "2:00 pm",
-          "soldOut": true,
-          "bookUrl": null,
-          "tags": []
-        },
-        {
-          "date": "2026-11-28",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1934",
-          "tags": []
-        },
-        {
-          "date": "2026-12-06",
-          "time": "14:30",
-          "label": "2:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1936",
-          "tags": [
-            "LastChance"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 85,
-      "slug": "la-la-land-10th-anniversary",
-      "title": "La La Land (10th Anniversary)",
-      "url": "https://filmhouse.sg/film/85/la-la-land-10th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
-      "year": "2016",
-      "runtime": "129mins",
-      "rating": "PG13",
-      "genre": "Musical",
-      "directors": [
-        "Damien Chazelle"
-      ],
-      "cast": [
-        "Ryan Gosling",
-        "Emma Stone",
-        "John Legend"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-13",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1881",
-          "tags": []
-        },
-        {
-          "date": "2026-11-15",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2018",
-          "tags": []
-        }
-      ]
-    },
     {
       "id": 229,
       "slug": "cartoons-underground-programme-c-playground-for-kids",
@@ -684,6 +555,64 @@
       ]
     },
     {
+      "id": 245,
+      "slug": "godzilla-minus-zero",
+      "title": "Godzilla Minus Zero",
+      "url": "https://filmhouse.sg/film/245/godzilla-minus-zero",
+      "poster": "https://cdn.taposapp.com/poster/600x900/B7xnZ9htHLED27u2ENzaMs6s0mzOqgF0K4XdgNh6l8I.jpg",
+      "year": "2026",
+      "runtime": "135mins",
+      "rating": "PG13",
+      "genre": "Action",
+      "directors": [
+        "Takashi Yamazaki"
+      ],
+      "cast": [
+        "Ryunosuke Kamiki",
+        "Minami Hamabe",
+        "Yuki Yamada"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-15",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2012",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "slug": "la-la-land-10th-anniversary",
+      "title": "La La Land (10th Anniversary)",
+      "url": "https://filmhouse.sg/film/85/la-la-land-10th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
+      "year": "2016",
+      "runtime": "129mins",
+      "rating": "PG13",
+      "genre": "Musical",
+      "directors": [
+        "Damien Chazelle"
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Emma Stone",
+        "John Legend"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-15",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2018",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 216,
       "slug": "moonlight-10th-anniversary",
       "title": "Moonlight (10th Anniversary)",
@@ -839,6 +768,53 @@
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1890",
           "tags": [
             "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "slug": "amlie-25th-anniversary",
+      "title": "Amélie (25th Anniversary)",
+      "url": "https://filmhouse.sg/film/232/amlie-25th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/2skZm3Mts3h_uelrna7y5OwWNVidQ2t_-qIQbXlbFPw.jpg",
+      "year": "2001",
+      "runtime": "122mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Jean-Pierre Jeunet"
+      ],
+      "cast": [
+        "Audrey Tautou",
+        "Mathieu Kassovitz",
+        "Rufus"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-21",
+          "time": "14:00",
+          "label": "2:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1932",
+          "tags": []
+        },
+        {
+          "date": "2026-11-28",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1934",
+          "tags": []
+        },
+        {
+          "date": "2026-12-06",
+          "time": "14:30",
+          "label": "2:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1936",
+          "tags": [
+            "LastChance"
           ]
         }
       ]
