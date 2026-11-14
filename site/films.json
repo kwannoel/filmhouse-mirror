@@ -1,116 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-14T10:59:30.611Z",
+  "scrapedAt": "2026-11-14T16:59:52.632Z",
   "films": [
-    {
-      "id": 231,
-      "slug": "cartoons-underground-programme-b-rip-tides",
-      "title": "Cartoons Underground Programme B - Rip Tides",
-      "url": "https://filmhouse.sg/film/231/cartoons-underground-programme-b-rip-tides",
-      "poster": "https://cdn.taposapp.com/poster/600x900/VinKw9eBpcBejqI9e1xW2YekviTvgOlPEMRpkJjuGzY.jpg",
-      "year": null,
-      "runtime": "170mins",
-      "rating": "TBA",
-      "genre": "Animation",
-      "directors": [],
-      "cast": [],
-      "showings": [
-        {
-          "date": "2026-11-14",
-          "time": "19:00",
-          "label": "7:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1888",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 217,
-      "slug": "kokuho",
-      "title": "Kokuho",
-      "url": "https://filmhouse.sg/film/217/kokuho",
-      "poster": "https://cdn.taposapp.com/poster/600x900/1N7zTZsGmJ2IrqrijtehsvW9hj41-J5mf2tp0g-NTvs.jpg",
-      "year": null,
-      "runtime": "174mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Sang-il Lee"
-      ],
-      "cast": [
-        "Ryo Yoshizawa",
-        "Ryusei Yokohama",
-        "Mitsuki Takahata"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-14",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2023",
-          "tags": []
-        },
-        {
-          "date": "2026-11-18",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2028",
-          "tags": []
-        },
-        {
-          "date": "2026-11-22",
-          "time": "19:45",
-          "label": "7:45 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2063",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 233,
-      "slug": "delicatessen-4k-restoration",
-      "title": "Delicatessen (4K Restoration)",
-      "url": "https://filmhouse.sg/film/233/delicatessen-4k-restoration",
-      "poster": "https://cdn.taposapp.com/poster/600x900/CHdIoX2KRrsaay8IHukKzzxs5Uvjv4TYu-ZJHSbo-Fs.jpg",
-      "year": "1991",
-      "runtime": "99mins",
-      "rating": "NC16",
-      "genre": "Drama",
-      "directors": [
-        "Jean-Pierre Jeunet",
-        "Marc Caro"
-      ],
-      "cast": [
-        "Dominique Pinon",
-        "Marie-Laure Dougnac",
-        "Jean-Claude Dreyfus"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-14",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1930",
-          "tags": []
-        },
-        {
-          "date": "2026-12-01",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1935",
-          "tags": [
-            "LastChance",
-            "4K"
-          ]
-        }
-      ]
-    },
     {
       "id": 228,
       "slug": "castle-in-the-sky",
@@ -657,6 +548,43 @@
             "LastChance",
             "4K"
           ]
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "slug": "kokuho",
+      "title": "Kokuho",
+      "url": "https://filmhouse.sg/film/217/kokuho",
+      "poster": "https://cdn.taposapp.com/poster/600x900/1N7zTZsGmJ2IrqrijtehsvW9hj41-J5mf2tp0g-NTvs.jpg",
+      "year": null,
+      "runtime": "174mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Sang-il Lee"
+      ],
+      "cast": [
+        "Ryo Yoshizawa",
+        "Ryusei Yokohama",
+        "Mitsuki Takahata"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-18",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2028",
+          "tags": []
+        },
+        {
+          "date": "2026-11-22",
+          "time": "19:45",
+          "label": "7:45 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2063",
+          "tags": []
         }
       ]
     },
@@ -1294,6 +1222,39 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1988",
           "tags": []
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "slug": "delicatessen-4k-restoration",
+      "title": "Delicatessen (4K Restoration)",
+      "url": "https://filmhouse.sg/film/233/delicatessen-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/CHdIoX2KRrsaay8IHukKzzxs5Uvjv4TYu-ZJHSbo-Fs.jpg",
+      "year": "1991",
+      "runtime": "99mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Jean-Pierre Jeunet",
+        "Marc Caro"
+      ],
+      "cast": [
+        "Dominique Pinon",
+        "Marie-Laure Dougnac",
+        "Jean-Claude Dreyfus"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-01",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1935",
+          "tags": [
+            "LastChance",
+            "4K"
+          ]
         }
       ]
     },
