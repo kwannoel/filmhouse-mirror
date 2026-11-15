@@ -1,7 +1,54 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-15T07:56:57.910Z",
+  "scrapedAt": "2026-11-15T15:36:43.049Z",
   "films": [
+    {
+      "id": 220,
+      "slug": "fjord",
+      "title": "Fjord",
+      "url": "https://filmhouse.sg/film/220/fjord",
+      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
+      "year": "2026",
+      "runtime": "146mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Cristian Mungiu"
+      ],
+      "cast": [
+        "Sebastian Stan",
+        "Renate Reinsve",
+        "Lisa Carlehed"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-17",
+          "time": "16:20",
+          "label": "4:20 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2027",
+          "tags": []
+        },
+        {
+          "date": "2026-11-19",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2049",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2056",
+          "tags": []
+        }
+      ]
+    },
     {
       "id": 227,
       "slug": "look-back",
@@ -21,14 +68,6 @@
         "Fuuri Nanase"
       ],
       "showings": [
-        {
-          "date": "2026-11-15",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2016",
-          "tags": []
-        },
         {
           "date": "2026-11-17",
           "time": "17:00",
@@ -83,14 +122,6 @@
       ],
       "showings": [
         {
-          "date": "2026-11-15",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2015",
-          "tags": []
-        },
-        {
           "date": "2026-11-17",
           "time": "17:30",
           "label": "5:30 pm",
@@ -126,229 +157,6 @@
           "label": "4:45 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2062",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 242,
-      "slug": "mad-max-fury-road",
-      "title": "Mad Max: Fury Road",
-      "url": "https://filmhouse.sg/film/242/mad-max-fury-road",
-      "poster": "https://cdn.taposapp.com/poster/600x900/Upgyen8eMQDCl3kYn-Gyl8I4AgUesu725GC_CA3mo7c.jpg",
-      "year": null,
-      "runtime": "121mins",
-      "rating": "NC16",
-      "genre": "Action/Adventure",
-      "directors": [
-        "George Miller"
-      ],
-      "cast": [
-        "Tom Hardy",
-        "Charlize Theron",
-        "Nicholas Hoult"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-15",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1954",
-          "tags": []
-        },
-        {
-          "date": "2026-11-26",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1955",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 245,
-      "slug": "godzilla-minus-zero",
-      "title": "Godzilla Minus Zero",
-      "url": "https://filmhouse.sg/film/245/godzilla-minus-zero",
-      "poster": "https://cdn.taposapp.com/poster/600x900/B7xnZ9htHLED27u2ENzaMs6s0mzOqgF0K4XdgNh6l8I.jpg",
-      "year": "2026",
-      "runtime": "135mins",
-      "rating": "PG13",
-      "genre": "Action",
-      "directors": [
-        "Takashi Yamazaki"
-      ],
-      "cast": [
-        "Ryunosuke Kamiki",
-        "Minami Hamabe",
-        "Yuki Yamada"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-15",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2012",
-          "tags": []
-        },
-        {
-          "date": "2026-11-19",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2047",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 85,
-      "slug": "la-la-land-10th-anniversary",
-      "title": "La La Land (10th Anniversary)",
-      "url": "https://filmhouse.sg/film/85/la-la-land-10th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
-      "year": "2016",
-      "runtime": "129mins",
-      "rating": "PG13",
-      "genre": "Musical",
-      "directors": [
-        "Damien Chazelle"
-      ],
-      "cast": [
-        "Ryan Gosling",
-        "Emma Stone",
-        "John Legend"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-15",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2018",
-          "tags": []
-        },
-        {
-          "date": "2026-11-21",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2059",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 223,
-      "slug": "the-house-on-the-moon",
-      "title": "The House on the Moon",
-      "url": "https://filmhouse.sg/film/223/the-house-on-the-moon",
-      "poster": "https://cdn.taposapp.com/poster/600x900/RKoSUfT5BljQXG5Gd8PBUDPqo5RgVU8OfO1oDvd1jHk.jpg",
-      "year": "2026",
-      "runtime": "104mins",
-      "rating": "NC16",
-      "genre": "Action/Adventure",
-      "directors": [
-        "Nelson Yeo"
-      ],
-      "cast": [
-        "Lim Shi-An",
-        "Dominick Rustam-Chartrand",
-        "Akira Huang"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-15",
-          "time": "20:20",
-          "label": "8:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1883",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-18",
-          "time": "20:10",
-          "label": "8:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2030",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-19",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2048",
-          "tags": []
-        },
-        {
-          "date": "2026-11-20",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2057",
-          "tags": []
-        },
-        {
-          "date": "2026-11-24",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2065",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 220,
-      "slug": "fjord",
-      "title": "Fjord",
-      "url": "https://filmhouse.sg/film/220/fjord",
-      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
-      "year": "2026",
-      "runtime": "146mins",
-      "rating": "NC16",
-      "genre": "Drama",
-      "directors": [
-        "Cristian Mungiu"
-      ],
-      "cast": [
-        "Sebastian Stan",
-        "Renate Reinsve",
-        "Lisa Carlehed"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-17",
-          "time": "16:20",
-          "label": "4:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2027",
-          "tags": []
-        },
-        {
-          "date": "2026-11-19",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2049",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-20",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2056",
           "tags": []
         }
       ]
@@ -483,6 +291,61 @@
       ]
     },
     {
+      "id": 223,
+      "slug": "the-house-on-the-moon",
+      "title": "The House on the Moon",
+      "url": "https://filmhouse.sg/film/223/the-house-on-the-moon",
+      "poster": "https://cdn.taposapp.com/poster/600x900/RKoSUfT5BljQXG5Gd8PBUDPqo5RgVU8OfO1oDvd1jHk.jpg",
+      "year": "2026",
+      "runtime": "104mins",
+      "rating": "NC16",
+      "genre": "Action/Adventure",
+      "directors": [
+        "Nelson Yeo"
+      ],
+      "cast": [
+        "Lim Shi-An",
+        "Dominick Rustam-Chartrand",
+        "Akira Huang"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-18",
+          "time": "20:10",
+          "label": "8:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2030",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-19",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2048",
+          "tags": []
+        },
+        {
+          "date": "2026-11-20",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2057",
+          "tags": []
+        },
+        {
+          "date": "2026-11-24",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2065",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 211,
       "slug": "stop-making-sense-4k-restoration",
       "title": "Stop Making Sense (4K Restoration)",
@@ -507,6 +370,35 @@
           "label": "8:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1884",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "slug": "godzilla-minus-zero",
+      "title": "Godzilla Minus Zero",
+      "url": "https://filmhouse.sg/film/245/godzilla-minus-zero",
+      "poster": "https://cdn.taposapp.com/poster/600x900/B7xnZ9htHLED27u2ENzaMs6s0mzOqgF0K4XdgNh6l8I.jpg",
+      "year": "2026",
+      "runtime": "135mins",
+      "rating": "PG13",
+      "genre": "Action",
+      "directors": [
+        "Takashi Yamazaki"
+      ],
+      "cast": [
+        "Ryunosuke Kamiki",
+        "Minami Hamabe",
+        "Yuki Yamada"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-19",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2047",
           "tags": []
         }
       ]
@@ -813,6 +705,35 @@
             "4K",
             "LastChance"
           ]
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "slug": "la-la-land-10th-anniversary",
+      "title": "La La Land (10th Anniversary)",
+      "url": "https://filmhouse.sg/film/85/la-la-land-10th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
+      "year": "2016",
+      "runtime": "129mins",
+      "rating": "PG13",
+      "genre": "Musical",
+      "directors": [
+        "Damien Chazelle"
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Emma Stone",
+        "John Legend"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-21",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2059",
+          "tags": []
         }
       ]
     },
@@ -1195,6 +1116,35 @@
           "label": "1:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1988",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "slug": "mad-max-fury-road",
+      "title": "Mad Max: Fury Road",
+      "url": "https://filmhouse.sg/film/242/mad-max-fury-road",
+      "poster": "https://cdn.taposapp.com/poster/600x900/Upgyen8eMQDCl3kYn-Gyl8I4AgUesu725GC_CA3mo7c.jpg",
+      "year": null,
+      "runtime": "121mins",
+      "rating": "NC16",
+      "genre": "Action/Adventure",
+      "directors": [
+        "George Miller"
+      ],
+      "cast": [
+        "Tom Hardy",
+        "Charlize Theron",
+        "Nicholas Hoult"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-26",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1955",
           "tags": []
         }
       ]
