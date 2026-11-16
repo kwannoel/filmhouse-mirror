@@ -1,6 +1,6 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-15T15:36:43.049Z",
+  "scrapedAt": "2026-11-16T06:53:30.389Z",
   "films": [
     {
       "id": 220,
@@ -651,8 +651,8 @@
           "date": "2026-11-21",
           "time": "14:00",
           "label": "2:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1932",
+          "soldOut": true,
+          "bookUrl": null,
           "tags": []
         },
         {
@@ -903,8 +903,8 @@
           "date": "2026-11-29",
           "time": "14:30",
           "label": "2:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1979",
+          "soldOut": true,
+          "bookUrl": null,
           "tags": [
             "4K"
           ]
