@@ -1,6 +1,6 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-16T06:53:30.389Z",
+  "scrapedAt": "2026-11-16T16:56:47.521Z",
   "films": [
     {
       "id": 220,
@@ -913,8 +913,8 @@
           "date": "2026-12-03",
           "time": "19:30",
           "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1981",
+          "soldOut": true,
+          "bookUrl": null,
           "tags": [
             "4K"
           ]
