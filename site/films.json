@@ -1,6 +1,6 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-17T08:34:16.904Z",
+  "scrapedAt": "2026-11-17T17:51:34.724Z",
   "films": [
     {
       "id": 227,
@@ -21,14 +21,6 @@
         "Fuuri Nanase"
       ],
       "showings": [
-        {
-          "date": "2026-11-17",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2025",
-          "tags": []
-        },
         {
           "date": "2026-11-18",
           "time": "16:10",
@@ -52,157 +44,6 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2060",
           "tags": []
-        }
-      ]
-    },
-    {
-      "id": 236,
-      "slug": "wildwood",
-      "title": "Wildwood",
-      "url": "https://filmhouse.sg/film/236/wildwood",
-      "poster": "https://cdn.taposapp.com/poster/600x900/f2RERlbD8YWOWDeLbRlltRHC0DtWohaPf0H4lZw8idc.jpg",
-      "year": "2026",
-      "runtime": "130mins",
-      "rating": "PG13",
-      "genre": "Animation",
-      "directors": [
-        "Travis Knight"
-      ],
-      "cast": [
-        "Peyton Elizabeth Lee",
-        "Jacob Tremblay",
-        "Carey Mulligan"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-17",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2026",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-18",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2029",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-20",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2052",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-22",
-          "time": "16:45",
-          "label": "4:45 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2062",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 216,
-      "slug": "moonlight-10th-anniversary",
-      "title": "Moonlight (10th Anniversary)",
-      "url": "https://filmhouse.sg/film/216/moonlight-10th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/aB-thlmpTSpCEwmtMl8N5uFWVPDvXpIvEJHZsmT3V2k.jpg",
-      "year": null,
-      "runtime": "128mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Barry Jenkins"
-      ],
-      "cast": [
-        "Trevante Rhodes",
-        "André Holland",
-        "Janelle Monáe"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-17",
-          "time": "19:40",
-          "label": "7:40 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1885",
-          "tags": [
-            "LastChance"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 240,
-      "slug": "all-we-imagine-as-light",
-      "title": "All We Imagine as Light",
-      "url": "https://filmhouse.sg/film/240/all-we-imagine-as-light",
-      "poster": "https://cdn.taposapp.com/poster/600x900/eOEAg3vMmuC_CWhxo8aaS37zxWDPrnV0BD66-a420Jo.jpg",
-      "year": null,
-      "runtime": "118mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Payal Kapadia"
-      ],
-      "cast": [
-        "Kani Kusruti",
-        "Divya Prabha",
-        "Chhaya Kadam"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-17",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2009",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 225,
-      "slug": "the-blade-4k-restoration",
-      "title": "The Blade (4K Restoration)",
-      "url": "https://filmhouse.sg/film/225/the-blade-4k-restoration",
-      "poster": "https://cdn.taposapp.com/poster/600x900/AV0k-c-0kY9iupY2qP3lt0W19PKnpzscWMHlMC7K2gQ.jpg",
-      "year": "1995",
-      "runtime": "105mins",
-      "rating": "NC16",
-      "genre": "Action",
-      "directors": [
-        "Tsui Hark"
-      ],
-      "cast": [
-        "Vincent Zhao Wenzhuo",
-        "Xiong Xinxin",
-        "Sonny Song"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-17",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1877",
-          "tags": [
-            "LastChance",
-            "4K"
-          ]
         }
       ]
     },
@@ -239,6 +80,55 @@
           "label": "7:45 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2063",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "slug": "wildwood",
+      "title": "Wildwood",
+      "url": "https://filmhouse.sg/film/236/wildwood",
+      "poster": "https://cdn.taposapp.com/poster/600x900/f2RERlbD8YWOWDeLbRlltRHC0DtWohaPf0H4lZw8idc.jpg",
+      "year": "2026",
+      "runtime": "130mins",
+      "rating": "PG13",
+      "genre": "Animation",
+      "directors": [
+        "Travis Knight"
+      ],
+      "cast": [
+        "Peyton Elizabeth Lee",
+        "Jacob Tremblay",
+        "Carey Mulligan"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-18",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2029",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2052",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-22",
+          "time": "16:45",
+          "label": "4:45 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2062",
           "tags": []
         }
       ]
@@ -915,8 +805,8 @@
           "date": "2026-12-05",
           "time": "20:00",
           "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1982",
+          "soldOut": true,
+          "bookUrl": null,
           "tags": [
             "LastChance",
             "4K"
@@ -1231,6 +1121,59 @@
           "label": "7:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2042",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 249,
+      "slug": "pom-poko",
+      "title": "Pom Poko",
+      "url": "https://filmhouse.sg/film/249/pom-poko",
+      "poster": "https://cdn.taposapp.com/poster/600x900/Jv7rBSWQxRSrhzTubIBOECFkZA4VnNblb4X3Yy-Nqfg.jpg",
+      "year": null,
+      "runtime": "119mins",
+      "rating": "PG",
+      "genre": "Animation",
+      "directors": [
+        "Isao Takahata"
+      ],
+      "cast": [
+        "Makoto Nonomura",
+        "Nijiko Kiyokawa",
+        "Shigeru Izumiya"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-06",
+          "time": "14:00",
+          "label": "2:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2101",
+          "tags": []
+        },
+        {
+          "date": "2026-12-10",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2102",
+          "tags": []
+        },
+        {
+          "date": "2026-12-12",
+          "time": "14:30",
+          "label": "2:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2103",
+          "tags": []
+        },
+        {
+          "date": "2026-12-19",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2104",
           "tags": []
         }
       ]
