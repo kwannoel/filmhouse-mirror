@@ -1,54 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-16T16:56:47.521Z",
+  "scrapedAt": "2026-11-17T08:34:16.904Z",
   "films": [
-    {
-      "id": 220,
-      "slug": "fjord",
-      "title": "Fjord",
-      "url": "https://filmhouse.sg/film/220/fjord",
-      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
-      "year": "2026",
-      "runtime": "146mins",
-      "rating": "NC16",
-      "genre": "Drama",
-      "directors": [
-        "Cristian Mungiu"
-      ],
-      "cast": [
-        "Sebastian Stan",
-        "Renate Reinsve",
-        "Lisa Carlehed"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-17",
-          "time": "16:20",
-          "label": "4:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2027",
-          "tags": []
-        },
-        {
-          "date": "2026-11-19",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2049",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-20",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2056",
-          "tags": []
-        }
-      ]
-    },
     {
       "id": 227,
       "slug": "look-back",
@@ -404,6 +357,45 @@
       ]
     },
     {
+      "id": 220,
+      "slug": "fjord",
+      "title": "Fjord",
+      "url": "https://filmhouse.sg/film/220/fjord",
+      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
+      "year": "2026",
+      "runtime": "146mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Cristian Mungiu"
+      ],
+      "cast": [
+        "Sebastian Stan",
+        "Renate Reinsve",
+        "Lisa Carlehed"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-19",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2049",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2056",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 180,
       "slug": "aftersun",
       "title": "Aftersun",
@@ -651,8 +643,8 @@
           "date": "2026-11-21",
           "time": "14:00",
           "label": "2:00 pm",
-          "soldOut": true,
-          "bookUrl": null,
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1932",
           "tags": []
         },
         {
@@ -1276,6 +1268,75 @@
           "label": "1:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1984",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 262,
+      "slug": "test-film-a",
+      "title": "Test Film A",
+      "url": "https://filmhouse.sg/film/262/test-film-a",
+      "poster": "https://filmhouse.sg/wp-content/plugins/jacro-plugin/images/default.png",
+      "year": null,
+      "runtime": "80mins",
+      "rating": "M18",
+      "genre": null,
+      "directors": [],
+      "cast": [],
+      "showings": [
+        {
+          "date": "2026-12-28",
+          "time": "11:30",
+          "label": "11:30 am",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2098",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 263,
+      "slug": "test-film-b",
+      "title": "Test Film B",
+      "url": "https://filmhouse.sg/film/263/test-film-b",
+      "poster": "https://filmhouse.sg/wp-content/plugins/jacro-plugin/images/default.png",
+      "year": null,
+      "runtime": "90mins",
+      "rating": "G",
+      "genre": null,
+      "directors": [],
+      "cast": [],
+      "showings": [
+        {
+          "date": "2026-12-28",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2099",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "slug": "test-film-c",
+      "title": "Test Film C",
+      "url": "https://filmhouse.sg/film/264/test-film-c",
+      "poster": "https://filmhouse.sg/wp-content/plugins/jacro-plugin/images/default.png",
+      "year": null,
+      "runtime": "100mins",
+      "rating": "NC16",
+      "genre": null,
+      "directors": [],
+      "cast": [],
+      "showings": [
+        {
+          "date": "2026-12-28",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2100",
           "tags": []
         }
       ]
