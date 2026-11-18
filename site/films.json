@@ -1,6 +1,6 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-17T17:51:34.724Z",
+  "scrapedAt": "2026-11-18T07:43:33.847Z",
   "films": [
     {
       "id": 227,
@@ -1233,7 +1233,15 @@
           "time": "11:30",
           "label": "11:30 am",
           "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2098",
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2108",
+          "tags": []
+        },
+        {
+          "date": "2026-12-29",
+          "time": "11:30",
+          "label": "11:30 am",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2114",
           "tags": []
         }
       ]
@@ -1253,10 +1261,18 @@
       "showings": [
         {
           "date": "2026-12-28",
-          "time": "13:30",
-          "label": "1:30 pm",
+          "time": "13:40",
+          "label": "1:40 pm",
           "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2099",
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2109",
+          "tags": []
+        },
+        {
+          "date": "2026-12-29",
+          "time": "13:00",
+          "label": "1:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2115",
           "tags": []
         }
       ]
@@ -1276,10 +1292,18 @@
       "showings": [
         {
           "date": "2026-12-28",
-          "time": "17:30",
-          "label": "5:30 pm",
+          "time": "16:20",
+          "label": "4:20 pm",
           "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2100",
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2110",
+          "tags": []
+        },
+        {
+          "date": "2026-12-29",
+          "time": "14:40",
+          "label": "2:40 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2116",
           "tags": []
         }
       ]
