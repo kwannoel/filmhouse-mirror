@@ -1,222 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-18T07:43:33.847Z",
+  "scrapedAt": "2026-11-18T16:44:58.539Z",
   "films": [
-    {
-      "id": 227,
-      "slug": "look-back",
-      "title": "Look Back",
-      "url": "https://filmhouse.sg/film/227/look-back",
-      "poster": "https://cdn.taposapp.com/poster/600x900/YejRB0CCIF89tsPfjS4Z3ei643tMVpgm8Bhd-yNspCA.jpg",
-      "year": "2026",
-      "runtime": "100mins",
-      "rating": "PG",
-      "genre": "Drama",
-      "directors": [
-        "Hirokazu Kore-eda"
-      ],
-      "cast": [
-        "Natsuki Deguchi",
-        "Aju Makita",
-        "Fuuri Nanase"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-18",
-          "time": "16:10",
-          "label": "4:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2024",
-          "tags": []
-        },
-        {
-          "date": "2026-11-20",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2054",
-          "tags": []
-        },
-        {
-          "date": "2026-11-22",
-          "time": "20:50",
-          "label": "8:50 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2060",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 217,
-      "slug": "kokuho",
-      "title": "Kokuho",
-      "url": "https://filmhouse.sg/film/217/kokuho",
-      "poster": "https://cdn.taposapp.com/poster/600x900/1N7zTZsGmJ2IrqrijtehsvW9hj41-J5mf2tp0g-NTvs.jpg",
-      "year": null,
-      "runtime": "174mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Sang-il Lee"
-      ],
-      "cast": [
-        "Ryo Yoshizawa",
-        "Ryusei Yokohama",
-        "Mitsuki Takahata"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-18",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2028",
-          "tags": []
-        },
-        {
-          "date": "2026-11-22",
-          "time": "19:45",
-          "label": "7:45 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2063",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 236,
-      "slug": "wildwood",
-      "title": "Wildwood",
-      "url": "https://filmhouse.sg/film/236/wildwood",
-      "poster": "https://cdn.taposapp.com/poster/600x900/f2RERlbD8YWOWDeLbRlltRHC0DtWohaPf0H4lZw8idc.jpg",
-      "year": "2026",
-      "runtime": "130mins",
-      "rating": "PG13",
-      "genre": "Animation",
-      "directors": [
-        "Travis Knight"
-      ],
-      "cast": [
-        "Peyton Elizabeth Lee",
-        "Jacob Tremblay",
-        "Carey Mulligan"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-18",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2029",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-20",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2052",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-22",
-          "time": "16:45",
-          "label": "4:45 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2062",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 223,
-      "slug": "the-house-on-the-moon",
-      "title": "The House on the Moon",
-      "url": "https://filmhouse.sg/film/223/the-house-on-the-moon",
-      "poster": "https://cdn.taposapp.com/poster/600x900/RKoSUfT5BljQXG5Gd8PBUDPqo5RgVU8OfO1oDvd1jHk.jpg",
-      "year": "2026",
-      "runtime": "104mins",
-      "rating": "NC16",
-      "genre": "Action/Adventure",
-      "directors": [
-        "Nelson Yeo"
-      ],
-      "cast": [
-        "Lim Shi-An",
-        "Dominick Rustam-Chartrand",
-        "Akira Huang"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-18",
-          "time": "20:10",
-          "label": "8:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2030",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-19",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2048",
-          "tags": []
-        },
-        {
-          "date": "2026-11-20",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2057",
-          "tags": []
-        },
-        {
-          "date": "2026-11-24",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2065",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 211,
-      "slug": "stop-making-sense-4k-restoration",
-      "title": "Stop Making Sense (4K Restoration)",
-      "url": "https://filmhouse.sg/film/211/stop-making-sense-4k-restoration",
-      "poster": "https://cdn.taposapp.com/poster/600x900/qfE7CBmwt8jmAC2_sLrJAGhJQGAbK5y8Ec4RnuxgF_s.jpg",
-      "year": "1984",
-      "runtime": "88mins",
-      "rating": "PG",
-      "genre": "Musical",
-      "directors": [
-        "Jonathan Demme"
-      ],
-      "cast": [
-        "David Byrne",
-        "Chris Frantz",
-        "Jerry Harrison"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-18",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1884",
-          "tags": []
-        }
-      ]
-    },
     {
       "id": 245,
       "slug": "godzilla-minus-zero",
@@ -310,6 +95,51 @@
           "label": "5:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2051",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "slug": "the-house-on-the-moon",
+      "title": "The House on the Moon",
+      "url": "https://filmhouse.sg/film/223/the-house-on-the-moon",
+      "poster": "https://cdn.taposapp.com/poster/600x900/RKoSUfT5BljQXG5Gd8PBUDPqo5RgVU8OfO1oDvd1jHk.jpg",
+      "year": "2026",
+      "runtime": "104mins",
+      "rating": "NC16",
+      "genre": "Action/Adventure",
+      "directors": [
+        "Nelson Yeo"
+      ],
+      "cast": [
+        "Lim Shi-An",
+        "Dominick Rustam-Chartrand",
+        "Akira Huang"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-19",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2048",
+          "tags": []
+        },
+        {
+          "date": "2026-11-20",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2057",
+          "tags": []
+        },
+        {
+          "date": "2026-11-24",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2065",
           "tags": []
         }
       ]
@@ -426,6 +256,82 @@
           "label": "7:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2068",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "slug": "wildwood",
+      "title": "Wildwood",
+      "url": "https://filmhouse.sg/film/236/wildwood",
+      "poster": "https://cdn.taposapp.com/poster/600x900/f2RERlbD8YWOWDeLbRlltRHC0DtWohaPf0H4lZw8idc.jpg",
+      "year": "2026",
+      "runtime": "130mins",
+      "rating": "PG13",
+      "genre": "Animation",
+      "directors": [
+        "Travis Knight"
+      ],
+      "cast": [
+        "Peyton Elizabeth Lee",
+        "Jacob Tremblay",
+        "Carey Mulligan"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-20",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2052",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-22",
+          "time": "16:45",
+          "label": "4:45 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2062",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "slug": "look-back",
+      "title": "Look Back",
+      "url": "https://filmhouse.sg/film/227/look-back",
+      "poster": "https://cdn.taposapp.com/poster/600x900/YejRB0CCIF89tsPfjS4Z3ei643tMVpgm8Bhd-yNspCA.jpg",
+      "year": "2026",
+      "runtime": "100mins",
+      "rating": "PG",
+      "genre": "Drama",
+      "directors": [
+        "Hirokazu Kore-eda"
+      ],
+      "cast": [
+        "Natsuki Deguchi",
+        "Aju Makita",
+        "Fuuri Nanase"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-20",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2054",
+          "tags": []
+        },
+        {
+          "date": "2026-11-22",
+          "time": "20:50",
+          "label": "8:50 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2060",
           "tags": []
         }
       ]
@@ -815,6 +721,35 @@
       ]
     },
     {
+      "id": 217,
+      "slug": "kokuho",
+      "title": "Kokuho",
+      "url": "https://filmhouse.sg/film/217/kokuho",
+      "poster": "https://cdn.taposapp.com/poster/600x900/1N7zTZsGmJ2IrqrijtehsvW9hj41-J5mf2tp0g-NTvs.jpg",
+      "year": null,
+      "runtime": "174mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Sang-il Lee"
+      ],
+      "cast": [
+        "Ryo Yoshizawa",
+        "Ryusei Yokohama",
+        "Mitsuki Takahata"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-22",
+          "time": "19:45",
+          "label": "7:45 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2063",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 159,
       "slug": "ponyo-on-the-cliff-by-the-sea",
       "title": "Ponyo on the Cliff by the Sea",
@@ -1179,6 +1114,104 @@
       ]
     },
     {
+      "id": 255,
+      "slug": "merry-christmas-mr-lawrence",
+      "title": "Merry Christmas, Mr. Lawrence",
+      "url": "https://filmhouse.sg/film/255/merry-christmas-mr-lawrence",
+      "poster": "https://cdn.taposapp.com/poster/600x900/LDgEZcecRVfNZI67FqZtCSKVPADlEsertBip6p2l2DY.jpg",
+      "year": null,
+      "runtime": "124mins",
+      "rating": "PG13",
+      "genre": "Drama",
+      "directors": [
+        "Nagisa Ōshima"
+      ],
+      "cast": [
+        "David Bowie",
+        "Tom Conti",
+        "Ryuichi Sakamoto"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-11",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2087",
+          "tags": []
+        },
+        {
+          "date": "2026-12-19",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2088",
+          "tags": []
+        },
+        {
+          "date": "2026-12-25",
+          "time": "14:30",
+          "label": "2:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2089",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 258,
+      "slug": "little-women",
+      "title": "Little Women",
+      "url": "https://filmhouse.sg/film/258/little-women",
+      "poster": "https://cdn.taposapp.com/poster/600x900/QLLM5R2OdUSJfad_wlu_RCOQGw9_xdUo_5IMoIwlCH0.jpg",
+      "year": null,
+      "runtime": "135mins",
+      "rating": "PG",
+      "genre": "Drama",
+      "directors": [
+        "Greta Gerwig"
+      ],
+      "cast": [
+        "Saoirse Ronan",
+        "Emma Watson",
+        "Florence Pugh"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-12",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2083",
+          "tags": []
+        },
+        {
+          "date": "2026-12-20",
+          "time": "16:45",
+          "label": "4:45 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2084",
+          "tags": []
+        },
+        {
+          "date": "2026-12-24",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2085",
+          "tags": []
+        },
+        {
+          "date": "2026-12-26",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2086",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 239,
       "slug": "minotaur",
       "title": "Minotaur",
@@ -1211,6 +1244,104 @@
           "label": "1:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1984",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "slug": "nausica-of-the-valley-of-the-wind",
+      "title": "Nausicaä of the Valley of the Wind",
+      "url": "https://filmhouse.sg/film/250/nausica-of-the-valley-of-the-wind",
+      "poster": "https://cdn.taposapp.com/poster/600x900/33MK6Ne1oREIrgiEEguFS8efPs2A3innIXuTDo8fajA.jpg",
+      "year": null,
+      "runtime": "117mins",
+      "rating": "PG",
+      "genre": "Animation",
+      "directors": [
+        "Hayao Miyazaki"
+      ],
+      "cast": [
+        "Sumi Shimamoto",
+        "Ichiro Nagai",
+        "Gorō Naya"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-17",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2120",
+          "tags": []
+        },
+        {
+          "date": "2026-12-20",
+          "time": "16:15",
+          "label": "4:15 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2121",
+          "tags": []
+        },
+        {
+          "date": "2026-12-23",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2122",
+          "tags": []
+        },
+        {
+          "date": "2026-12-27",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2123",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 256,
+      "slug": "carol",
+      "title": "Carol",
+      "url": "https://filmhouse.sg/film/256/carol",
+      "poster": "https://cdn.taposapp.com/poster/600x900/QpHWDZcD43EqIsKWqvc87DhhhITvjJqk-YFm1bNdWZk.jpg",
+      "year": null,
+      "runtime": "118mins",
+      "rating": "R21",
+      "genre": "Drama",
+      "directors": [
+        "Todd Haynes"
+      ],
+      "cast": [
+        "Cate Blanchett",
+        "Rooney Mara",
+        "Kyle Chandler"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-18",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2069",
+          "tags": []
+        },
+        {
+          "date": "2026-12-25",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2070",
+          "tags": []
+        },
+        {
+          "date": "2026-12-27",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2071",
           "tags": []
         }
       ]
