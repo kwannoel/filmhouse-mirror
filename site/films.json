@@ -1,6 +1,6 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-18T16:44:58.539Z",
+  "scrapedAt": "2026-11-19T04:16:16.622Z",
   "films": [
     {
       "id": 245,
@@ -995,6 +995,38 @@
           "tags": [
             "LastChance",
             "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "slug": "the-violinist-an-exclusive-tedxsingapore-community-screening-qa",
+      "title": "The Violinist: An Exclusive TEDxSingapore Community Screening + Q&A",
+      "url": "https://filmhouse.sg/film/221/the-violinist-an-exclusive-tedxsingapore-community-screening-qa",
+      "poster": "https://cdn.taposapp.com/poster/600x900/LPtED4tqy1WkWqHi6VuOBkK4plkjjzFAHUt4AIWUGzE.jpg",
+      "year": null,
+      "runtime": "114mins",
+      "rating": "PG",
+      "genre": "Animation",
+      "directors": [
+        "Ervin Han",
+        "Raúl García"
+      ],
+      "cast": [
+        "Tan Kheng Hua",
+        "Kazuya Tanabe",
+        "Adrian Pang"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-04",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2037",
+          "tags": [
+            "Live Q&A"
           ]
         }
       ]
