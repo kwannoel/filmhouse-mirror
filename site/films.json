@@ -1,6 +1,6 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-19T13:31:30.260Z",
+  "scrapedAt": "2026-11-19T21:46:13.084Z",
   "films": [
     {
       "id": 236,
@@ -308,8 +308,8 @@
           "date": "2026-11-21",
           "time": "14:00",
           "label": "2:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1932",
+          "soldOut": true,
+          "bookUrl": null,
           "tags": []
         },
         {
@@ -1282,99 +1282,6 @@
           "label": "5:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2071",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 262,
-      "slug": "test-film-a",
-      "title": "Test Film A",
-      "url": "https://filmhouse.sg/film/262/test-film-a",
-      "poster": "https://filmhouse.sg/wp-content/plugins/jacro-plugin/images/default.png",
-      "year": null,
-      "runtime": "80mins",
-      "rating": "M18",
-      "genre": null,
-      "directors": [],
-      "cast": [],
-      "showings": [
-        {
-          "date": "2026-12-28",
-          "time": "11:30",
-          "label": "11:30 am",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2108",
-          "tags": []
-        },
-        {
-          "date": "2026-12-29",
-          "time": "11:30",
-          "label": "11:30 am",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2114",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 263,
-      "slug": "test-film-b",
-      "title": "Test Film B",
-      "url": "https://filmhouse.sg/film/263/test-film-b",
-      "poster": "https://filmhouse.sg/wp-content/plugins/jacro-plugin/images/default.png",
-      "year": null,
-      "runtime": "90mins",
-      "rating": "G",
-      "genre": null,
-      "directors": [],
-      "cast": [],
-      "showings": [
-        {
-          "date": "2026-12-28",
-          "time": "13:40",
-          "label": "1:40 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2109",
-          "tags": []
-        },
-        {
-          "date": "2026-12-29",
-          "time": "13:00",
-          "label": "1:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2115",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 264,
-      "slug": "test-film-c",
-      "title": "Test Film C",
-      "url": "https://filmhouse.sg/film/264/test-film-c",
-      "poster": "https://filmhouse.sg/wp-content/plugins/jacro-plugin/images/default.png",
-      "year": null,
-      "runtime": "100mins",
-      "rating": "NC16",
-      "genre": null,
-      "directors": [],
-      "cast": [],
-      "showings": [
-        {
-          "date": "2026-12-28",
-          "time": "16:20",
-          "label": "4:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2110",
-          "tags": []
-        },
-        {
-          "date": "2026-12-29",
-          "time": "14:40",
-          "label": "2:40 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2116",
           "tags": []
         }
       ]
