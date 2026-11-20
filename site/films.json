@@ -1,146 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-20T10:37:17.407Z",
+  "scrapedAt": "2026-11-20T18:52:35.999Z",
   "films": [
-    {
-      "id": 224,
-      "slug": "crouching-tiger-hidden-dragon-4k-restoration",
-      "title": "Crouching Tiger, Hidden Dragon (4K Restoration)",
-      "url": "https://filmhouse.sg/film/224/crouching-tiger-hidden-dragon-4k-restoration",
-      "poster": "https://cdn.taposapp.com/poster/600x900/2emi_8-mZ809IX_-3o3tFsphrQzcHWQ6x4a-qgA2YHU.jpg",
-      "year": "2000",
-      "runtime": "120mins",
-      "rating": "NC16",
-      "genre": "Action",
-      "directors": [
-        "Ang Lee"
-      ],
-      "cast": [
-        "Chow Yun-Fat",
-        "Michelle Yeoh",
-        "Zhang Ziyi"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-20",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2053",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-24",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1879",
-          "tags": [
-            "4K"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 247,
-      "slug": "ah-girl",
-      "title": "Ah Girl",
-      "url": "https://filmhouse.sg/film/247/ah-girl",
-      "poster": "https://cdn.taposapp.com/poster/600x900/6g27gyNEo-e2vxYCuvVn9EFBqGPuQr6Cxh6mC5oN0Po.jpg",
-      "year": "2026",
-      "runtime": "99mins",
-      "rating": "PG13",
-      "genre": "Drama",
-      "directors": [
-        "Ang Geck Geck"
-      ],
-      "cast": [
-        "Xuan Jing Ong",
-        "Sydney Wong",
-        "Carrie Wong"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-20",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2055",
-          "tags": []
-        },
-        {
-          "date": "2026-11-21",
-          "time": "17:20",
-          "label": "5:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2058",
-          "tags": []
-        },
-        {
-          "date": "2026-11-22",
-          "time": "20:40",
-          "label": "8:40 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2061",
-          "tags": []
-        },
-        {
-          "date": "2026-11-24",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2064",
-          "tags": []
-        },
-        {
-          "date": "2026-11-25",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2068",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 223,
-      "slug": "the-house-on-the-moon",
-      "title": "The House on the Moon",
-      "url": "https://filmhouse.sg/film/223/the-house-on-the-moon",
-      "poster": "https://cdn.taposapp.com/poster/600x900/RKoSUfT5BljQXG5Gd8PBUDPqo5RgVU8OfO1oDvd1jHk.jpg",
-      "year": "2026",
-      "runtime": "104mins",
-      "rating": "NC16",
-      "genre": "Action/Adventure",
-      "directors": [
-        "Nelson Yeo"
-      ],
-      "cast": [
-        "Lim Shi-An",
-        "Dominick Rustam-Chartrand",
-        "Akira Huang"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-20",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2057",
-          "tags": []
-        },
-        {
-          "date": "2026-11-24",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2065",
-          "tags": []
-        }
-      ]
-    },
     {
       "id": 226,
       "slug": "a-touch-of-zen-4k-restoration",
@@ -224,6 +85,59 @@
           "tags": [
             "LastChance"
           ]
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "slug": "ah-girl",
+      "title": "Ah Girl",
+      "url": "https://filmhouse.sg/film/247/ah-girl",
+      "poster": "https://cdn.taposapp.com/poster/600x900/6g27gyNEo-e2vxYCuvVn9EFBqGPuQr6Cxh6mC5oN0Po.jpg",
+      "year": "2026",
+      "runtime": "99mins",
+      "rating": "PG13",
+      "genre": "Drama",
+      "directors": [
+        "Ang Geck Geck"
+      ],
+      "cast": [
+        "Xuan Jing Ong",
+        "Sydney Wong",
+        "Carrie Wong"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-21",
+          "time": "17:20",
+          "label": "5:20 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2058",
+          "tags": []
+        },
+        {
+          "date": "2026-11-22",
+          "time": "20:40",
+          "label": "8:40 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2061",
+          "tags": []
+        },
+        {
+          "date": "2026-11-24",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2064",
+          "tags": []
+        },
+        {
+          "date": "2026-11-25",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2068",
+          "tags": []
         }
       ]
     },
@@ -572,6 +486,35 @@
       ]
     },
     {
+      "id": 223,
+      "slug": "the-house-on-the-moon",
+      "title": "The House on the Moon",
+      "url": "https://filmhouse.sg/film/223/the-house-on-the-moon",
+      "poster": "https://cdn.taposapp.com/poster/600x900/RKoSUfT5BljQXG5Gd8PBUDPqo5RgVU8OfO1oDvd1jHk.jpg",
+      "year": "2026",
+      "runtime": "104mins",
+      "rating": "NC16",
+      "genre": "Action/Adventure",
+      "directors": [
+        "Nelson Yeo"
+      ],
+      "cast": [
+        "Lim Shi-An",
+        "Dominick Rustam-Chartrand",
+        "Akira Huang"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-24",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2065",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 159,
       "slug": "ponyo-on-the-cliff-by-the-sea",
       "title": "Ponyo on the Cliff by the Sea",
@@ -598,6 +541,37 @@
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1920",
           "tags": [
             "LastChance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "slug": "crouching-tiger-hidden-dragon-4k-restoration",
+      "title": "Crouching Tiger, Hidden Dragon (4K Restoration)",
+      "url": "https://filmhouse.sg/film/224/crouching-tiger-hidden-dragon-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/2emi_8-mZ809IX_-3o3tFsphrQzcHWQ6x4a-qgA2YHU.jpg",
+      "year": "2000",
+      "runtime": "120mins",
+      "rating": "NC16",
+      "genre": "Action",
+      "directors": [
+        "Ang Lee"
+      ],
+      "cast": [
+        "Chow Yun-Fat",
+        "Michelle Yeoh",
+        "Zhang Ziyi"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-24",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1879",
+          "tags": [
+            "4K"
           ]
         }
       ]
