@@ -1,93 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-20T18:52:35.999Z",
+  "scrapedAt": "2026-11-21T07:46:22.874Z",
   "films": [
-    {
-      "id": 226,
-      "slug": "a-touch-of-zen-4k-restoration",
-      "title": "A Touch of Zen (4K Restoration)",
-      "url": "https://filmhouse.sg/film/226/a-touch-of-zen-4k-restoration",
-      "poster": "https://cdn.taposapp.com/poster/600x900/OVMSXKQpyChSJ0kp5lmRqyfNmmxDgNkDRGNflO5114g.jpg",
-      "year": "1971",
-      "runtime": "180mins",
-      "rating": "PG13",
-      "genre": "Action",
-      "directors": [
-        "King Hu"
-      ],
-      "cast": [
-        "Hsu Feng",
-        "Shih Chun",
-        "Pai Ying"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-21",
-          "time": "13:30",
-          "label": "1:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1878",
-          "tags": []
-        },
-        {
-          "date": "2026-12-02",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1890",
-          "tags": [
-            "4K"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 232,
-      "slug": "amlie-25th-anniversary",
-      "title": "Amélie (25th Anniversary)",
-      "url": "https://filmhouse.sg/film/232/amlie-25th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/2skZm3Mts3h_uelrna7y5OwWNVidQ2t_-qIQbXlbFPw.jpg",
-      "year": "2001",
-      "runtime": "122mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Jean-Pierre Jeunet"
-      ],
-      "cast": [
-        "Audrey Tautou",
-        "Mathieu Kassovitz",
-        "Rufus"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-21",
-          "time": "14:00",
-          "label": "2:00 pm",
-          "soldOut": true,
-          "bookUrl": null,
-          "tags": []
-        },
-        {
-          "date": "2026-11-28",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1934",
-          "tags": []
-        },
-        {
-          "date": "2026-12-06",
-          "time": "14:30",
-          "label": "2:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1936",
-          "tags": [
-            "LastChance"
-          ]
-        }
-      ]
-    },
     {
       "id": 247,
       "slug": "ah-girl",
@@ -802,6 +716,45 @@
       ]
     },
     {
+      "id": 232,
+      "slug": "amlie-25th-anniversary",
+      "title": "Amélie (25th Anniversary)",
+      "url": "https://filmhouse.sg/film/232/amlie-25th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/2skZm3Mts3h_uelrna7y5OwWNVidQ2t_-qIQbXlbFPw.jpg",
+      "year": "2001",
+      "runtime": "122mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Jean-Pierre Jeunet"
+      ],
+      "cast": [
+        "Audrey Tautou",
+        "Mathieu Kassovitz",
+        "Rufus"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-28",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1934",
+          "tags": []
+        },
+        {
+          "date": "2026-12-06",
+          "time": "14:30",
+          "label": "2:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1936",
+          "tags": [
+            "LastChance"
+          ]
+        }
+      ]
+    },
+    {
       "id": 233,
       "slug": "delicatessen-4k-restoration",
       "title": "Delicatessen (4K Restoration)",
@@ -829,6 +782,37 @@
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1935",
           "tags": [
             "LastChance",
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "slug": "a-touch-of-zen-4k-restoration",
+      "title": "A Touch of Zen (4K Restoration)",
+      "url": "https://filmhouse.sg/film/226/a-touch-of-zen-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/OVMSXKQpyChSJ0kp5lmRqyfNmmxDgNkDRGNflO5114g.jpg",
+      "year": "1971",
+      "runtime": "180mins",
+      "rating": "PG13",
+      "genre": "Action",
+      "directors": [
+        "King Hu"
+      ],
+      "cast": [
+        "Hsu Feng",
+        "Shih Chun",
+        "Pai Ying"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-02",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1890",
+          "tags": [
             "4K"
           ]
         }
