@@ -1,171 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-21T07:46:22.874Z",
+  "scrapedAt": "2026-11-21T15:40:40.941Z",
   "films": [
-    {
-      "id": 247,
-      "slug": "ah-girl",
-      "title": "Ah Girl",
-      "url": "https://filmhouse.sg/film/247/ah-girl",
-      "poster": "https://cdn.taposapp.com/poster/600x900/6g27gyNEo-e2vxYCuvVn9EFBqGPuQr6Cxh6mC5oN0Po.jpg",
-      "year": "2026",
-      "runtime": "99mins",
-      "rating": "PG13",
-      "genre": "Drama",
-      "directors": [
-        "Ang Geck Geck"
-      ],
-      "cast": [
-        "Xuan Jing Ong",
-        "Sydney Wong",
-        "Carrie Wong"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-21",
-          "time": "17:20",
-          "label": "5:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2058",
-          "tags": []
-        },
-        {
-          "date": "2026-11-22",
-          "time": "20:40",
-          "label": "8:40 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2061",
-          "tags": []
-        },
-        {
-          "date": "2026-11-24",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2064",
-          "tags": []
-        },
-        {
-          "date": "2026-11-25",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2068",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 234,
-      "slug": "the-city-of-lost-children-4k-restoration",
-      "title": "The City of Lost Children (4K Restoration)",
-      "url": "https://filmhouse.sg/film/234/the-city-of-lost-children-4k-restoration",
-      "poster": "https://cdn.taposapp.com/poster/600x900/o2woY1W8do3gEK3z4IqUP-fCLGRpsmDW0GLxHP7RzF8.jpg",
-      "year": "1995",
-      "runtime": "112mins",
-      "rating": "NC16",
-      "genre": "Drama",
-      "directors": [
-        "Marc Caro",
-        "Jean-Pierre Jeunet"
-      ],
-      "cast": [
-        "Ron Perlman",
-        "Dominique Pinon",
-        "Judith Vittet"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-21",
-          "time": "17:40",
-          "label": "5:40 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1933",
-          "tags": [
-            "4K",
-            "LastChance"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 85,
-      "slug": "la-la-land-10th-anniversary",
-      "title": "La La Land (10th Anniversary)",
-      "url": "https://filmhouse.sg/film/85/la-la-land-10th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
-      "year": "2016",
-      "runtime": "129mins",
-      "rating": "PG13",
-      "genre": "Musical",
-      "directors": [
-        "Damien Chazelle"
-      ],
-      "cast": [
-        "Ryan Gosling",
-        "Emma Stone",
-        "John Legend"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-21",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2059",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 248,
-      "slug": "rocky-50th-anniversary",
-      "title": "Rocky (50th Anniversary)",
-      "url": "https://filmhouse.sg/film/248/rocky-50th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/Cs1yCXI4qoAfPw9BnwLaLz-OJWocEi4WrAM5YXufpaQ.jpg",
-      "year": "1976",
-      "runtime": "120mins",
-      "rating": "PG",
-      "genre": "Drama",
-      "directors": [
-        "John G. Avildsen"
-      ],
-      "cast": [
-        "Sylvester Stallone",
-        "Talia Shire",
-        "Burt Young"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-21",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2031",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-25",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2033",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-28",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2035",
-          "tags": []
-        }
-      ]
-    },
     {
       "id": 246,
       "slug": "national-theatre-live-inter-alia",
@@ -230,8 +66,8 @@
           "date": "2026-11-22",
           "time": "14:30",
           "label": "2:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1937",
+          "soldOut": true,
+          "bookUrl": null,
           "tags": [
             "LastChance",
             "4K"
@@ -265,6 +101,26 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2062",
           "tags": []
+        },
+        {
+          "date": "2026-11-27",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2143",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-12-01",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2157",
+          "tags": [
+            "4K"
+          ]
         }
       ]
     },
@@ -371,6 +227,91 @@
       ]
     },
     {
+      "id": 247,
+      "slug": "ah-girl",
+      "title": "Ah Girl",
+      "url": "https://filmhouse.sg/film/247/ah-girl",
+      "poster": "https://cdn.taposapp.com/poster/600x900/6g27gyNEo-e2vxYCuvVn9EFBqGPuQr6Cxh6mC5oN0Po.jpg",
+      "year": "2026",
+      "runtime": "99mins",
+      "rating": "PG13",
+      "genre": "Drama",
+      "directors": [
+        "Ang Geck Geck"
+      ],
+      "cast": [
+        "Xuan Jing Ong",
+        "Sydney Wong",
+        "Carrie Wong"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-22",
+          "time": "20:40",
+          "label": "8:40 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2061",
+          "tags": []
+        },
+        {
+          "date": "2026-11-24",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2064",
+          "tags": []
+        },
+        {
+          "date": "2026-11-25",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2068",
+          "tags": []
+        },
+        {
+          "date": "2026-11-26",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2138",
+          "tags": []
+        },
+        {
+          "date": "2026-11-28",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2144",
+          "tags": []
+        },
+        {
+          "date": "2026-11-29",
+          "time": "18:00",
+          "label": "6:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2150",
+          "tags": []
+        },
+        {
+          "date": "2026-12-01",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2155",
+          "tags": []
+        },
+        {
+          "date": "2026-12-02",
+          "time": "18:00",
+          "label": "6:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2159",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 227,
       "slug": "look-back",
       "title": "Look Back",
@@ -395,6 +336,30 @@
           "label": "8:50 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2060",
+          "tags": []
+        },
+        {
+          "date": "2026-11-28",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2146",
+          "tags": []
+        },
+        {
+          "date": "2026-11-29",
+          "time": "20:45",
+          "label": "8:45 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2152",
+          "tags": []
+        },
+        {
+          "date": "2026-12-01",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2154",
           "tags": []
         }
       ]
@@ -424,6 +389,22 @@
           "label": "4:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2065",
+          "tags": []
+        },
+        {
+          "date": "2026-11-27",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2139",
+          "tags": []
+        },
+        {
+          "date": "2026-12-02",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2160",
           "tags": []
         }
       ]
@@ -456,6 +437,22 @@
           "tags": [
             "LastChance"
           ]
+        },
+        {
+          "date": "2026-11-29",
+          "time": "14:00",
+          "label": "2:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2147",
+          "tags": []
+        },
+        {
+          "date": "2026-12-02",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2162",
+          "tags": []
         }
       ]
     },
@@ -487,6 +484,14 @@
           "tags": [
             "4K"
           ]
+        },
+        {
+          "date": "2026-11-27",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2142",
+          "tags": []
         }
       ]
     },
@@ -595,6 +600,120 @@
       ]
     },
     {
+      "id": 248,
+      "slug": "rocky-50th-anniversary",
+      "title": "Rocky (50th Anniversary)",
+      "url": "https://filmhouse.sg/film/248/rocky-50th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/Cs1yCXI4qoAfPw9BnwLaLz-OJWocEi4WrAM5YXufpaQ.jpg",
+      "year": "1976",
+      "runtime": "120mins",
+      "rating": "PG",
+      "genre": "Drama",
+      "directors": [
+        "John G. Avildsen"
+      ],
+      "cast": [
+        "Sylvester Stallone",
+        "Talia Shire",
+        "Burt Young"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-25",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2033",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-11-28",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2035",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "slug": "fjord",
+      "title": "Fjord",
+      "url": "https://filmhouse.sg/film/220/fjord",
+      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
+      "year": "2026",
+      "runtime": "146mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Cristian Mungiu"
+      ],
+      "cast": [
+        "Sebastian Stan",
+        "Renate Reinsve",
+        "Lisa Carlehed"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-26",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2135",
+          "tags": []
+        },
+        {
+          "date": "2026-11-27",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2141",
+          "tags": []
+        },
+        {
+          "date": "2026-12-02",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2161",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "slug": "the-invite",
+      "title": "The Invite",
+      "url": "https://filmhouse.sg/film/144/the-invite",
+      "poster": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
+      "year": "2026",
+      "runtime": "107mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Olivia Wilde"
+      ],
+      "cast": [
+        "Seth Rogen",
+        "Olivia Wilde",
+        "Penélope Cruz",
+        "Edward Norton"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-26",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2137",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 238,
       "slug": "all-of-a-sudden",
       "title": "All of a Sudden",
@@ -643,6 +762,14 @@
           "label": "1:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1988",
+          "tags": []
+        },
+        {
+          "date": "2026-12-01",
+          "time": "16:00",
+          "label": "4:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2153",
           "tags": []
         }
       ]
@@ -704,6 +831,14 @@
           "tags": []
         },
         {
+          "date": "2026-12-01",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2156",
+          "tags": []
+        },
+        {
           "date": "2026-12-03",
           "time": "20:30",
           "label": "8:30 pm",
@@ -751,6 +886,35 @@
           "tags": [
             "LastChance"
           ]
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "slug": "la-la-land-10th-anniversary",
+      "title": "La La Land (10th Anniversary)",
+      "url": "https://filmhouse.sg/film/85/la-la-land-10th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
+      "year": "2016",
+      "runtime": "129mins",
+      "rating": "PG13",
+      "genre": "Musical",
+      "directors": [
+        "Damien Chazelle"
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Emma Stone",
+        "John Legend"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-29",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2151",
+          "tags": []
         }
       ]
     },
