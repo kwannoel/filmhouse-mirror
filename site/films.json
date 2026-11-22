@@ -1,80 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-21T15:40:40.941Z",
+  "scrapedAt": "2026-11-22T08:44:48.312Z",
   "films": [
-    {
-      "id": 246,
-      "slug": "national-theatre-live-inter-alia",
-      "title": "National Theatre Live: Inter Alia",
-      "url": "https://filmhouse.sg/film/246/national-theatre-live-inter-alia",
-      "poster": "https://cdn.taposapp.com/poster/600x900/h77SjjHJlaFBuyxfZDESCUvTRh5xuYKEYm5HavF9p3E.jpg",
-      "year": null,
-      "runtime": "109mins",
-      "rating": "NC16",
-      "genre": "Drama",
-      "directors": [
-        "Justin Martin",
-        "Matthew Amos"
-      ],
-      "cast": [
-        "Rosamund Pike",
-        "Jamie Glover",
-        "Jasper Talbot"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-22",
-          "time": "14:00",
-          "label": "2:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1977",
-          "tags": []
-        },
-        {
-          "date": "2026-12-02",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1980",
-          "tags": [
-            "LastChance"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 235,
-      "slug": "persepolis",
-      "title": "Persepolis",
-      "url": "https://filmhouse.sg/film/235/persepolis",
-      "poster": "https://cdn.taposapp.com/poster/600x900/GQ0Qh1TxFoWYh_YYGaaLzu1_V7YXiiAhHYOFyigyCRY.jpg",
-      "year": "2007",
-      "runtime": "95mins",
-      "rating": "PG",
-      "genre": "Animation",
-      "directors": [
-        "Vincent Paronnaud",
-        "Marjane Satrapi"
-      ],
-      "cast": [
-        "Chiara Mastroianni",
-        "Danielle Darrieux",
-        "Catherine Deneuve"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-22",
-          "time": "14:30",
-          "label": "2:30 pm",
-          "soldOut": true,
-          "bookUrl": null,
-          "tags": [
-            "LastChance",
-            "4K"
-          ]
-        }
-      ]
-    },
     {
       "id": 236,
       "slug": "wildwood",
@@ -978,6 +905,38 @@
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1890",
           "tags": [
             "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "slug": "national-theatre-live-inter-alia",
+      "title": "National Theatre Live: Inter Alia",
+      "url": "https://filmhouse.sg/film/246/national-theatre-live-inter-alia",
+      "poster": "https://cdn.taposapp.com/poster/600x900/h77SjjHJlaFBuyxfZDESCUvTRh5xuYKEYm5HavF9p3E.jpg",
+      "year": null,
+      "runtime": "109mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Justin Martin",
+        "Matthew Amos"
+      ],
+      "cast": [
+        "Rosamund Pike",
+        "Jamie Glover",
+        "Jasper Talbot"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-02",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1980",
+          "tags": [
+            "LastChance"
           ]
         }
       ]
