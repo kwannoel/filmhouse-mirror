@@ -1,6 +1,6 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-23T02:54:34.960Z",
+  "scrapedAt": "2026-11-23T12:17:05.541Z",
   "films": [
     {
       "id": 223,
@@ -149,9 +149,7 @@
           "label": "7:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1920",
-          "tags": [
-            "LastChance"
-          ]
+          "tags": []
         },
         {
           "date": "2026-11-29",
