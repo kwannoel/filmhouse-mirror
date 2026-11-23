@@ -1,6 +1,6 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-22T16:42:35.174Z",
+  "scrapedAt": "2026-11-23T02:54:34.960Z",
   "films": [
     {
       "id": 223,
@@ -564,6 +564,14 @@
           ]
         },
         {
+          "date": "2026-11-29",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2149",
+          "tags": []
+        },
+        {
           "date": "2026-12-01",
           "time": "17:00",
           "label": "5:00 pm",
@@ -572,6 +580,43 @@
           "tags": [
             "4K"
           ]
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "slug": "la-la-land-10th-anniversary",
+      "title": "La La Land (10th Anniversary)",
+      "url": "https://filmhouse.sg/film/85/la-la-land-10th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
+      "year": "2016",
+      "runtime": "129mins",
+      "rating": "PG13",
+      "genre": "Musical",
+      "directors": [
+        "Damien Chazelle"
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Emma Stone",
+        "John Legend"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-27",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2140",
+          "tags": []
+        },
+        {
+          "date": "2026-11-29",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2151",
+          "tags": []
         }
       ]
     },
@@ -766,35 +811,6 @@
           "tags": [
             "LastChance"
           ]
-        }
-      ]
-    },
-    {
-      "id": 85,
-      "slug": "la-la-land-10th-anniversary",
-      "title": "La La Land (10th Anniversary)",
-      "url": "https://filmhouse.sg/film/85/la-la-land-10th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
-      "year": "2016",
-      "runtime": "129mins",
-      "rating": "PG13",
-      "genre": "Musical",
-      "directors": [
-        "Damien Chazelle"
-      ],
-      "cast": [
-        "Ryan Gosling",
-        "Emma Stone",
-        "John Legend"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-29",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2151",
-          "tags": []
         }
       ]
     },
