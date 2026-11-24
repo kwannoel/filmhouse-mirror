@@ -1,136 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-24T09:45:34.752Z",
+  "scrapedAt": "2026-11-24T20:23:56.155Z",
   "films": [
-    {
-      "id": 159,
-      "slug": "ponyo-on-the-cliff-by-the-sea",
-      "title": "Ponyo on the Cliff by the Sea",
-      "url": "https://filmhouse.sg/film/159/ponyo-on-the-cliff-by-the-sea",
-      "poster": "https://cdn.taposapp.com/poster/600x900/l1kHbQsZ6qzoEHgk00xdGHRwJNf6U1RT97enW1a-uOw.jpg",
-      "year": null,
-      "runtime": "100mins",
-      "rating": "G",
-      "genre": "Animation",
-      "directors": [
-        "Hayao Miyazaki"
-      ],
-      "cast": [
-        "Yuria Kozuki",
-        "Hiroki Doi",
-        "George Tokoro"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-24",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1920",
-          "tags": []
-        },
-        {
-          "date": "2026-11-29",
-          "time": "14:00",
-          "label": "2:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2147",
-          "tags": []
-        },
-        {
-          "date": "2026-12-02",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2162",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 224,
-      "slug": "crouching-tiger-hidden-dragon-4k-restoration",
-      "title": "Crouching Tiger, Hidden Dragon (4K Restoration)",
-      "url": "https://filmhouse.sg/film/224/crouching-tiger-hidden-dragon-4k-restoration",
-      "poster": "https://cdn.taposapp.com/poster/600x900/2emi_8-mZ809IX_-3o3tFsphrQzcHWQ6x4a-qgA2YHU.jpg",
-      "year": "2000",
-      "runtime": "120mins",
-      "rating": "NC16",
-      "genre": "Action",
-      "directors": [
-        "Ang Lee"
-      ],
-      "cast": [
-        "Chow Yun-Fat",
-        "Michelle Yeoh",
-        "Zhang Ziyi"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-24",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1879",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-27",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2142",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 241,
-      "slug": "children-of-men-20th-anniversary",
-      "title": "Children of Men (20th Anniversary)",
-      "url": "https://filmhouse.sg/film/241/children-of-men-20th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/uh7b_32LIPTz3qHuVHjoH3I1NeyyRoG3XRE8ttuCaXc.jpg",
-      "year": "2006",
-      "runtime": "109mins",
-      "rating": "NC16",
-      "genre": "Drama",
-      "directors": [
-        "Alfonso Cuarón"
-      ],
-      "cast": [
-        "Clive Owen",
-        "Clare-Hope Ashitey",
-        "Chiwetel Ejiofor"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-24",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2032",
-          "tags": []
-        },
-        {
-          "date": "2026-11-28",
-          "time": "14:20",
-          "label": "2:20 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2034",
-          "tags": []
-        },
-        {
-          "date": "2026-11-29",
-          "time": "17:40",
-          "label": "5:40 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2036",
-          "tags": []
-        }
-      ]
-    },
     {
       "id": 195,
       "slug": "the-violinist",
@@ -619,6 +490,35 @@
       ]
     },
     {
+      "id": 224,
+      "slug": "crouching-tiger-hidden-dragon-4k-restoration",
+      "title": "Crouching Tiger, Hidden Dragon (4K Restoration)",
+      "url": "https://filmhouse.sg/film/224/crouching-tiger-hidden-dragon-4k-restoration",
+      "poster": "https://cdn.taposapp.com/poster/600x900/2emi_8-mZ809IX_-3o3tFsphrQzcHWQ6x4a-qgA2YHU.jpg",
+      "year": "2000",
+      "runtime": "120mins",
+      "rating": "NC16",
+      "genre": "Action",
+      "directors": [
+        "Ang Lee"
+      ],
+      "cast": [
+        "Chow Yun-Fat",
+        "Michelle Yeoh",
+        "Zhang Ziyi"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-27",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2142",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 228,
       "slug": "castle-in-the-sky",
       "title": "Castle in the Sky",
@@ -662,6 +562,43 @@
           "tags": [
             "LastChance"
           ]
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "slug": "children-of-men-20th-anniversary",
+      "title": "Children of Men (20th Anniversary)",
+      "url": "https://filmhouse.sg/film/241/children-of-men-20th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/uh7b_32LIPTz3qHuVHjoH3I1NeyyRoG3XRE8ttuCaXc.jpg",
+      "year": "2006",
+      "runtime": "109mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Alfonso Cuarón"
+      ],
+      "cast": [
+        "Clive Owen",
+        "Clare-Hope Ashitey",
+        "Chiwetel Ejiofor"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-28",
+          "time": "14:20",
+          "label": "2:20 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2034",
+          "tags": []
+        },
+        {
+          "date": "2026-11-29",
+          "time": "17:40",
+          "label": "5:40 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2036",
+          "tags": []
         }
       ]
     },
@@ -813,6 +750,43 @@
       ]
     },
     {
+      "id": 159,
+      "slug": "ponyo-on-the-cliff-by-the-sea",
+      "title": "Ponyo on the Cliff by the Sea",
+      "url": "https://filmhouse.sg/film/159/ponyo-on-the-cliff-by-the-sea",
+      "poster": "https://cdn.taposapp.com/poster/600x900/l1kHbQsZ6qzoEHgk00xdGHRwJNf6U1RT97enW1a-uOw.jpg",
+      "year": null,
+      "runtime": "100mins",
+      "rating": "G",
+      "genre": "Animation",
+      "directors": [
+        "Hayao Miyazaki"
+      ],
+      "cast": [
+        "Yuria Kozuki",
+        "Hiroki Doi",
+        "George Tokoro"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-29",
+          "time": "14:00",
+          "label": "2:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2147",
+          "tags": []
+        },
+        {
+          "date": "2026-12-02",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2162",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 233,
       "slug": "delicatessen-4k-restoration",
       "title": "Delicatessen (4K Restoration)",
@@ -913,7 +887,7 @@
       "slug": "i-play-rocky",
       "title": "I Play Rocky",
       "url": "https://filmhouse.sg/film/270/i-play-rocky",
-      "poster": "https://cdn.taposapp.com/poster/600x900/RTEbRtjf4u3lk7V9NqScVhfkElUmHyvo9LVQs51TKCg.jpg",
+      "poster": "https://cdn.taposapp.com/poster/600x900/0nGh_JglGJR7pkriT1tHKrdKyj5AS437O1hMXUwtaIY.jpg",
       "year": "2026",
       "runtime": "128mins",
       "rating": "NC16",
