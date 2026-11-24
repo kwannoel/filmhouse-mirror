@@ -1,129 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-23T12:17:05.541Z",
+  "scrapedAt": "2026-11-24T09:45:34.752Z",
   "films": [
-    {
-      "id": 223,
-      "slug": "the-house-on-the-moon",
-      "title": "The House on the Moon",
-      "url": "https://filmhouse.sg/film/223/the-house-on-the-moon",
-      "poster": "https://cdn.taposapp.com/poster/600x900/RKoSUfT5BljQXG5Gd8PBUDPqo5RgVU8OfO1oDvd1jHk.jpg",
-      "year": "2026",
-      "runtime": "104mins",
-      "rating": "NC16",
-      "genre": "Action/Adventure",
-      "directors": [
-        "Nelson Yeo"
-      ],
-      "cast": [
-        "Lim Shi-An",
-        "Dominick Rustam-Chartrand",
-        "Akira Huang"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-24",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2065",
-          "tags": []
-        },
-        {
-          "date": "2026-11-27",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2139",
-          "tags": []
-        },
-        {
-          "date": "2026-12-02",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2160",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 247,
-      "slug": "ah-girl",
-      "title": "Ah Girl",
-      "url": "https://filmhouse.sg/film/247/ah-girl",
-      "poster": "https://cdn.taposapp.com/poster/600x900/6g27gyNEo-e2vxYCuvVn9EFBqGPuQr6Cxh6mC5oN0Po.jpg",
-      "year": "2026",
-      "runtime": "99mins",
-      "rating": "PG13",
-      "genre": "Drama",
-      "directors": [
-        "Ang Geck Geck"
-      ],
-      "cast": [
-        "Xuan Jing Ong",
-        "Sydney Wong",
-        "Carrie Wong"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-24",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2064",
-          "tags": []
-        },
-        {
-          "date": "2026-11-25",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2068",
-          "tags": []
-        },
-        {
-          "date": "2026-11-26",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2138",
-          "tags": []
-        },
-        {
-          "date": "2026-11-28",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2144",
-          "tags": []
-        },
-        {
-          "date": "2026-11-29",
-          "time": "18:00",
-          "label": "6:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2150",
-          "tags": []
-        },
-        {
-          "date": "2026-12-01",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2155",
-          "tags": []
-        },
-        {
-          "date": "2026-12-02",
-          "time": "18:00",
-          "label": "6:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2159",
-          "tags": []
-        }
-      ]
-    },
     {
       "id": 159,
       "slug": "ponyo-on-the-cliff-by-the-sea",
@@ -329,6 +207,75 @@
       ]
     },
     {
+      "id": 247,
+      "slug": "ah-girl",
+      "title": "Ah Girl",
+      "url": "https://filmhouse.sg/film/247/ah-girl",
+      "poster": "https://cdn.taposapp.com/poster/600x900/6g27gyNEo-e2vxYCuvVn9EFBqGPuQr6Cxh6mC5oN0Po.jpg",
+      "year": "2026",
+      "runtime": "99mins",
+      "rating": "PG13",
+      "genre": "Drama",
+      "directors": [
+        "Ang Geck Geck"
+      ],
+      "cast": [
+        "Xuan Jing Ong",
+        "Sydney Wong",
+        "Carrie Wong"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-25",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2068",
+          "tags": []
+        },
+        {
+          "date": "2026-11-26",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2138",
+          "tags": []
+        },
+        {
+          "date": "2026-11-28",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2144",
+          "tags": []
+        },
+        {
+          "date": "2026-11-29",
+          "time": "18:00",
+          "label": "6:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2150",
+          "tags": []
+        },
+        {
+          "date": "2026-12-01",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2155",
+          "tags": []
+        },
+        {
+          "date": "2026-12-02",
+          "time": "18:00",
+          "label": "6:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2159",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 248,
       "slug": "rocky-50th-anniversary",
       "title": "Rocky (50th Anniversary)",
@@ -500,6 +447,22 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2153",
           "tags": []
+        },
+        {
+          "date": "2026-12-05",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2177",
+          "tags": []
+        },
+        {
+          "date": "2026-12-08",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2178",
+          "tags": []
         }
       ]
     },
@@ -578,6 +541,43 @@
           "tags": [
             "4K"
           ]
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "slug": "the-house-on-the-moon",
+      "title": "The House on the Moon",
+      "url": "https://filmhouse.sg/film/223/the-house-on-the-moon",
+      "poster": "https://cdn.taposapp.com/poster/600x900/RKoSUfT5BljQXG5Gd8PBUDPqo5RgVU8OfO1oDvd1jHk.jpg",
+      "year": "2026",
+      "runtime": "104mins",
+      "rating": "NC16",
+      "genre": "Action/Adventure",
+      "directors": [
+        "Nelson Yeo"
+      ],
+      "cast": [
+        "Lim Shi-An",
+        "Dominick Rustam-Chartrand",
+        "Akira Huang"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-27",
+          "time": "17:30",
+          "label": "5:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2139",
+          "tags": []
+        },
+        {
+          "date": "2026-12-02",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2160",
+          "tags": []
         }
       ]
     },
@@ -909,6 +909,67 @@
       ]
     },
     {
+      "id": 270,
+      "slug": "i-play-rocky",
+      "title": "I Play Rocky",
+      "url": "https://filmhouse.sg/film/270/i-play-rocky",
+      "poster": "https://cdn.taposapp.com/poster/600x900/RTEbRtjf4u3lk7V9NqScVhfkElUmHyvo9LVQs51TKCg.jpg",
+      "year": "2026",
+      "runtime": "128mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Peter Farrelly"
+      ],
+      "cast": [
+        "Anthony Ippolito",
+        "AnnaSophia Robb",
+        "P.J. Byrne"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-03",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2164",
+          "tags": []
+        },
+        {
+          "date": "2026-12-04",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2165",
+          "tags": []
+        },
+        {
+          "date": "2026-12-06",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2166",
+          "tags": []
+        },
+        {
+          "date": "2026-12-08",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2167",
+          "tags": []
+        },
+        {
+          "date": "2026-12-09",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2168",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 221,
       "slug": "the-violinist-an-exclusive-tedxsingapore-community-screening-qa",
       "title": "The Violinist: An Exclusive TEDxSingapore Community Screening + Q&A",
@@ -1178,6 +1239,190 @@
       ]
     },
     {
+      "id": 253,
+      "slug": "the-lord-of-the-rings-the-fellowship-of-the-ring",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "url": "https://filmhouse.sg/film/253/the-lord-of-the-rings-the-fellowship-of-the-ring",
+      "poster": "https://cdn.taposapp.com/poster/600x900/ADEAdEk1Fc93S2rAEahX5H7hd62-lJxA0dLHWXYMd3E.jpg",
+      "year": null,
+      "runtime": "179mins",
+      "rating": "PG",
+      "genre": "Action/Adventure",
+      "directors": [
+        "Peter Jackson"
+      ],
+      "cast": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Viggo Mortensen"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-12",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2124",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-12-17",
+          "time": "19:00",
+          "label": "7:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2125",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-12-26",
+          "time": "12:00",
+          "label": "12:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2126",
+          "tags": [
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 272,
+      "slug": "wheel-of-fortune-and-fantasy",
+      "title": "Wheel of Fortune and Fantasy",
+      "url": "https://filmhouse.sg/film/272/wheel-of-fortune-and-fantasy",
+      "poster": "https://cdn.taposapp.com/poster/600x900/6XcFaznM9GNKBKHmTCSiIkztT7PbEQHDKmm89M8TjTw.jpg",
+      "year": null,
+      "runtime": "121mins",
+      "rating": "M18",
+      "genre": "Drama",
+      "directors": [
+        "Ryusuke Hamaguchi"
+      ],
+      "cast": [
+        "Kotone Furukawa",
+        "Ayumu Nakajima",
+        "Hyunri"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-13",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2172",
+          "tags": []
+        },
+        {
+          "date": "2026-12-25",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2173",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "slug": "the-lord-of-the-rings-the-two-towers",
+      "title": "The Lord of the Rings: The Two Towers",
+      "url": "https://filmhouse.sg/film/268/the-lord-of-the-rings-the-two-towers",
+      "poster": "https://cdn.taposapp.com/poster/600x900/V6cUrjeytVRjenu5Yx4tPHKLNuHmnbrSGWQV7CQccMI.jpg",
+      "year": null,
+      "runtime": "179mins",
+      "rating": "PG",
+      "genre": "Action/Adventure",
+      "directors": [
+        "Peter Jackson"
+      ],
+      "cast": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Viggo Mortensen"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-13",
+          "time": "15:30",
+          "label": "3:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2128",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-12-23",
+          "time": "19:00",
+          "label": "7:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2129",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-12-26",
+          "time": "15:40",
+          "label": "3:40 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2130",
+          "tags": [
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "slug": "evil-does-not-exist",
+      "title": "Evil Does Not Exist",
+      "url": "https://filmhouse.sg/film/273/evil-does-not-exist",
+      "poster": "https://cdn.taposapp.com/poster/600x900/KdprNDYOdBrHjnVvj7fTqZy-qHtwB2YuArRhbJGUO5M.jpg",
+      "year": null,
+      "runtime": "106mins",
+      "rating": "PG",
+      "genre": "Drama",
+      "directors": [
+        "Ryusuke Hamaguchi"
+      ],
+      "cast": [
+        "Hitoshi Omika",
+        "Ryo Nishikawa",
+        "Ryuji Kosaka"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-15",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2175",
+          "tags": []
+        },
+        {
+          "date": "2026-12-19",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2176",
+          "tags": []
+        },
+        {
+          "date": "2026-12-26",
+          "time": "14:30",
+          "label": "2:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2174",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 239,
       "slug": "minotaur",
       "title": "Minotaur",
@@ -1308,6 +1553,137 @@
           "label": "5:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2071",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "slug": "the-lord-of-the-rings-the-return-of-the-king",
+      "title": "The Lord of the Rings: The Return of the King",
+      "url": "https://filmhouse.sg/film/269/the-lord-of-the-rings-the-return-of-the-king",
+      "poster": "https://cdn.taposapp.com/poster/600x900/0ltULaIANRCxuwROtJhW8qsHIbTaQU1o4Zxxj0wnTz4.jpg",
+      "year": null,
+      "runtime": "201mins",
+      "rating": "PG",
+      "genre": "Action/Adventure",
+      "directors": [
+        "Peter Jackson"
+      ],
+      "cast": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Viggo Mortensen"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-19",
+          "time": "15:00",
+          "label": "3:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2132",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-12-26",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2133",
+          "tags": [
+            "4K"
+          ]
+        },
+        {
+          "date": "2026-12-27",
+          "time": "13:00",
+          "label": "1:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2134",
+          "tags": [
+            "4K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 259,
+      "slug": "die-hard",
+      "title": "Die Hard",
+      "url": "https://filmhouse.sg/film/259/die-hard",
+      "poster": "https://cdn.taposapp.com/poster/600x900/08JlbDuazeF6AuCF4dcVIEuYpLvKzCvh627JAI4yGqw.jpg",
+      "year": null,
+      "runtime": "132mins",
+      "rating": "M18",
+      "genre": "Action",
+      "directors": [
+        "John McTiernan"
+      ],
+      "cast": [
+        "Bruce Willis",
+        "Alan Rickman",
+        "Alexander Godunov"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-19",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2072",
+          "tags": []
+        },
+        {
+          "date": "2026-12-25",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2073",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 271,
+      "slug": "ryuichi-sakamoto-opus",
+      "title": "Ryuichi Sakamoto | Opus",
+      "url": "https://filmhouse.sg/film/271/ryuichi-sakamoto-opus",
+      "poster": "https://cdn.taposapp.com/poster/600x900/U-AZOGjAwJZFHtXOjS-kqicNb_yBKmgPdVXZWgI0bjA.jpg",
+      "year": null,
+      "runtime": "103mins",
+      "rating": "G",
+      "genre": null,
+      "directors": [
+        "Neo Sora"
+      ],
+      "cast": [
+        "Ryuichi Sakamoto"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-22",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2169",
+          "tags": []
+        },
+        {
+          "date": "2026-12-27",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2170",
+          "tags": []
+        },
+        {
+          "date": "2027-01-17",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2171",
           "tags": []
         }
       ]
