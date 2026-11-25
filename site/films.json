@@ -1,190 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-24T20:23:56.155Z",
+  "scrapedAt": "2026-11-25T13:37:58.620Z",
   "films": [
-    {
-      "id": 195,
-      "slug": "the-violinist",
-      "title": "The Violinist",
-      "url": "https://filmhouse.sg/film/195/the-violinist",
-      "poster": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
-      "year": "2026",
-      "runtime": "114mins",
-      "rating": "PG",
-      "genre": "Animation",
-      "directors": [
-        "Ervin Han",
-        "Raúl García"
-      ],
-      "cast": [
-        "Tan Kheng Hua",
-        "Kazuya Tanabe",
-        "Adrian Pang"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-25",
-          "time": "16:00",
-          "label": "4:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2067",
-          "tags": []
-        },
-        {
-          "date": "2026-11-26",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2136",
-          "tags": []
-        },
-        {
-          "date": "2026-11-29",
-          "time": "16:40",
-          "label": "4:40 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2148",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 213,
-      "slug": "hereditary",
-      "title": "Hereditary",
-      "url": "https://filmhouse.sg/film/213/hereditary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/Jv9JZGGEIant3ebJpAkrLAbA8d4ICIhB5UqWPk9Dhr0.jpg",
-      "year": null,
-      "runtime": "128mins",
-      "rating": "M18",
-      "genre": "Horror",
-      "directors": [
-        "Ari Aster"
-      ],
-      "cast": [
-        "Toni Collette",
-        "Alex Wolff",
-        "Gabriel Byrne"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-25",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2066",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 247,
-      "slug": "ah-girl",
-      "title": "Ah Girl",
-      "url": "https://filmhouse.sg/film/247/ah-girl",
-      "poster": "https://cdn.taposapp.com/poster/600x900/6g27gyNEo-e2vxYCuvVn9EFBqGPuQr6Cxh6mC5oN0Po.jpg",
-      "year": "2026",
-      "runtime": "99mins",
-      "rating": "PG13",
-      "genre": "Drama",
-      "directors": [
-        "Ang Geck Geck"
-      ],
-      "cast": [
-        "Xuan Jing Ong",
-        "Sydney Wong",
-        "Carrie Wong"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-25",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2068",
-          "tags": []
-        },
-        {
-          "date": "2026-11-26",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2138",
-          "tags": []
-        },
-        {
-          "date": "2026-11-28",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2144",
-          "tags": []
-        },
-        {
-          "date": "2026-11-29",
-          "time": "18:00",
-          "label": "6:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2150",
-          "tags": []
-        },
-        {
-          "date": "2026-12-01",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2155",
-          "tags": []
-        },
-        {
-          "date": "2026-12-02",
-          "time": "18:00",
-          "label": "6:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2159",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 248,
-      "slug": "rocky-50th-anniversary",
-      "title": "Rocky (50th Anniversary)",
-      "url": "https://filmhouse.sg/film/248/rocky-50th-anniversary",
-      "poster": "https://cdn.taposapp.com/poster/600x900/Cs1yCXI4qoAfPw9BnwLaLz-OJWocEi4WrAM5YXufpaQ.jpg",
-      "year": "1976",
-      "runtime": "120mins",
-      "rating": "PG",
-      "genre": "Drama",
-      "directors": [
-        "John G. Avildsen"
-      ],
-      "cast": [
-        "Sylvester Stallone",
-        "Talia Shire",
-        "Burt Young"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-25",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2033",
-          "tags": [
-            "4K"
-          ]
-        },
-        {
-          "date": "2026-11-28",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2035",
-          "tags": []
-        }
-      ]
-    },
     {
       "id": 220,
       "slug": "fjord",
@@ -226,6 +43,69 @@
           "label": "4:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2161",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "slug": "ah-girl",
+      "title": "Ah Girl",
+      "url": "https://filmhouse.sg/film/247/ah-girl",
+      "poster": "https://cdn.taposapp.com/poster/600x900/6g27gyNEo-e2vxYCuvVn9EFBqGPuQr6Cxh6mC5oN0Po.jpg",
+      "year": "2026",
+      "runtime": "99mins",
+      "rating": "PG13",
+      "genre": "Drama",
+      "directors": [
+        "Ang Geck Geck"
+      ],
+      "cast": [
+        "Xuan Jing Ong",
+        "Sydney Wong",
+        "Carrie Wong"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-26",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2138",
+          "tags": []
+        },
+        {
+          "date": "2026-11-28",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2144",
+          "tags": []
+        },
+        {
+          "date": "2026-11-29",
+          "time": "18:00",
+          "label": "6:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2150",
+          "tags": []
+        },
+        {
+          "date": "2026-12-01",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2155",
+          "tags": [
+            "Live Q&A"
+          ]
+        },
+        {
+          "date": "2026-12-02",
+          "time": "18:00",
+          "label": "6:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2159",
           "tags": []
         }
       ]
@@ -362,6 +242,44 @@
           "label": "8:00 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1955",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "slug": "the-violinist",
+      "title": "The Violinist",
+      "url": "https://filmhouse.sg/film/195/the-violinist",
+      "poster": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
+      "year": "2026",
+      "runtime": "114mins",
+      "rating": "PG",
+      "genre": "Animation",
+      "directors": [
+        "Ervin Han",
+        "Raúl García"
+      ],
+      "cast": [
+        "Tan Kheng Hua",
+        "Kazuya Tanabe",
+        "Adrian Pang"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-26",
+          "time": "20:30",
+          "label": "8:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2136",
+          "tags": []
+        },
+        {
+          "date": "2026-11-29",
+          "time": "16:40",
+          "label": "4:40 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2148",
           "tags": []
         }
       ]
@@ -706,6 +624,35 @@
           "label": "8:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2154",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 248,
+      "slug": "rocky-50th-anniversary",
+      "title": "Rocky (50th Anniversary)",
+      "url": "https://filmhouse.sg/film/248/rocky-50th-anniversary",
+      "poster": "https://cdn.taposapp.com/poster/600x900/Cs1yCXI4qoAfPw9BnwLaLz-OJWocEi4WrAM5YXufpaQ.jpg",
+      "year": "1976",
+      "runtime": "120mins",
+      "rating": "PG",
+      "genre": "Drama",
+      "directors": [
+        "John G. Avildsen"
+      ],
+      "cast": [
+        "Sylvester Stallone",
+        "Talia Shire",
+        "Burt Young"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-28",
+          "time": "20:00",
+          "label": "8:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2035",
           "tags": []
         }
       ]
@@ -1528,6 +1475,37 @@
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2071",
           "tags": []
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "slug": "spirited-away-25th-anniversary-special-screening",
+      "title": "Spirited Away (25th Anniversary Special Screening)",
+      "url": "https://filmhouse.sg/film/108/spirited-away-25th-anniversary-special-screening",
+      "poster": "https://cdn.taposapp.com/poster/600x900/le61iNnZK_0ioRwIZQTXxgg8DNxPcLYj4VtXA9Vy05c.jpg",
+      "year": "2001",
+      "runtime": "125mins",
+      "rating": "PG",
+      "genre": "Animation",
+      "directors": [
+        "Hayao Miyazaki"
+      ],
+      "cast": [
+        "Rumi Hiiragi",
+        "Miyu Irino",
+        "Mari Natsuki"
+      ],
+      "showings": [
+        {
+          "date": "2026-12-19",
+          "time": "11:30",
+          "label": "11:30 am",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2179",
+          "tags": [
+            "Live Q&A"
+          ]
         }
       ]
     },
