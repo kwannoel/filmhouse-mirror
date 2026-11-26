@@ -1,289 +1,7 @@
 {
   "source": "https://filmhouse.sg/films/",
-  "scrapedAt": "2026-11-25T13:37:58.620Z",
+  "scrapedAt": "2026-11-26T14:23:03.985Z",
   "films": [
-    {
-      "id": 220,
-      "slug": "fjord",
-      "title": "Fjord",
-      "url": "https://filmhouse.sg/film/220/fjord",
-      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
-      "year": "2026",
-      "runtime": "146mins",
-      "rating": "NC16",
-      "genre": "Drama",
-      "directors": [
-        "Cristian Mungiu"
-      ],
-      "cast": [
-        "Sebastian Stan",
-        "Renate Reinsve",
-        "Lisa Carlehed"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-26",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2135",
-          "tags": []
-        },
-        {
-          "date": "2026-11-27",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2141",
-          "tags": []
-        },
-        {
-          "date": "2026-12-02",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2161",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 247,
-      "slug": "ah-girl",
-      "title": "Ah Girl",
-      "url": "https://filmhouse.sg/film/247/ah-girl",
-      "poster": "https://cdn.taposapp.com/poster/600x900/6g27gyNEo-e2vxYCuvVn9EFBqGPuQr6Cxh6mC5oN0Po.jpg",
-      "year": "2026",
-      "runtime": "99mins",
-      "rating": "PG13",
-      "genre": "Drama",
-      "directors": [
-        "Ang Geck Geck"
-      ],
-      "cast": [
-        "Xuan Jing Ong",
-        "Sydney Wong",
-        "Carrie Wong"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-26",
-          "time": "17:00",
-          "label": "5:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2138",
-          "tags": []
-        },
-        {
-          "date": "2026-11-28",
-          "time": "16:30",
-          "label": "4:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2144",
-          "tags": []
-        },
-        {
-          "date": "2026-11-29",
-          "time": "18:00",
-          "label": "6:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2150",
-          "tags": []
-        },
-        {
-          "date": "2026-12-01",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2155",
-          "tags": [
-            "Live Q&A"
-          ]
-        },
-        {
-          "date": "2026-12-02",
-          "time": "18:00",
-          "label": "6:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2159",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 144,
-      "slug": "the-invite",
-      "title": "The Invite",
-      "url": "https://filmhouse.sg/film/144/the-invite",
-      "poster": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
-      "year": "2026",
-      "runtime": "107mins",
-      "rating": "M18",
-      "genre": "Drama",
-      "directors": [
-        "Olivia Wilde"
-      ],
-      "cast": [
-        "Seth Rogen",
-        "Olivia Wilde",
-        "Penélope Cruz",
-        "Edward Norton"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-26",
-          "time": "17:30",
-          "label": "5:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2137",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 238,
-      "slug": "all-of-a-sudden",
-      "title": "All of a Sudden",
-      "url": "https://filmhouse.sg/film/238/all-of-a-sudden",
-      "poster": "https://cdn.taposapp.com/poster/600x900/7E2YtV8CD6mZqQmUKkTVsBUwWeQf2BGdoGvPiRl09pI.jpg",
-      "year": null,
-      "runtime": "196mins",
-      "rating": "PG",
-      "genre": "Drama",
-      "directors": [
-        "Ryusuke Hamaguchi"
-      ],
-      "cast": [
-        "Virginie Efira",
-        "Tao Okamoto",
-        "Kyōzō Nagatsuka"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-26",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1985",
-          "tags": []
-        },
-        {
-          "date": "2026-11-27",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1986",
-          "tags": []
-        },
-        {
-          "date": "2026-11-28",
-          "time": "13:10",
-          "label": "1:10 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1987",
-          "tags": []
-        },
-        {
-          "date": "2026-11-29",
-          "time": "13:30",
-          "label": "1:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1988",
-          "tags": []
-        },
-        {
-          "date": "2026-12-01",
-          "time": "16:00",
-          "label": "4:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2153",
-          "tags": []
-        },
-        {
-          "date": "2026-12-05",
-          "time": "13:30",
-          "label": "1:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2177",
-          "tags": []
-        },
-        {
-          "date": "2026-12-08",
-          "time": "19:30",
-          "label": "7:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2178",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 242,
-      "slug": "mad-max-fury-road",
-      "title": "Mad Max: Fury Road",
-      "url": "https://filmhouse.sg/film/242/mad-max-fury-road",
-      "poster": "https://cdn.taposapp.com/poster/600x900/Upgyen8eMQDCl3kYn-Gyl8I4AgUesu725GC_CA3mo7c.jpg",
-      "year": null,
-      "runtime": "121mins",
-      "rating": "NC16",
-      "genre": "Action/Adventure",
-      "directors": [
-        "George Miller"
-      ],
-      "cast": [
-        "Tom Hardy",
-        "Charlize Theron",
-        "Nicholas Hoult"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-26",
-          "time": "20:00",
-          "label": "8:00 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1955",
-          "tags": []
-        }
-      ]
-    },
-    {
-      "id": 195,
-      "slug": "the-violinist",
-      "title": "The Violinist",
-      "url": "https://filmhouse.sg/film/195/the-violinist",
-      "poster": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
-      "year": "2026",
-      "runtime": "114mins",
-      "rating": "PG",
-      "genre": "Animation",
-      "directors": [
-        "Ervin Han",
-        "Raúl García"
-      ],
-      "cast": [
-        "Tan Kheng Hua",
-        "Kazuya Tanabe",
-        "Adrian Pang"
-      ],
-      "showings": [
-        {
-          "date": "2026-11-26",
-          "time": "20:30",
-          "label": "8:30 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2136",
-          "tags": []
-        },
-        {
-          "date": "2026-11-29",
-          "time": "16:40",
-          "label": "4:40 pm",
-          "soldOut": false,
-          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2148",
-          "tags": []
-        }
-      ]
-    },
     {
       "id": 236,
       "slug": "wildwood",
@@ -334,6 +52,43 @@
       ]
     },
     {
+      "id": 220,
+      "slug": "fjord",
+      "title": "Fjord",
+      "url": "https://filmhouse.sg/film/220/fjord",
+      "poster": "https://cdn.taposapp.com/poster/600x900/z_tZnLzzvZlceIGAaOPw8sHLkLVZ9-97o0JDSJj_L7M.jpg",
+      "year": "2026",
+      "runtime": "146mins",
+      "rating": "NC16",
+      "genre": "Drama",
+      "directors": [
+        "Cristian Mungiu"
+      ],
+      "cast": [
+        "Sebastian Stan",
+        "Renate Reinsve",
+        "Lisa Carlehed"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-27",
+          "time": "17:00",
+          "label": "5:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2141",
+          "tags": []
+        },
+        {
+          "date": "2026-12-02",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2161",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": 223,
       "slug": "the-house-on-the-moon",
       "title": "The House on the Moon",
@@ -366,6 +121,75 @@
           "label": "8:30 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2160",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "slug": "all-of-a-sudden",
+      "title": "All of a Sudden",
+      "url": "https://filmhouse.sg/film/238/all-of-a-sudden",
+      "poster": "https://cdn.taposapp.com/poster/600x900/7E2YtV8CD6mZqQmUKkTVsBUwWeQf2BGdoGvPiRl09pI.jpg",
+      "year": null,
+      "runtime": "196mins",
+      "rating": "PG",
+      "genre": "Drama",
+      "directors": [
+        "Ryusuke Hamaguchi"
+      ],
+      "cast": [
+        "Virginie Efira",
+        "Tao Okamoto",
+        "Kyōzō Nagatsuka"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-27",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1986",
+          "tags": []
+        },
+        {
+          "date": "2026-11-28",
+          "time": "13:10",
+          "label": "1:10 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1987",
+          "tags": []
+        },
+        {
+          "date": "2026-11-29",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/1988",
+          "tags": []
+        },
+        {
+          "date": "2026-12-01",
+          "time": "16:00",
+          "label": "4:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2153",
+          "tags": []
+        },
+        {
+          "date": "2026-12-05",
+          "time": "13:30",
+          "label": "1:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2177",
+          "tags": []
+        },
+        {
+          "date": "2026-12-08",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2178",
           "tags": []
         }
       ]
@@ -516,6 +340,61 @@
           "label": "5:40 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2036",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "slug": "ah-girl",
+      "title": "Ah Girl",
+      "url": "https://filmhouse.sg/film/247/ah-girl",
+      "poster": "https://cdn.taposapp.com/poster/600x900/6g27gyNEo-e2vxYCuvVn9EFBqGPuQr6Cxh6mC5oN0Po.jpg",
+      "year": "2026",
+      "runtime": "99mins",
+      "rating": "PG13",
+      "genre": "Drama",
+      "directors": [
+        "Ang Geck Geck"
+      ],
+      "cast": [
+        "Xuan Jing Ong",
+        "Sydney Wong",
+        "Carrie Wong"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-28",
+          "time": "16:30",
+          "label": "4:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2144",
+          "tags": []
+        },
+        {
+          "date": "2026-11-29",
+          "time": "18:00",
+          "label": "6:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2150",
+          "tags": []
+        },
+        {
+          "date": "2026-12-01",
+          "time": "19:30",
+          "label": "7:30 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2155",
+          "tags": [
+            "Live Q&A"
+          ]
+        },
+        {
+          "date": "2026-12-02",
+          "time": "18:00",
+          "label": "6:00 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2159",
           "tags": []
         }
       ]
@@ -729,6 +608,36 @@
           "label": "5:00 pm",
           "soldOut": false,
           "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2162",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "slug": "the-violinist",
+      "title": "The Violinist",
+      "url": "https://filmhouse.sg/film/195/the-violinist",
+      "poster": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
+      "year": "2026",
+      "runtime": "114mins",
+      "rating": "PG",
+      "genre": "Animation",
+      "directors": [
+        "Ervin Han",
+        "Raúl García"
+      ],
+      "cast": [
+        "Tan Kheng Hua",
+        "Kazuya Tanabe",
+        "Adrian Pang"
+      ],
+      "showings": [
+        {
+          "date": "2026-11-29",
+          "time": "16:40",
+          "label": "4:40 pm",
+          "soldOut": false,
+          "bookUrl": "https://filmhouse.sg/filmhouse-singapore/booknow/2148",
           "tags": []
         }
       ]
